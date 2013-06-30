@@ -85,8 +85,47 @@ describe "QuakeliveApi::Profile::Summary" do
       its(:recent_games)       { must_equal nil }
       its(:recent_competitors) { must_equal nil }
     end
+
+    describe "mariano" do
+      let(:profile){ "mariano" }
+
+      its(:country)            { must_equal "Poland" }
+      its(:profile_name)       { must_equal "Mariano"}
+      its(:clan_name)          { must_equal nil }
+      its(:model)              { must_equal "Bitterman / Sport_blue" }
+      its(:member_since)       { must_equal Date.parse('7.02.2009') }
+      its(:last_game)          { must_equal Time.parse('22-06-2013 7:36 PM') }
+      its(:time_played)        { must_equal ::QuakeliveApi::GameTime.new("Ranked Time: 50.06:18:30 Unranked Time: 02:31:02") }
+      its(:wins)               { must_equal 4160 }
+      its(:losses)             { must_equal 2905 }
+      its(:quits)              { must_equal 511 }
+      its(:frags)              { must_equal 90_736 }
+      its(:deaths)             { must_equal 82_117 }
+      its(:hits)               { must_equal 1_828_132 }
+      its(:shots)              { must_equal 5_651_134 }
+      its(:accuracy)           { must_equal 32.35 }
+      its(:favourite)          { must_equal ::QuakeliveApi::Favourite.new("Furious Heights","Duel","Lightning Gun") }
+      its(:recent_awards)      { must_include ::QuakeliveApi::Award.new(
+        'mariano_files/team_killer_v2013050701.png',
+        'Team Killer',
+        'Awarded 18 days ago',
+        'Kill all players on the opposing team in a single round in Attack & Defend, minimum size 3.') }
+
+      its(:recent_awards)      { must_include ::QuakeliveApi::Award.new(
+        'mariano_files/pql_1_v2013050701.png',
+        'Too Fast',
+        'Awarded 28 days ago',
+        'Complete 1 online PQL match.') }
+
+      its(:recent_competitors) { must_include ::QuakeliveApi::Competitor.new(
+        'http://cdn.quakelive.com/web/2013050701/images/players/icon_lg/crash_sport_v2013050701.0.png',
+        '+_+Danunah',
+        Time.parse('22-06-2013 6:21 PM'))}
+    end
   end
 end
+
+
 
 
 

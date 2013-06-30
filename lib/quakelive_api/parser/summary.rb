@@ -50,7 +50,7 @@ module QuakeliveApi
       end
 
       def wins
-        vitals.at(selector(:wins)).next.text.to_i
+        to_integer vitals.at(selector(:wins)).next.text
       end
 
       def accuracy
@@ -84,7 +84,7 @@ module QuakeliveApi
           awarded = title.next.next
           info = awarded.next.next
 
-          Award.new(icon, title.text.strip, awarded.text.strip, info.text.strip)
+          Award.new(icon, title.text.strip, awarded.text.strip, info.text.strip.gsub("\n",""))
         end.compact
 
         awards.any? ? awards : nil
@@ -137,8 +137,12 @@ module QuakeliveApi
       end
 
       def parse_slashed(node)
-        match = node.next.text.match /(\d+) \/ (\d+)/
-        [ match[1].to_i, match[2].to_i ]
+        match = node.next.text.match /([\d,]+) \/ ([\d,]+)/
+        [match[1], match[2]].map { |r| to_integer(r) }
+      end
+
+      def to_integer(val)
+        val.gsub(',','').to_i
       end
 
     end
