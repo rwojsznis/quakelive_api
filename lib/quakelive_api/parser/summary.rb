@@ -32,7 +32,10 @@ module QuakeliveApi
       end
 
       def model
-        document.at(selector(:model))['title']
+        div = document.at(selector(:model))
+        name  = div['title']
+        image = decode_background(div['style'])
+        Model.new(name, image)
       end
 
       def member_since
@@ -80,11 +83,12 @@ module QuakeliveApi
           title = node.at('.vcenter_data b')
           next if title.text =~ /No recent award/
 
-          icon = node.at('img')['src']
-          awarded = title.next.next
-          info = awarded.next.next
+          info        = node['title']
+          icon        = node.at('img')['src']
+          awarded     = title.next.next
+          description = awarded.next.next
 
-          Award.new(icon, title.text.strip, awarded.text.strip, info.text.strip.gsub("\n",""))
+          Award.new(icon, info, title.text.strip, awarded.text.strip, description.text.strip.gsub("\n",""))
         end.compact
 
         awards.any? ? awards : nil
@@ -106,7 +110,7 @@ module QuakeliveApi
         competitors = document.css(selector(:competitors)).map do |node|
           next if node.at('.rcmp_none')
 
-          icon   = decode_player_icon node.at('.usericon_standard_lg')['style']
+          icon   = decode_background node.at('.usericon_standard_lg')['style']
           nick   = node.at('a.player_nick_dark').text
           played = decode_time(node.at('span.text_tooltip')['title'])
 
@@ -128,8 +132,8 @@ module QuakeliveApi
         end
       end
 
-      def decode_player_icon(string)
-        string.strip.match(/background-image: url\(([\w\d:\/.]+)/)[1]
+      def decode_background(string)
+        string.strip.match(/background(?:-image)?: url\(([\w\d:\/.]+)/)[1]
       end
 
       def vitals

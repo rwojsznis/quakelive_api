@@ -14,7 +14,11 @@ describe "QuakeliveApi::Profile::Summary" do
       its(:country)      { must_equal "United States" }
       its(:profile_name) { must_equal "darvin_S_K_2"}
       its(:clan_name)    { must_equal nil }
-      its(:model)        { must_equal "Sarge / Default" }
+
+      its(:model)        { must_equal ::QuakeliveApi::Model.new(
+        "Sarge / Default",
+        "http://cdn.quakelive.com/web/2013050701/images/players/body_md/sarge_default_v2013050701.0.png") }
+
       its(:member_since) { must_equal Date.parse('18.12.2012') }
       its(:last_game)    { must_equal Time.parse('19.12.2012 12:43 AM')}
       its(:time_played)  { must_equal ::QuakeliveApi::GameTime.new("Ranked Time: 21:50 Unranked Time: 04:54") }
@@ -32,12 +36,14 @@ describe "QuakeliveApi::Profile::Summary" do
 
       its(:recent_awards){ must_include ::QuakeliveApi::Award.new(
         'darvin_s_k_2_files/winternights2012_v2013050701.png',
+        'Stuff some stockings with a grenade or two.',
         'Winter Nights 2012',
         'Awarded 6 months ago',
         'Complete a match on "Silent Night" or "Winter\'s Edge" during the 2012 holidays.') }
 
       its(:recent_awards) { must_include ::QuakeliveApi::Award.new(
         'darvin_s_k_2_files/testing_one_two_v2013050701.png',
+        'We told you this was easy.',
         'Testing One..Two..',
         'Awarded 6 months ago',
         'Complete 1 online match.') }
@@ -68,7 +74,11 @@ describe "QuakeliveApi::Profile::Summary" do
       its(:country)            { must_equal "Poland" }
       its(:profile_name)       { must_equal "emqz"}
       its(:clan_name)          { must_equal nil }
-      its(:model)              { must_equal "Major / Default" }
+
+      its(:model)              { must_equal ::QuakeliveApi::Model.new(
+        "Major / Default",
+        "http://cdn.quakelive.com/web/2013050701/images/players/body_md/major_default_v2013050701.0.png") }
+
       its(:member_since)       { must_equal Date.parse('23.06.2013') }
       its(:last_game)          { must_equal nil }
       its(:time_played)        { must_equal nil }
@@ -92,7 +102,11 @@ describe "QuakeliveApi::Profile::Summary" do
       its(:country)            { must_equal "Poland" }
       its(:profile_name)       { must_equal "Mariano"}
       its(:clan_name)          { must_equal nil }
-      its(:model)              { must_equal "Bitterman / Sport_blue" }
+
+      its(:model)              { must_equal ::QuakeliveApi::Model.new(
+        "Bitterman / Sport_blue",
+        "http://cdn.quakelive.com/web/2013050701/images/players/body_md/bitterman_sport_blue_v2013050701.0.png") }
+
       its(:member_since)       { must_equal Date.parse('7.02.2009') }
       its(:last_game)          { must_equal Time.parse('22-06-2013 7:36 PM') }
       its(:time_played)        { must_equal ::QuakeliveApi::GameTime.new("Ranked Time: 50.06:18:30 Unranked Time: 02:31:02") }
@@ -107,12 +121,14 @@ describe "QuakeliveApi::Profile::Summary" do
       its(:favourite)          { must_equal ::QuakeliveApi::Favourite.new("Furious Heights","Duel","Lightning Gun") }
       its(:recent_awards)      { must_include ::QuakeliveApi::Award.new(
         'mariano_files/team_killer_v2013050701.png',
+        'Hope you touched the flag first!',
         'Team Killer',
         'Awarded 18 days ago',
         'Kill all players on the opposing team in a single round in Attack & Defend, minimum size 3.') }
 
       its(:recent_awards)      { must_include ::QuakeliveApi::Award.new(
         'mariano_files/pql_1_v2013050701.png',
+        'Do you think thats air youre breathing now?',
         'Too Fast',
         'Awarded 28 days ago',
         'Complete 1 online PQL match.') }
