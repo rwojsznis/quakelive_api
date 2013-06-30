@@ -26,6 +26,20 @@ describe "QuakeliveApi::Profile::Summary" do
       its(:shots)        { must_equal 77 }
       its(:accuracy)     { must_equal 6.49 }
       its(:favourite)    { must_equal ::QuakeliveApi::Favourite.new("Deep Inside","Clan Arena","Rocket Launcher") }
+
+      its(:recent_awards){ must_be_instance_of Array }
+
+      its(:recent_awards){ must_include ::QuakeliveApi::Award.new('darvin_s_k_2_files/winternights2012_v2013050701.png',
+        'Winter Nights 2012',
+        'Awarded 6 months ago',
+        'Complete a match on "Silent Night" or "Winter\'s Edge" during the 2012 holidays.') }
+
+      its(:recent_awards) { must_include ::QuakeliveApi::Award.new('darvin_s_k_2_files/testing_one_two_v2013050701.png',
+        'Testing One..Two..',
+        'Awarded 6 months ago',
+        'Complete 1 online match.') }
+
+      its(:recent_awards) { wont_include nil }
     end
 
   end

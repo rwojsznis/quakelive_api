@@ -1,5 +1,6 @@
 require "quakelive_api/version"
 require "quakelive_api/base"
+require "quakelive_api/award"
 require "quakelive_api/game_time"
 require "quakelive_api/favourite"
 require "quakelive_api/parser/base"

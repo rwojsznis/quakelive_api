@@ -14,6 +14,8 @@ module QuakeliveApi
       selector :frags,    "b:contains('Frags')"
       selector :hits,     "b:contains('Hits')"
       selector :accuracy, "b:contains('Accuracy')"
+      selector :favs,     ".prf_faves b"
+      selector :awards,   ".prf_awards .awd_details"
 
       def country
         document.at(selector(:country))['title']
@@ -66,7 +68,19 @@ module QuakeliveApi
       end
 
       def favourites
-        document.css('.prf_faves b').map { |n| n.next.text.strip }
+        Favourite.new *document.css(selector(:favs)).map { |n| n.next.text.strip }
+      end
+
+      def awards
+        document.css(selector(:awards)).map do |node|
+          title = node.at('.vcenter_data b')
+          next if title.text =~ /No recent award/
+
+          icon = node.at('img')['src']
+          awarded = title.next.next
+          info = awarded.next.next
+          Award.new(icon, title.text.strip, awarded.text.strip, info.text.strip)
+        end.compact
       end
 
       private
