@@ -9,6 +9,13 @@ module QuakeliveApi
       setup_variables!
     end
 
+    def inspect
+      "#{self.class}:#{object_id}\n" + instance_variables.map do |v|
+        next if v.to_s == "@parser"
+        "#{v}=#{instance_variable_get(v).inspect}"
+      end.compact.join("\n")
+    end
+
     private
 
     def get
