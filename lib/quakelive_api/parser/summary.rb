@@ -1,22 +1,23 @@
 module QuakeliveApi
   module Parser
     class Summary < Base
-      selector :country,  ".playername img"
-      selector :profile,  "#prf_player_name"
-      selector :clan,     ".playername a.clan"
-      selector :model,    ".prf_imagery div"
-      selector :vitals,   ".prf_vitals p"
-      selector :member,   "b:contains('Member Since')"
-      selector :last,     "b:contains('Last Game') + span"
-      selector :played,   "b:contains('Time Played') + span"
-      selector :wins,     "b:contains('Wins')"
-      selector :losses,   "b:contains('Losses')"
-      selector :frags,    "b:contains('Frags')"
-      selector :hits,     "b:contains('Hits')"
-      selector :accuracy, "b:contains('Accuracy')"
-      selector :favs,     ".prf_faves b"
-      selector :awards,   ".prf_awards .awd_details"
-      selector :games,    ".gameframe"
+      selector :country,     ".playername img"
+      selector :profile,     "#prf_player_name"
+      selector :clan,        ".playername a.clan"
+      selector :model,       ".prf_imagery div"
+      selector :vitals,      ".prf_vitals p"
+      selector :member,      "b:contains('Member Since')"
+      selector :last,        "b:contains('Last Game') + span"
+      selector :played,      "b:contains('Time Played') + span"
+      selector :wins,        "b:contains('Wins')"
+      selector :losses,      "b:contains('Losses')"
+      selector :frags,       "b:contains('Frags')"
+      selector :hits,        "b:contains('Hits')"
+      selector :accuracy,    "b:contains('Accuracy')"
+      selector :favs,        ".prf_faves b"
+      selector :awards,      ".prf_awards .awd_details"
+      selector :games,       ".gameframe"
+      selector :competitors, "#qlv_profileBottomInset .rcmp_block"
 
       def country
         document.at(selector(:country))['title']
@@ -40,7 +41,7 @@ module QuakeliveApi
 
       def last_game
         node = vitals.at selector(:last)
-        node ? Time.strptime(node['title'], '%m/%d/%Y %H:%M %p') : nil
+        node ? decode_time(node['title']) : nil
       end
 
       def time_played
@@ -95,12 +96,32 @@ module QuakeliveApi
         end
       end
 
+      def recent_competitors
+        document.css(selector(:competitors)).map do |node|
+          next if node.at('.rcmp_none')
+
+          icon   = decode_player_icon node.at('.usericon_standard_lg')['style']
+          nick   = node.at('a.player_nick_dark').text
+          played = decode_time(node.at('span.text_tooltip')['title'])
+
+          Competitor.new(icon, nick, played )
+        end
+      end
+
       private
+
+      def decode_time(string)
+        Time.strptime(string, '%m/%d/%Y %H:%M %p')
+      end
 
       def decode_gametype(string)
         if string =~ /ca_/
           'CA'
         end
+      end
+
+      def decode_player_icon(string)
+        string.strip.match(/background-image: url\(([\w\d:\/.]+)/)[1]
       end
 
       def vitals
