@@ -17,6 +17,7 @@ require "quakelive_api/error/request_error"
 require "net/http"
 require "nokogiri"
 require "date"
+require "time"
 
 module QuakeliveApi
 

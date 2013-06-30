@@ -33,14 +33,13 @@ describe "QuakeliveApi::Profile::Summary" do
       its(:favourite)    { must_equal ::QuakeliveApi::Favourite.new("Deep Inside","Clan Arena","Rocket Launcher") }
 
       its(:recent_awards){ must_be_instance_of Array }
-
+      its(:recent_awards) { wont_include nil }
       its(:recent_awards){ must_include ::QuakeliveApi::Award.new(
         'darvin_s_k_2_files/winternights2012_v2013050701.png',
         'Stuff some stockings with a grenade or two.',
         'Winter Nights 2012',
         'Awarded 6 months ago',
         'Complete a match on "Silent Night" or "Winter\'s Edge" during the 2012 holidays.') }
-
       its(:recent_awards) { must_include ::QuakeliveApi::Award.new(
         'darvin_s_k_2_files/testing_one_two_v2013050701.png',
         'We told you this was easy.',
@@ -48,20 +47,21 @@ describe "QuakeliveApi::Profile::Summary" do
         'Awarded 6 months ago',
         'Complete 1 online match.') }
 
-      its(:recent_awards) { wont_include nil }
-
       its(:recent_games){ must_be_instance_of Array }
-      its(:recent_games)  { must_include ::QuakeliveApi::RecentGame.new('CA', 'Quit', '6 months ago') }
       its(:recent_games)  { wont_include nil }
+      its(:recent_games)  { must_include ::QuakeliveApi::RecentGame.new(
+        'CA',
+        'Quit',
+        '6 months ago',
+        'darvin_s_k_2_files/hiddenfortress_v2013050701.jpg')
+      }
 
       its(:recent_competitors) { wont_include nil }
       its(:recent_competitors) { must_be_instance_of Array }
-
       its(:recent_competitors) { must_include ::QuakeliveApi::Competitor.new(
         'http://cdn.quakelive.com/web/2013050701/images/players/icon_lg/razor_red_v2013050701.0.png',
         'devinseven',
         Time.parse('18-12-2012 1:29 AM'))}
-
       its(:recent_competitors) { must_include ::QuakeliveApi::Competitor.new(
         'http://cdn.quakelive.com/web/2013050701/images/players/icon_lg/visor_default_v2013050701.0.png',
         'oso|TheScaredOne', # maybe we should also handle clan tags here?
@@ -132,6 +132,13 @@ describe "QuakeliveApi::Profile::Summary" do
         'Too Fast',
         'Awarded 28 days ago',
         'Complete 1 online PQL match.') }
+
+      its(:recent_games)  { must_include ::QuakeliveApi::RecentGame.new(
+        'TDM',
+        'Win',
+        '16 hours ago',
+        'mariano_files/dreadfulplace_v2013050701.jpg')
+      }
 
       its(:recent_competitors) { must_include ::QuakeliveApi::Competitor.new(
         'http://cdn.quakelive.com/web/2013050701/images/players/icon_lg/crash_sport_v2013050701.0.png',

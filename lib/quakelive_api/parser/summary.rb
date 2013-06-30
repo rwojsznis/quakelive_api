@@ -16,7 +16,7 @@ module QuakeliveApi
       selector :accuracy,    "b:contains('Accuracy')"
       selector :favs,        ".prf_faves b"
       selector :awards,      ".prf_awards .awd_details"
-      selector :games,       ".gameframe"
+      selector :games,       ".recent_match"
       selector :competitors, "#qlv_profileBottomInset .rcmp_block"
 
       def country
@@ -99,8 +99,9 @@ module QuakeliveApi
           gametype = decode_gametype node.at('img.gametype')['src']
           finish   = node.at('span.finish').text.strip.match(/Finish:\s+(\w+)/i)[1]
           played   = node.at('span.played').text.strip.match(/Played:\s+([\w\d ]+)/i)[1]
+          image    = node.at('img.levelshot')['src']
 
-          RecentGame.new(gametype, finish, played)
+          RecentGame.new(gametype, finish, played, image)
         end.compact
 
         games.any? ? games : nil
@@ -129,6 +130,8 @@ module QuakeliveApi
       def decode_gametype(string)
         if string =~ /ca_/
           'CA'
+        elsif string =~ /tdm_/
+          'TDM'
         end
       end
 
