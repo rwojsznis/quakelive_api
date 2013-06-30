@@ -16,6 +16,7 @@ module QuakeliveApi
       selector :accuracy, "b:contains('Accuracy')"
       selector :favs,     ".prf_faves b"
       selector :awards,   ".prf_awards .awd_details"
+      selector :games,    ".gameframe"
 
       def country
         document.at(selector(:country))['title']
@@ -79,11 +80,28 @@ module QuakeliveApi
           icon = node.at('img')['src']
           awarded = title.next.next
           info = awarded.next.next
+
           Award.new(icon, title.text.strip, awarded.text.strip, info.text.strip)
         end.compact
       end
 
+      def recent_games
+        document.css(selector(:games)).map do |node|
+          gametype = decode_gametype node.at('img.gametype')['src']
+          finish   = node.at('span.finish').text.strip.match(/Finish:\s+(\w+)/i)[1]
+          played   = node.at('span.played').text.strip.match(/Played:\s+([\w\d ]+)/i)[1]
+
+          RecentGame.new(gametype, finish, played)
+        end
+      end
+
       private
+
+      def decode_gametype(string)
+        if string =~ /ca_/
+          'CA'
+        end
+      end
 
       def vitals
         document.at(selector(:vitals))

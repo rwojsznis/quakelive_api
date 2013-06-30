@@ -40,7 +40,14 @@ describe "QuakeliveApi::Profile::Summary" do
         'Complete 1 online match.') }
 
       its(:recent_awards) { wont_include nil }
+
+      its(:recent_games){ must_be_instance_of Array }
+      its(:recent_games)  { must_include ::QuakeliveApi::RecentGame.new('CA', 'Quit', '6 months ago') }
+      its(:recent_games)  { wont_include nil }
     end
 
   end
 end
+
+
+

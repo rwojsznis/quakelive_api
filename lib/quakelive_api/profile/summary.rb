@@ -3,7 +3,8 @@ module QuakeliveApi
     class Summary < ::QuakeliveApi::Base
       attr_reader :country, :profile_name, :clan_name, :model, :member_since,
                   :last_game, :time_played, :wins, :losses, :quits, :frags,
-                  :deaths, :hits, :shots, :accuracy, :favourite, :recent_awards
+                  :deaths, :hits, :shots, :accuracy, :favourite, :recent_awards,
+                  :recent_games
 
       private
 
@@ -26,6 +27,7 @@ module QuakeliveApi
         @hits, @shots   = parser.hits_shots
         @favourite      = parser.favourites
         @recent_awards  = parser.awards
+        @recent_games   = parser.recent_games
       end
 
     end
