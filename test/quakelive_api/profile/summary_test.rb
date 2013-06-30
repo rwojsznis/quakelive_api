@@ -12,7 +12,7 @@ describe "QuakeliveApi::Profile::Summary" do
       let(:profile) { "darvin_s_k_2" }
 
       its(:country)      { must_equal "United States" }
-      its(:profile_name)  { must_equal "darvin_S_K_2"}
+      its(:profile_name) { must_equal "darvin_S_K_2"}
       its(:clan_name)    { must_equal nil }
       its(:model)        { must_equal "Sarge / Default" }
       its(:member_since) { must_equal Date.parse('18.12.2012') }
@@ -62,6 +62,29 @@ describe "QuakeliveApi::Profile::Summary" do
         Time.parse('19-12-2012 12:43 AM'))}
     end
 
+    describe "emqz" do
+      let(:profile) { "emqz" }
+
+      its(:country)            { must_equal "Poland" }
+      its(:profile_name)       { must_equal "emqz"}
+      its(:clan_name)          { must_equal nil }
+      its(:model)              { must_equal "Major / Default" }
+      its(:member_since)       { must_equal Date.parse('23.06.2013') }
+      its(:last_game)          { must_equal nil }
+      its(:time_played)        { must_equal nil }
+      its(:wins)               { must_equal 0 }
+      its(:losses)             { must_equal 0 }
+      its(:quits)              { must_equal 0 }
+      its(:frags)              { must_equal 0 }
+      its(:deaths)             { must_equal 0 }
+      its(:hits)               { must_equal 0 }
+      its(:shots)              { must_equal 0 }
+      its(:accuracy)           { must_equal 0.0 }
+      its(:favourite)          { must_equal ::QuakeliveApi::Favourite.new(nil, nil, nil) }
+      its(:recent_awards)      { must_equal nil }
+      its(:recent_games)       { must_equal nil }
+      its(:recent_competitors) { must_equal nil }
+    end
   end
 end
 

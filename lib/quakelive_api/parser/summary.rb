@@ -70,11 +70,13 @@ module QuakeliveApi
       end
 
       def favourites
-        Favourite.new *document.css(selector(:favs)).map { |n| n.next.text.strip }
+        Favourite.new *document.css(selector(:favs))
+          .map { |n| n.next.text.strip }
+          .map { |n| n == "None" ? nil : n }
       end
 
       def awards
-        document.css(selector(:awards)).map do |node|
+        awards = document.css(selector(:awards)).map do |node|
           title = node.at('.vcenter_data b')
           next if title.text =~ /No recent award/
 
@@ -84,20 +86,24 @@ module QuakeliveApi
 
           Award.new(icon, title.text.strip, awarded.text.strip, info.text.strip)
         end.compact
+
+        awards.any? ? awards : nil
       end
 
       def recent_games
-        document.css(selector(:games)).map do |node|
+        games = document.css(selector(:games)).map do |node|
           gametype = decode_gametype node.at('img.gametype')['src']
           finish   = node.at('span.finish').text.strip.match(/Finish:\s+(\w+)/i)[1]
           played   = node.at('span.played').text.strip.match(/Played:\s+([\w\d ]+)/i)[1]
 
           RecentGame.new(gametype, finish, played)
-        end
+        end.compact
+
+        games.any? ? games : nil
       end
 
       def recent_competitors
-        document.css(selector(:competitors)).map do |node|
+        competitors = document.css(selector(:competitors)).map do |node|
           next if node.at('.rcmp_none')
 
           icon   = decode_player_icon node.at('.usericon_standard_lg')['style']
@@ -105,7 +111,9 @@ module QuakeliveApi
           played = decode_time(node.at('span.text_tooltip')['title'])
 
           Competitor.new(icon, nick, played )
-        end
+        end.compact
+
+        competitors.any? ? competitors : nil
       end
 
       private
