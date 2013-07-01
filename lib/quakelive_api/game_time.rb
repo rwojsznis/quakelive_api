@@ -2,7 +2,11 @@ module QuakeliveApi
   class GameTime
     attr_accessor :ranked, :unranked
 
-    class Interval < Struct.new(:seconds, :minutes, :hours, :days); end
+    class Interval < Struct.new(:seconds, :minutes, :hours, :days)
+      def total
+        members.sum { |m| send(m).send(m) } # see what I did there?
+      end
+    end
 
     # accepts unparsed string directly from QL profile, for example:
     # * Ranked Time: 21:50 Unranked Time: 04:54
