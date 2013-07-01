@@ -2,7 +2,7 @@ module QuakeliveApi
   module Parser
     class Summary < Base
       selector :country,     ".playername img"
-      selector :profile,     "#prf_player_name"
+      selector :nick,        "#prf_player_name"
       selector :clan,        ".playername a.clan"
       selector :model,       ".prf_imagery div"
       selector :vitals,      ".prf_vitals p"
@@ -23,12 +23,12 @@ module QuakeliveApi
         document.at(selector(:country))['title']
       end
 
-      def profile_name
-        document.at(selector(:profile)).text
+      def nick
+        document.at(selector(:nick)).text
       end
 
-      def clan_name
-        (clan = document.at(selector(:clan))) ? clan.text : nil
+      def clan
+        (c = document.at(selector(:clan))) ? c.text : nil
       end
 
       def model

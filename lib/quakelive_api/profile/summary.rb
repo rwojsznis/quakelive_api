@@ -1,7 +1,7 @@
 module QuakeliveApi
   class Profile
     class Summary < ::QuakeliveApi::Base
-      attr_reader :country, :profile_name, :clan_name, :model, :member_since,
+      attr_reader :country, :nick, :clan, :model, :member_since,
                   :last_game, :time_played, :wins, :losses, :quits, :frags,
                   :deaths, :hits, :shots, :accuracy, :favourite, :recent_awards,
                   :recent_games, :recent_competitors
@@ -14,8 +14,8 @@ module QuakeliveApi
 
       def setup_variables
         @country            = parser.country
-        @profile_name       = parser.profile_name
-        @clan_name          = parser.clan_name
+        @nick               = parser.nick
+        @clan               = parser.clan
         @model              = parser.model
         @member_since       = parser.member_since
         @last_game          = parser.last_game

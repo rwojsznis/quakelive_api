@@ -12,8 +12,8 @@ describe "QuakeliveApi::Profile::Summary" do
       let(:profile) { "darvin_s_k_2" }
 
       its(:country)      { must_equal "United States" }
-      its(:profile_name) { must_equal "darvin_S_K_2"}
-      its(:clan_name)    { must_equal nil }
+      its(:nick)         { must_equal "darvin_S_K_2"}
+      its(:clan)         { must_equal nil }
 
       its(:model)        { must_equal ::QuakeliveApi::Model.new(
         "Sarge / Default",
@@ -72,8 +72,8 @@ describe "QuakeliveApi::Profile::Summary" do
       let(:profile) { "emqz" }
 
       its(:country)            { must_equal "Poland" }
-      its(:profile_name)       { must_equal "emqz"}
-      its(:clan_name)          { must_equal nil }
+      its(:nick)               { must_equal "emqz"}
+      its(:clan)               { must_equal nil }
 
       its(:model)              { must_equal ::QuakeliveApi::Model.new(
         "Major / Default",
@@ -100,8 +100,8 @@ describe "QuakeliveApi::Profile::Summary" do
       let(:profile){ "mariano" }
 
       its(:country)            { must_equal "Poland" }
-      its(:profile_name)       { must_equal "Mariano"}
-      its(:clan_name)          { must_equal nil }
+      its(:nick)               { must_equal "Mariano"}
+      its(:clan)               { must_equal nil }
 
       its(:model)              { must_equal ::QuakeliveApi::Model.new(
         "Bitterman / Sport_blue",
