@@ -148,10 +148,6 @@ module QuakeliveApi
         [match[1], match[2]].map { |r| to_integer(r) }
       end
 
-      def to_integer(val)
-        val.gsub(',','').to_i
-      end
-
     end
   end
 end

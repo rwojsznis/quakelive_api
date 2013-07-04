@@ -1,6 +1,5 @@
 require "test_helper"
 
-
 describe "QuakeliveApi::Profile::Summary" do
   make_my_diffs_pretty!()
 

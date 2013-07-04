@@ -29,6 +29,10 @@ module QuakeliveApi
       def selector(name)
         self.class.selectors[name]
       end
+
+      def to_integer(val)
+        val.gsub(',','').to_i
+      end
     end
   end
 end
