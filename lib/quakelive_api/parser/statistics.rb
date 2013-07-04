@@ -18,25 +18,40 @@
 module QuakeliveApi
   module Parser
     class Statistics < Base
-      selector :weapon,   ".prf_weapons .col_weapon"
-      selector :frags,    ".col_frags"
-      selector :accuracy, ".col_accuracy"
-      selector :usage,    ".col_usage"
+      selector :weapon,      ".prf_weapons .col_weapon"
+      selector :frags,       ".col_frags"
+      selector :accuracy,    ".col_accuracy"
+      selector :usage,       ".col_usage"
+      selector :record,      ".qlv_profile_section_statistics .prf_record > div"
 
       def weapons
         document.css(selector(:weapon)).each_with_index.map do |node, idx|
           attrs = {
-            :name => node.text,
-            :frags => frags(weapon_next(:frags, idx)),
+            :name     => node.text,
+            :frags    => frags(weapon_next(:frags, idx)),
             :accuracy => accuracy(weapon_next(:accuracy, idx)),
-            :usage => usage(weapon_next(:usage, idx))
+            :usage    => usage(weapon_next(:usage, idx))
           }
 
-          hits, shots = hits_shots(weapon_next(:accuracy, idx)) if attrs[:accuracy]
-
-            attrs.merge!(:hits => hits, :shots => shots)
+          hits, shots = hits_shots(weapon_next(:accuracy, idx))
+          attrs.merge!(:hits => hits, :shots => shots)
 
           Items::Weapon.new(attrs)
+        end
+      end
+
+      def records
+        document.css(selector(:record)).map do |node|
+          attrs = {
+            :title     => node.at('.col_st_gametype').text.strip,
+            :played    => to_integer(node.at('.col_st_played').text),
+            :finished  => to_integer(node.at('.col_st_finished').text),
+            :wins      => to_integer(node.at('.col_st_wins').text),
+            :quits     => to_integer(node.at('.col_st_withdraws').text),
+            :completed => to_integer(node.at('.col_st_completeperc').text.gsub('%','')),
+            :wins_percentage => to_integer(node.at('.col_st_winperc').text.gsub('%',''))
+          }
+          Items::Record.new(attrs)
         end
       end
 

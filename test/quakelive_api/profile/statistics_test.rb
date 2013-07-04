@@ -29,6 +29,20 @@ describe "QuakeliveApi::Profile::Statistics" do
         end
       end
 
+      it "fetches proper stats for records" do
+        [
+          ['Clan Arena', 13, 13, 7, 0, 100, 54],
+          ['Capture The Flag', 74, 67, 39, 7, 91, 53],
+          ['Free For All', 31, 27, 10, 4, 87, 32],
+          ['Domination', 16, 16, 11, 0, 100, 69],
+          ['Freeze Tag', 1, 0, 0, 1, 0, 0],
+          ['Team Death Match', 155, 142, 79, 13, 92, 51],
+          ['Duel', 530, 501, 209, 29, 95, 39],
+          ['Total', 820, 766, 355, 54, 93, 43]
+        ].each_with_index do |record, index|
+          assert_equal subject.records[index], QuakeliveApi::Items::Record.new(*record)
+        end
+      end
     end
   end
 end

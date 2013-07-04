@@ -1,7 +1,7 @@
 module QuakeliveApi
   class Profile
     class Statistics < ::QuakeliveApi::Base
-      attr_reader :weapons
+      attr_reader :weapons, :records
 
       private
 
@@ -11,6 +11,7 @@ module QuakeliveApi
 
       def setup_variables
         @weapons = parser.weapons
+        @records = parser.records
       end
 
     end
