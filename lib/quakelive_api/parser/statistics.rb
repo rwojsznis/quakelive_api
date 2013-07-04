@@ -25,12 +25,18 @@ module QuakeliveApi
 
       def weapons
         document.css(selector(:weapon)).each_with_index.map do |node, idx|
-          name     = node.text
-          s_frags    = frags weapon_next(:frags, idx)
-          s_accuracy = accuracy weapon_next(:accuracy, idx)
-          s_usage    = usage weapon_next(:usage, idx)
-          hits, shots = hits_shots(weapon_next(:accuracy, idx)) if s_accuracy
-          ::QuakeliveApi::Weapon.new(name, s_frags, s_accuracy, hits, shots, s_usage)
+          attrs = {
+            :name => node.text,
+            :frags => frags(weapon_next(:frags, idx)),
+            :accuracy => accuracy(weapon_next(:accuracy, idx)),
+            :usage => usage(weapon_next(:usage, idx))
+          }
+
+          hits, shots = hits_shots(weapon_next(:accuracy, idx)) if attrs[:accuracy]
+
+            attrs.merge!(:hits => hits, :shots => shots)
+
+          Items::Weapon.new(attrs)
         end
       end
 

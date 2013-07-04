@@ -25,7 +25,7 @@ describe "QuakeliveApi::Profile::Statistics" do
           ['Nailgun', 18, 13, 466, 3495, 0],
           ['Proximity Mine', 7, 24, 40, 164, 0]
         ].each_with_index do |weapon, index|
-          assert_equal subject.weapons[index], QuakeliveApi::Weapon.new(*weapon)
+          assert_equal subject.weapons[index], QuakeliveApi::Items::Weapon.new(*weapon)
         end
       end
 

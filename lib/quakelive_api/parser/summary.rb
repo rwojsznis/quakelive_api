@@ -35,7 +35,7 @@ module QuakeliveApi
         div = document.at(selector(:model))
         name  = div['title']
         image = decode_background(div['style'])
-        Model.new(name, image)
+        Items::Model.new(name, image)
       end
 
       def member_since
@@ -73,7 +73,7 @@ module QuakeliveApi
       end
 
       def favourites
-        Favourite.new *document.css(selector(:favs))
+        Items::Favourite.new *document.css(selector(:favs))
           .map { |n| n.next.text.strip }
           .map { |n| n == "None" ? nil : n }
       end
@@ -88,7 +88,7 @@ module QuakeliveApi
           awarded     = title.next.next
           description = awarded.next.next
 
-          Award.new(icon, info, title.text.strip, awarded.text.strip, description.text.strip.gsub("\n",""))
+          Items::Award.new(icon, info, title.text.strip, awarded.text.strip, description.text.strip.gsub("\n",""))
         end.compact
 
         awards.any? ? awards : nil
@@ -101,7 +101,7 @@ module QuakeliveApi
           played   = node.at('span.played').text.strip.match(/Played:\s+([\w\d ]+)/i)[1]
           image    = node.at('img.levelshot')['src']
 
-          RecentGame.new(gametype, finish, played, image)
+          Items::RecentGame.new(gametype, finish, played, image)
         end.compact
 
         games.any? ? games : nil
@@ -115,7 +115,7 @@ module QuakeliveApi
           nick   = node.at('a.player_nick_dark').text
           played = decode_time(node.at('span.text_tooltip')['title'])
 
-          Competitor.new(icon, nick, played )
+          Items::Competitor.new(icon, nick, played )
         end.compact
 
         competitors.any? ? competitors : nil
