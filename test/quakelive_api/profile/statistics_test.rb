@@ -44,5 +44,32 @@ describe "QuakeliveApi::Profile::Statistics" do
         end
       end
     end
+
+    describe "emqz" do
+      let(:profile) { "emqz" }
+
+      it "fetches proper stats for weapons" do
+        [
+          ['Gauntlet', 0, nil, nil, nil, 0],
+          ['Machinegun', 0, 0, 0, 0, 0],
+          ['Shotgun', 0, 0, 0, 0, 0],
+          ['Grenade Launcher', 0, 0, 0, 0, 0],
+          ['Rocket Launcher', 0, 0, 0, 0, 0],
+          ['Lightning Gun', 0, 0, 0, 0, 0],
+          ['Railgun', 0, 0, 0, 0, 0],
+          ['Plasma Gun', 0, 0, 0, 0, 0],
+          ['BFG', 0, 0, 0, 0, 0],
+          ['Chaingun', 0, 0, 0, 0, 0],
+          ['Nailgun', 0, 0, 0, 0, 0],
+          ['Proximity Mine', 0, 0, 0, 0, 0]
+        ].each_with_index do |weapon, index|
+          assert_equal subject.weapons[index], QuakeliveApi::Items::Weapon.new(*weapon)
+        end
+      end
+
+      it "fetches proper stats for records" do
+        assert_equal subject.records, nil
+      end
+    end
   end
 end
