@@ -1,23 +1,25 @@
 module QuakeliveApi
   module Parser
     class Summary < Base
-      selector :country,     ".playername img"
-      selector :nick,        "#prf_player_name"
-      selector :clan,        ".playername a.clan"
-      selector :model,       ".prf_imagery div"
-      selector :vitals,      ".prf_vitals p"
-      selector :member,      "b:contains('Member Since')"
-      selector :last,        "b:contains('Last Game') + span"
-      selector :played,      "b:contains('Time Played') + span"
-      selector :wins,        "b:contains('Wins')"
-      selector :losses,      "b:contains('Losses')"
-      selector :frags,       "b:contains('Frags')"
-      selector :hits,        "b:contains('Hits')"
-      selector :accuracy,    "b:contains('Accuracy')"
-      selector :favs,        ".prf_faves b"
-      selector :awards,      ".prf_awards .awd_details"
-      selector :games,       ".recent_match"
-      selector :competitors, "#qlv_profileBottomInset .rcmp_block"
+      @selectors = {
+        :country     => ".playername img",
+        :nick        => "#prf_player_name",
+        :clan        => ".playername a.clan",
+        :model       => ".prf_imagery div",
+        :vitals      => ".prf_vitals p",
+        :member      => "b:contains('Member Since')",
+        :last        => "b:contains('Last Game') + span",
+        :played      => "b:contains('Time Played') + span",
+        :wins        => "b:contains('Wins')",
+        :losses      => "b:contains('Losses')",
+        :frags       => "b:contains('Frags')",
+        :hits        => "b:contains('Hits')",
+        :accuracy    => "b:contains('Accuracy')",
+        :favs        => ".prf_faves b",
+        :awards      => ".prf_awards .awd_details",
+        :games       => ".recent_match",
+        :competitors => "#qlv_profileBottomInset .rcmp_block"
+      }
 
       def country
         document.at(selector(:country))['title']
@@ -73,14 +75,15 @@ module QuakeliveApi
       end
 
       def favourites
-        Items::Favourite.new *document.css(selector(:favs))
+        Items::Favourite.new(*document.css(selector(:favs))
           .map { |n| n.next.text.strip }
-          .map { |n| n == "None" ? nil : n }
+          .map { |n| n == "None" ? nil : n })
       end
 
       def awards
         awards = document.css(selector(:awards)).map do |node|
           title = node.at('.vcenter_data b')
+
           next if title.text =~ /No recent award/
 
           info        = node['title']
@@ -98,7 +101,7 @@ module QuakeliveApi
         games = document.css(selector(:games)).map do |node|
           gametype = decode_gametype node.at('img.gametype')['src']
           finish   = node.at('span.finish').text.strip.match(/Finish:\s+(\w+)/i)[1]
-          played   = node.at('span.played').text.strip.match(/Played:\s+([\w\d ]+)/i)[1]
+          played   = node.at('span.played').text.strip.match(/Played:\s+([\w ]+)/i)[1]
           image    = node.at('img.levelshot')['src']
 
           Items::RecentGame.new(gametype, finish, played, image)
@@ -136,7 +139,7 @@ module QuakeliveApi
       end
 
       def decode_background(string)
-        string.strip.match(/background(?:-image)?: url\(([\w\d:\/.]+)/)[1]
+        string.strip.match(/background(?:-image)?: url\(([\w:\/.]+)/)[1]
       end
 
       def vitals
@@ -144,7 +147,7 @@ module QuakeliveApi
       end
 
       def parse_slashed(node)
-        match = node.next.text.match /([\d,]+) \/ ([\d,]+)/
+        match = node.next.text.match(/([\d,]+) \/ ([\d,]+)/)
         [match[1], match[2]].map { |r| to_integer(r) }
       end
 

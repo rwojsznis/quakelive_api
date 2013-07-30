@@ -4,7 +4,7 @@ module QuakeliveApi
 
       def initialize(*args)
         opts = args.last.is_a?(Hash) ? args.pop : {}
-        super *args
+        super(*args)
         opts.each { |k, v| send("#{k}=", v) }
       end
 
