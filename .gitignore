@@ -18,3 +18,4 @@ tmp
 .ruby-version
 .rvmrc
 .ruby-gemset
+coverage/
