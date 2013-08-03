@@ -10,23 +10,23 @@ def fixtures_path
 end
 
 def fixture_profile(name)
-  File.read "#{fixtures_path}/profile/#{name}.html"
+  File.read "#{fixtures_path}/profile/#{name}.txt"
 end
 
 def fixture_summary(name)
-  File.read "#{fixtures_path}/summary/#{name}.html"
+  File.read "#{fixtures_path}/summary/#{name}.txt"
 end
 
 def fixture_statistics(name)
-  File.read "#{fixtures_path}/statistics/#{name}.html"
+  File.read "#{fixtures_path}/statistics/#{name}.txt"
 end
 
 def stub_summary_request(profile_name, content)
-  stub_request(:get, "#{QuakeliveApi.site}/profile/summary/#{profile_name}").to_return({:body => content})
+  stub_request(:get, "#{QuakeliveApi.site}/profile/summary/#{profile_name}").to_return(content)
 end
 
 def stub_stats_request(profile_name, content)
-  stub_request(:get, "#{QuakeliveApi.site}/profile/statistics/#{profile_name}").to_return({:body => content})
+  stub_request(:get, "#{QuakeliveApi.site}/profile/statistics/#{profile_name}").to_return(content)
 end
 
 # taken from its-minitest gem, as I'm used to rspec syntax (and it's quite convenient for blackbox testing)

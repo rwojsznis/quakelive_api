@@ -13,13 +13,13 @@ describe "QuakeliveApi::Profile::Statistics" do
       it "fetches proper stats for weapons" do
         [
           ['Gauntlet', 185, nil, nil, nil, 1],
-          ['Machinegun', 1232, 29, 64240, 224939, 9],
-          ['Shotgun', 2091, 27, 25170, 91613, 9],
-          ['Grenade Launcher', 241, 10, 1379, 14099, 3],
-          ['Rocket Launcher', 4024, 34, 28089, 82907, 39],
-          ['Lightning Gun', 2043, 28, 84078, 303670, 15],
-          ['Railgun', 2357, 38, 8295, 21857, 19],
-          ['Plasma Gun', 708, 13, 10248, 77616, 5],
+          ['Machinegun', 1232, 29, 64253, 225055, 9],
+          ['Shotgun', 2091, 27, 25180, 91693, 9],
+          ['Grenade Launcher', 241, 10, 1383, 14163, 3],
+          ['Rocket Launcher', 4032, 34, 28182, 83256, 39],
+          ['Lightning Gun', 2048, 28, 84326, 304674, 15],
+          ['Railgun', 2368, 38, 8339, 21946, 19],
+          ['Plasma Gun', 708, 13, 10253, 77655, 5],
           ['BFG', 4, 49, 26, 53, 0],
           ['Chaingun', 37, 21, 1111, 5358, 0],
           ['Nailgun', 18, 13, 466, 3495, 0],
@@ -36,9 +36,9 @@ describe "QuakeliveApi::Profile::Statistics" do
           ['Free For All', 31, 27, 10, 4, 87, 32],
           ['Domination', 16, 16, 11, 0, 100, 69],
           ['Freeze Tag', 1, 0, 0, 1, 0, 0],
-          ['Team Death Match', 155, 142, 79, 13, 92, 51],
-          ['Duel', 530, 501, 209, 29, 95, 39],
-          ['Total', 820, 766, 355, 54, 93, 43]
+          ['Team Deathmatch', 155, 142, 79, 13, 92, 51],
+          ['Duel', 532, 503, 210, 29, 95, 39],
+          ['Total', 822, 768, 356, 54, 93, 43]
         ].each_with_index do |record, index|
           assert_equal subject.records[index], QuakeliveApi::Items::Record.new(*record)
         end

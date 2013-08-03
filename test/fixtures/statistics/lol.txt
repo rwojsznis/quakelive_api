@@ -1,0 +1,560 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Wed, 31 Jul 2013 07:01:39 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: close
+X-Powered-By: PHP/5.3.3
+X-QL-IDENT: 0 standard
+
+<div id='qlv_profile_shared_container' style="text-align: left">
+    	<div style="display: none" id="prf_player_name">Lol</div>
+	<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_player_0_v2013071600.0.png" style="margin-top: 10px; margin-bottom: 8px" width="214" height="29" />
+	<div class="prf_header">
+        <div class="playername player_nick_light"><img src="http://cdn.quakelive.com/web/2013071600/images/flags/de_v2013071600.0.gif" class="playerflag" title="Germany" /><a class="clan" href="#!clans/summary/3855">just</a>Lol</div>
+        
+        		<div class="nav">
+			<a href="#!profile/summary/Lol" >Summary</a>
+			<span>|</span>
+			<a href="#!profile/statistics/Lol" class="selected">Statistics</a>
+			<span>|</span>
+            <a href="#!profile/arenas/Lol" >Arenas</a>
+            <span>|</span>
+            			<a href="#!profile/awards/Lol" >Awards</a>
+			<span>|</span>
+            			<a href="#!profile/friends/Lol" >Friends</a>
+			<span>|</span>
+			<a href="#!profile/competitors/Lol" >Competitors</a>
+            			<span>|</span>
+			<a href="#!profile/matches/Lol" >Matches</a>
+            			<div class="cl"></div>
+		</div>
+        		
+		<form onsubmit="quakelive.mod_profile.ProfileJumpClick(); return false" style="margin: 0; padding: 0">
+			<div id="jump_player_msg"></div>
+			<div class="prf_section_searchbar">
+				<input type="text" value="Jump to profile&hellip;" onfocus="quakelive.mod_profile.FocusProfileJump(this)" onblur="quakelive.mod_profile.BlurProfileJump(this)" class="input_default" id="profile_jump_input" />
+				<a href="javascript:;" onclick="quakelive.mod_profile.ProfileJumpClick(); return false"><img src="http://cdn.quakelive.com/web/2013071600/images/sf/leaderboard/search_v2013071600.0.png" width="23" height="23" /></a>
+			</div>
+		</form>
+		
+		<div class="cl"></div>
+	</div>
+    
+    <div id="qlv_profileContainer">
+        <div id="qlv_profileTopLeft" class="statistics premium_status_0">
+            			<div class="prf_imagery">
+				<div style="width: 160px; height: 275px; background: url(http://cdn.quakelive.com/web/2013071600/images/players/body_md/sarge_default_v2013071600.0.png) no-repeat center top" title="Sarge / Default"></div>
+				<br />
+                <!--
+				<div style="margin-left: 15px; width: 140px; text-align: center; color: #cc3300; font-size: 17px; font-weight: bold; font-family: Arial">
+					Sarge
+				</div>
+                -->
+			</div>
+
+			<div class="prf_vitals">
+				<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_vitalstats_v2013071600.0.png" alt="Vital Stats" width="108" height="13" class="prf_title" />
+				<br />
+				
+				<p>
+                    <b>Member Since:</b> Sep. 30, 2008<br />
+                                        <b>Time Played:</b> <span class="text_tooltip" title="Ranked Time: 20.18:31:15 Unranked Time: 7.11:17:14">29 days</span><br />
+                                        
+                    <b>Last Game:</b>
+                                                    <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+                                            <br />
+                    <b>Wins:</b> 1,680<br />
+                    <b>Losses / Quits:</b> 1,181 / 278<br />
+		            <b>Frags / Deaths:</b> 40,937 / 30,357<br />
+		            <b>Hits / Shots:</b> 807,123 / 1,924,332<br />
+		            <b>Accuracy:</b> 41.94%<br />
+                                        <b>Clan:</b> <a href="#!clans/summary/3855">just</a><br />
+                                        
+                    				</p>
+                
+	            <img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_favorites_v2013071600.0.png" width="93" height="13" alt="Favorites" class="prf_title" />
+	            <br />
+	            
+	            <p class="prf_faves">
+                    <img src="http://cdn.quakelive.com/web/2013071600/images/profile/none_v2013071600.0.gif" width="17" height="17" alt="" class="fl fivepxhr" />
+                                            <b>Arena:</b> Campgrounds
+                    		            <div class="cl"></div>
+		        </p>
+		        
+		        <p class="fivepxv prf_faves">
+                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" width="16" height="16" alt="" class="fl fivepxhr" />
+                        <b>Game Type:</b> Clan Arena
+                    	            	
+		            <div class="cl"></div>
+		        </p>
+		        
+		        <p class="fivepxv prf_faves">
+                    			            <img src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/sm/RAILGUN_v2013071600.0.gif" width="17" height="17" alt="" class="fl fivepxhr" />
+                        <b>Weapon:</b> Railgun
+                    		            <div class="cl"></div>
+		        </p>
+			</div>
+			
+			<div class="cl"></div>
+            
+                                            <div class="prf_bio">
+                    <span class="prf_quote_left">&#147;</span>
+                    <p>i play for fun.
+
+promode only!
+
+play more pm1! =)</p>
+                    <span class="prf_quote_right">&#148;</span>
+                </div>
+                                        <div id="prf_friend_like">
+                <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quakelive.com/r/profile/summary/lol" data-text="Check out Lol's QUAKE LIVE Profile!" data-count="none" data-via="quakelive">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.quakelive.com%2Fr%2Fprofile%2Fsummary%2Flol&amp;layout=button_count&amp;show_faces=false&amp;width=140&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:140px; height:21px;" allowTransparency="true"></iframe>
+            </div>
+	        <div id="prf_friend_controls">
+		    </div>
+        </div>
+
+        <div id="qlv_profileTopRight" class="statistics">
+                        <div class="prf_weapons_header">
+                <div class="col_weapon"><img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_weapons_v2013071600.0.png" alt="Weapons" width="91" height="17" class="prf_title" /></div>
+                <div class="col_frags">Frags</div>
+                <div class="col_accuracy">Accuracy</div>
+                <div class="col_usage">Use</div>
+                <div class="cl"></div>
+            </div>
+
+            <div class="prf_weapons cl">
+                            <p class="prf_row1">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/GAUNTLET_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Gauntlet</div>
+                    <div class="col_frags">89</div>
+                                            <div class="col_accuracy">N/A</div>
+                                        <div class="col_usage">0%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row2">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/MACHINEGUN_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Machinegun</div>
+                    <div class="col_frags">255</div>
+                                            <div class="col_accuracy" title="Hits: 19,959 Shots: 81,768"><span class="text_tooltip">24%</span></div>
+                                        <div class="col_usage">1%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row1">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/SHOTGUN_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Shotgun</div>
+                    <div class="col_frags">752</div>
+                                            <div class="col_accuracy" title="Hits: 9,088 Shots: 32,589"><span class="text_tooltip">28%</span></div>
+                                        <div class="col_usage">1%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row2">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/GRENADE_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Grenade Launcher</div>
+                    <div class="col_frags">198</div>
+                                            <div class="col_accuracy" title="Hits: 1,551 Shots: 15,239"><span class="text_tooltip">10%</span></div>
+                                        <div class="col_usage">1%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row1">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/ROCKET_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Rocket Launcher</div>
+                    <div class="col_frags">12,546</div>
+                                            <div class="col_accuracy" title="Hits: 116,317 Shots: 349,811"><span class="text_tooltip">33%</span></div>
+                                        <div class="col_usage">36%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row2">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/LIGHTNING_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Lightning Gun</div>
+                    <div class="col_frags">6,271</div>
+                                            <div class="col_accuracy" title="Hits: 449,922 Shots: 1,292,415"><span class="text_tooltip">35%</span></div>
+                                        <div class="col_usage">17%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row1">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/RAILGUN_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Railgun</div>
+                    <div class="col_frags">15,340</div>
+                                            <div class="col_accuracy" title="Hits: 38,329 Shots: 87,803"><span class="text_tooltip">44%</span></div>
+                                        <div class="col_usage">43%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row2">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/PLASMA_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Plasma Gun</div>
+                    <div class="col_frags">393</div>
+                                            <div class="col_accuracy" title="Hits: 8,430 Shots: 43,256"><span class="text_tooltip">19%</span></div>
+                                        <div class="col_usage">1%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row1">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/BFG_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">BFG</div>
+                    <div class="col_frags">1</div>
+                                            <div class="col_accuracy" title="Hits: 46 Shots: 104"><span class="text_tooltip">44%</span></div>
+                                        <div class="col_usage">0%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row2">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/CHAINGUN_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Chaingun</div>
+                    <div class="col_frags">121</div>
+                                            <div class="col_accuracy" title="Hits: 2,655 Shots: 19,472"><span class="text_tooltip">14%</span></div>
+                                        <div class="col_usage">0%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row1">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/NAILGUN_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Nailgun</div>
+                    <div class="col_frags">5</div>
+                                            <div class="col_accuracy" title="Hits: 192 Shots: 1,845"><span class="text_tooltip">10%</span></div>
+                                        <div class="col_usage">0%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row2">
+                    <img class="fl" src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/md/PROXMINE_v2013071600.0.png" width="27" height="27" alt="" />
+                    <div class="col_weapon">Proximity Mine</div>
+                    <div class="col_frags">1</div>
+                                            <div class="col_accuracy" title="Hits: 7 Shots: 30"><span class="text_tooltip">23%</span></div>
+                                        <div class="col_usage">0%</div>
+                    <div class="cl"></div>
+                </p>
+                            <p class="prf_row2"></p>
+            </div>
+        </div>
+
+        <div class="cl"></div>
+
+        <div id="qlv_profileMiddle" class="statistics">
+            <div id="qlv_profileMiddleContent">
+                                <img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_last10matches_v2013071600.0.png" class="prf_title fl" />
+                <!--<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_viewmore_v2013071600.0.png" alt="Recent Matches" width="80" height="8" style="float: right; margin-top: 4px" />-->
+                <br />
+
+                <div class="prf_last10matches">
+                                            <div style="margin: 12px; text-align: center;">
+                            <a href="#!premium"><img src="http://cdn.quakelive.com/web/2013071600/images/profile/premium_graphs_v2013071600.0.jpg" class="" /></a>
+                        </div>
+                                        <div class="cl"></div>
+                    <div class="block_left">
+                        <div class="header">
+                            <div class="col_lm_gametype">Game Type / Arena</div>
+                            <div class="col_lm_placed">Finish</div>
+                            <div class="col_lm_date">Played</div>
+                            <div class="cl"></div>
+                        </div>
+
+                                                    <div class="recent_match interactive firstrow" id="ca_af5628b2-7953-11e2-8921-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Black Cathedral
+    </div>
+    <div class="col_lm_placed">
+                    Quit
+            </div>
+    <div class="col_lm_date" title="02/17/2013 4:45 PM">5 months ago</div>
+    <div class="cl"></div>
+</div>
+                                                    <div class="recent_match interactive " id="ca_fdb6ec66-72ce-11e2-9f54-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Campgrounds
+    </div>
+    <div class="col_lm_placed">
+                    Quit
+            </div>
+    <div class="col_lm_date" title="02/09/2013 9:40 AM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                                    <div class="recent_match interactive " id="ca_9f0fc8f2-72cb-11e2-9f54-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Black Cathedral
+    </div>
+    <div class="col_lm_placed">
+                    Quit
+            </div>
+    <div class="col_lm_date" title="02/09/2013 9:16 AM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                                    <div class="recent_match interactive " id="ca_65de12e6-72c6-11e2-9f54-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Asylum
+    </div>
+    <div class="col_lm_placed">
+                                                    Loss
+                                        </div>
+    <div class="col_lm_date" title="02/09/2013 8:38 AM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                                    <div class="recent_match interactive " id="ca_38f74942-713f-11e2-889c-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Asylum
+    </div>
+    <div class="col_lm_placed">
+                    Quit
+            </div>
+    <div class="col_lm_date" title="02/07/2013 9:58 AM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                            </div>
+
+                    <div class="block_right">
+                        <div class="header">
+                            <div class="col_lm_gametype">Game Type / Arena</div>
+                            <div class="col_lm_placed">Finish</div>
+                            <div class="col_lm_date">Played</div>
+                            <div class="cl"></div>
+                        </div>
+
+                                                    <div class="recent_match interactive firstrow" id="ca_05a08b92-713c-11e2-889c-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Thunderstruck
+    </div>
+    <div class="col_lm_placed">
+                                                    Loss
+                                        </div>
+    <div class="col_lm_date" title="02/07/2013 9:35 AM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                                    <div class="recent_match interactive " id="ca_62a107b6-6b08-11e2-8e06-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Overkill
+    </div>
+    <div class="col_lm_placed">
+                                                    Loss
+                                        </div>
+    <div class="col_lm_date" title="01/30/2013 12:10 PM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                                    <div class="recent_match interactive " id="ca_0d66fb96-6b05-11e2-8e06-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Campgrounds
+    </div>
+    <div class="col_lm_placed">
+                                                    Loss
+                                        </div>
+    <div class="col_lm_date" title="01/30/2013 11:47 AM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                                    <div class="recent_match interactive " id="ca_48481f80-6aef-11e2-8e06-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Overkill
+    </div>
+    <div class="col_lm_placed">
+                    Quit
+            </div>
+    <div class="col_lm_date" title="01/30/2013 9:11 AM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                                    <div class="recent_match interactive " id="ca_9f00bc2c-6aec-11e2-8e06-00259031fd90_1">
+    <div class="col_lm_gametype">
+        <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" class="fl" width="16" height="16" />
+        Campgrounds
+    </div>
+    <div class="col_lm_placed">
+                                                    Win
+                                        </div>
+    <div class="col_lm_date" title="01/30/2013 8:52 AM">6 months ago</div>
+    <div class="cl"></div>
+</div>
+                                            </div>
+
+                    <div class="cl"></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <img src="http://cdn.quakelive.com/web/2013071600/images/profile/profile_bot_divider_v2013071600.0.gif" width="670" height="17" />
+
+    <div id="qlv_profileBottom" class="qlv_profile_section_statistics">
+        <div id="qlv_profileBottomContent">
+                        <div class="prf_record_header">
+                <div class="col_st_gametype"><img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_record_v2013071600.0.png" alt="Record" width="66" height="13" class="prf_title" /></div>
+                <div class="col_st_played">Played</div>
+                <div class="col_st_finished">Finished</div>
+                <div class="col_st_wins">Wins</div>
+                <div class="col_st_withdraws">Quits</div>
+                <div class="col_st_completeperc">Completed</div>
+                <div class="col_st_winperc">Wins</div>
+                <div class="col_st_view">View Arena</div>
+                <div class="cl"></div>
+            </div>
+            
+            <div class="prf_record">
+                                                <div >
+                        <div class="col_st_gametype">
+                                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" width="16" height="16" />
+                                Clan Arena
+                                                        <div class="cl"></div>
+                        </div>
+                        <div class="col_st_played">2,260</div>
+                        <div class="col_st_finished">2,061</div>
+                        <div class="col_st_wins">1,247</div>
+                        <div class="col_st_withdraws">199</div>
+                        <div class="col_st_completeperc">91%</div>
+                        <div class="col_st_winperc">55%</div>
+                        <div class="col_st_view"><a href="javascript:;">View</a></div>
+                        <div class="cl"></div>
+                    </div>
+                                    <div >
+                        <div class="col_st_gametype">
+                                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ctf_v2013071600.0.png" width="16" height="16" />
+                                Capture The Flag
+                                                        <div class="cl"></div>
+                        </div>
+                        <div class="col_st_played">486</div>
+                        <div class="col_st_finished">445</div>
+                        <div class="col_st_wins">282</div>
+                        <div class="col_st_withdraws">41</div>
+                        <div class="col_st_completeperc">92%</div>
+                        <div class="col_st_winperc">58%</div>
+                        <div class="col_st_view"><a href="javascript:;">View</a></div>
+                        <div class="cl"></div>
+                    </div>
+                                    <div >
+                        <div class="col_st_gametype">
+                                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ffa_v2013071600.0.png" width="16" height="16" />
+                                Free For All
+                                                        <div class="cl"></div>
+                        </div>
+                        <div class="col_st_played">296</div>
+                        <div class="col_st_finished">258</div>
+                        <div class="col_st_wins">146</div>
+                        <div class="col_st_withdraws">38</div>
+                        <div class="col_st_completeperc">87%</div>
+                        <div class="col_st_winperc">49%</div>
+                        <div class="col_st_view"><a href="javascript:;">View</a></div>
+                        <div class="cl"></div>
+                    </div>
+                                    <div >
+                        <div class="col_st_gametype">
+                                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/dom_v2013071600.0.png" width="16" height="16" />
+                                Domination
+                                                        <div class="cl"></div>
+                        </div>
+                        <div class="col_st_played">1</div>
+                        <div class="col_st_finished">1</div>
+                        <div class="col_st_wins">1</div>
+                        <div class="col_st_withdraws">0</div>
+                        <div class="col_st_completeperc">100%</div>
+                        <div class="col_st_winperc">100%</div>
+                        <div class="col_st_view"><a href="javascript:;">View</a></div>
+                        <div class="cl"></div>
+                    </div>
+                                    <div >
+                        <div class="col_st_gametype">
+                                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ft_v2013071600.0.png" width="16" height="16" />
+                                Freeze Tag
+                                                        <div class="cl"></div>
+                        </div>
+                        <div class="col_st_played">1</div>
+                        <div class="col_st_finished">1</div>
+                        <div class="col_st_wins">0</div>
+                        <div class="col_st_withdraws">0</div>
+                        <div class="col_st_completeperc">100%</div>
+                        <div class="col_st_winperc">0%</div>
+                        <div class="col_st_view"><a href="javascript:;">View</a></div>
+                        <div class="cl"></div>
+                    </div>
+                                    <div >
+                        <div class="col_st_gametype">
+                                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/tdm_v2013071600.0.png" width="16" height="16" />
+                                Team Deathmatch
+                                                        <div class="cl"></div>
+                        </div>
+                        <div class="col_st_played">2</div>
+                        <div class="col_st_finished">2</div>
+                        <div class="col_st_wins">1</div>
+                        <div class="col_st_withdraws">0</div>
+                        <div class="col_st_completeperc">100%</div>
+                        <div class="col_st_winperc">50%</div>
+                        <div class="col_st_view"><a href="javascript:;">View</a></div>
+                        <div class="cl"></div>
+                    </div>
+                                    <div >
+                        <div class="col_st_gametype">
+                                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/duel_v2013071600.0.png" width="16" height="16" />
+                                Duel
+                                                        <div class="cl"></div>
+                        </div>
+                        <div class="col_st_played">8</div>
+                        <div class="col_st_finished">8</div>
+                        <div class="col_st_wins">3</div>
+                        <div class="col_st_withdraws">0</div>
+                        <div class="col_st_completeperc">100%</div>
+                        <div class="col_st_winperc">38%</div>
+                        <div class="col_st_view"><a href="javascript:;">View</a></div>
+                        <div class="cl"></div>
+                    </div>
+                                    <div class="total">
+                        <div class="col_st_gametype">
+                                                            <div style="width: 25px; float: left"></div>
+                                Total
+                                                        <div class="cl"></div>
+                        </div>
+                        <div class="col_st_played">3,054</div>
+                        <div class="col_st_finished">2,776</div>
+                        <div class="col_st_wins">1,680</div>
+                        <div class="col_st_withdraws">278</div>
+                        <div class="col_st_completeperc">91%</div>
+                        <div class="col_st_winperc">55%</div>
+                        <div class="col_st_view"><a href="javascript:;">View</a></div>
+                        <div class="cl"></div>
+                    </div>
+                                        </div>
+        </div>
+    </div>
+
+            <div id="qlv_profileTiers" class="qlv_profile_section_tiers">
+            <div id="qlv_profileBottomContent">
+                <img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_skill_v2013071600.0.png" alt="Skill Level" class="prf_title" />
+<div class="tier_container">
+    <div class="tier_graph">
+        <div class="bars">
+                            <div class="bar  gray" style="height: 100%; left:0px;"></div>
+                            <div class="bar  " style="height: 100%; left:37px;"></div>
+                            <div class="bar gold " style="height: 100%; left:74px;"></div>
+                            <div class="bar  gray" style="height: 75%; left:111px;"></div>
+                            <div class="bar  gray" style="height: 75%; left:148px;"></div>
+                            <div class="bar gold " style="height: 100%; left:185px;"></div>
+                            <div class="bar  gray" style="height: 75%; left:222px;"></div>
+                            <div class="bar  gray" style="height: 100%; left:259px;"></div>
+                            <div class="bar  gray" style="height: 100%; left:296px;"></div>
+                            <div class="bar  gray" style="height: 100%; left:333px;"></div>
+                    </div>
+        <div class="keys">
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/fctf_v2013071600.0.png" width="28" height="28" style="left:0px;" title="1 Flag CTF" class="tier_gt_fctf"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/ctf_v2013071600.0.png" width="28" height="28" style="left:37px;" title="Capture The Flag" class="tier_gt_ctf"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/ca_v2013071600.0.png" width="28" height="28" style="left:74px;" title="Clan Arena" class="tier_gt_ca"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/dom_v2013071600.0.png" width="28" height="28" style="left:111px;" title="Domination" class="tier_gt_dom"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/duel_v2013071600.0.png" width="28" height="28" style="left:148px;" title="Duel" class="tier_gt_duel"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/ffa_v2013071600.0.png" width="28" height="28" style="left:185px;" title="Free For All" class="tier_gt_ffa"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/ft_v2013071600.0.png" width="28" height="28" style="left:222px;" title="Freeze Tag" class="tier_gt_ft"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/harvester_v2013071600.0.png" width="28" height="28" style="left:259px;" title="Harvester" class="tier_gt_harvester"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/race_v2013071600.0.png" width="28" height="28" style="left:296px;" title="Race" class="tier_gt_race"/>
+                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/tdm_v2013071600.0.png" width="28" height="28" style="left:333px;" title="Team Death Match" class="tier_gt_tdm"/>
+                    </div>
+    </div>
+    <div class="tier_desc">
+        <p><b>Tier 4: Veteran</b></p>
+        <p><b>Tier 3: Warrior</b></p>
+        <p><b>Tier 2: Skilled</b></p>
+        <p><b>Tier 1: Trainee</b></p>
+        <p class="hidden_desc"><b>Tier Z: Elite:</b> Reserved for Xaero, Master of the Arena Eternal.</p>
+        <br/>
+    </div>
+    <p class="aside">Grayed out game types indicate too few games played for skill matching.</p></div>
+            </div>
+        </div>
+    </div>

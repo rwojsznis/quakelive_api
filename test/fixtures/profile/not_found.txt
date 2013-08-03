@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Wed, 31 Jul 2013 06:51:18 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: close
+X-Powered-By: PHP/5.3.3
+X-QL-IDENT: 0 standard
+
+<div style="text-align: left">
+		<div style="display: none" id="prf_player_name">Unknown Player</div>
+	<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_player_0_v2013071600.0.png" style="margin-top: 10px; margin-bottom: 8px" width="214" height="29" />
+	<div class="prf_header">
+        <div class="playername player_nick_light">Unknown Player</div>
+        
+                <div class="nav">
+            <span style='margin-left: 15px; margin-bottom: 3px'>Player not found: xsi234</span>
+        </div>
+        		
+		<form onsubmit="quakelive.mod_profile.ProfileJumpClick(); return false" style="margin: 0; padding: 0">
+			<div id="jump_player_msg"></div>
+			<div class="prf_section_searchbar">
+				<input type="text" value="Jump to profile&hellip;" onfocus="quakelive.mod_profile.FocusProfileJump(this)" onblur="quakelive.mod_profile.BlurProfileJump(this)" class="input_default" id="profile_jump_input" />
+				<a href="javascript:;" onclick="quakelive.mod_profile.ProfileJumpClick(); return false"><img src="http://cdn.quakelive.com/web/2013071600/images/sf/leaderboard/search_v2013071600.0.png" width="23" height="23" /></a>
+			</div>
+		</form>
+		
+		<div class="cl"></div>
+	</div>
+	
+	<div id="qlv_profileListContainer">
+		<p class="tc TwentyPxTxt sixtypad midGrayTxt">
+ The requested player could not be found or is not yet active. Please check your spelling and try again.  
+</p>
+	</div>
+</div>

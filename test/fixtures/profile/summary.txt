@@ -1,0 +1,383 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Wed, 31 Jul 2013 06:52:41 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: close
+X-Powered-By: PHP/5.3.3
+X-QL-IDENT: 0 standard
+
+<div id='qlv_profile_shared_container' style="text-align: left">
+    	<div style="display: none" id="prf_player_name">Lol</div>
+	<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_player_0_v2013071600.0.png" style="margin-top: 10px; margin-bottom: 8px" width="214" height="29" />
+	<div class="prf_header">
+        <div class="playername player_nick_light"><img src="http://cdn.quakelive.com/web/2013071600/images/flags/de_v2013071600.0.gif" class="playerflag" title="Germany" /><a class="clan" href="#!clans/summary/3855">just</a>Lol</div>
+        
+        		<div class="nav">
+			<a href="#!profile/summary/Lol" class="selected">Summary</a>
+			<span>|</span>
+			<a href="#!profile/statistics/Lol" >Statistics</a>
+			<span>|</span>
+            <a href="#!profile/arenas/Lol" >Arenas</a>
+            <span>|</span>
+            			<a href="#!profile/awards/Lol" >Awards</a>
+			<span>|</span>
+            			<a href="#!profile/friends/Lol" >Friends</a>
+			<span>|</span>
+			<a href="#!profile/competitors/Lol" >Competitors</a>
+            			<span>|</span>
+			<a href="#!profile/matches/Lol" >Matches</a>
+            			<div class="cl"></div>
+		</div>
+        		
+		<form onsubmit="quakelive.mod_profile.ProfileJumpClick(); return false" style="margin: 0; padding: 0">
+			<div id="jump_player_msg"></div>
+			<div class="prf_section_searchbar">
+				<input type="text" value="Jump to profile&hellip;" onfocus="quakelive.mod_profile.FocusProfileJump(this)" onblur="quakelive.mod_profile.BlurProfileJump(this)" class="input_default" id="profile_jump_input" />
+				<a href="javascript:;" onclick="quakelive.mod_profile.ProfileJumpClick(); return false"><img src="http://cdn.quakelive.com/web/2013071600/images/sf/leaderboard/search_v2013071600.0.png" width="23" height="23" /></a>
+			</div>
+		</form>
+		
+		<div class="cl"></div>
+	</div>
+    
+    <div id="qlv_profileContainer">
+        <div id="qlv_profileTopLeft" class="summary premium_status_0">
+            			<div class="prf_imagery">
+				<div style="width: 160px; height: 275px; background: url(http://cdn.quakelive.com/web/2013071600/images/players/body_md/sarge_default_v2013071600.0.png) no-repeat center top" title="Sarge / Default"></div>
+				<br />
+                <!--
+				<div style="margin-left: 15px; width: 140px; text-align: center; color: #cc3300; font-size: 17px; font-weight: bold; font-family: Arial">
+					Sarge
+				</div>
+                -->
+			</div>
+
+			<div class="prf_vitals">
+				<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_vitalstats_v2013071600.0.png" alt="Vital Stats" width="108" height="13" class="prf_title" />
+				<br />
+				
+				<p>
+                    <b>Member Since:</b> Sep. 30, 2008<br />
+                                        <b>Time Played:</b> <span class="text_tooltip" title="Ranked Time: 20.18:31:15 Unranked Time: 7.11:17:14">29 days</span><br />
+                                        
+                    <b>Last Game:</b>
+                                                    <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+                                            <br />
+                    <b>Wins:</b> 1,680<br />
+                    <b>Losses / Quits:</b> 1,181 / 278<br />
+		            <b>Frags / Deaths:</b> 40,937 / 30,357<br />
+		            <b>Hits / Shots:</b> 807,123 / 1,924,332<br />
+		            <b>Accuracy:</b> 41.94%<br />
+                                        <b>Clan:</b> <a href="#!clans/summary/3855">just</a><br />
+                                        
+                    				</p>
+                
+	            <img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_favorites_v2013071600.0.png" width="93" height="13" alt="Favorites" class="prf_title" />
+	            <br />
+	            
+	            <p class="prf_faves">
+                    <img src="http://cdn.quakelive.com/web/2013071600/images/profile/none_v2013071600.0.gif" width="17" height="17" alt="" class="fl fivepxhr" />
+                                            <b>Arena:</b> Campgrounds
+                    		            <div class="cl"></div>
+		        </p>
+		        
+		        <p class="fivepxv prf_faves">
+                                            <img src="http://cdn.quakelive.com/web/2013071600/images/gametypes/xsm/ca_v2013071600.0.png" width="16" height="16" alt="" class="fl fivepxhr" />
+                        <b>Game Type:</b> Clan Arena
+                    	            	
+		            <div class="cl"></div>
+		        </p>
+		        
+		        <p class="fivepxv prf_faves">
+                    			            <img src="http://cdn.quakelive.com/web/2013071600/images/profile/weapons/sm/RAILGUN_v2013071600.0.gif" width="17" height="17" alt="" class="fl fivepxhr" />
+                        <b>Weapon:</b> Railgun
+                    		            <div class="cl"></div>
+		        </p>
+			</div>
+			
+			<div class="cl"></div>
+            
+                                            <div class="prf_bio">
+                    <span class="prf_quote_left">&#147;</span>
+                    <p>i play for fun.
+
+promode only!
+
+play more pm1! =)</p>
+                    <span class="prf_quote_right">&#148;</span>
+                </div>
+                                        <div id="prf_friend_like">
+                <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quakelive.com/r/profile/summary/lol" data-text="Check out Lol's QUAKE LIVE Profile!" data-count="none" data-via="quakelive">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+                <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.quakelive.com%2Fr%2Fprofile%2Fsummary%2Flol&amp;layout=button_count&amp;show_faces=false&amp;width=140&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:140px; height:21px;" allowTransparency="true"></iframe>
+            </div>
+	        <div id="prf_friend_controls">
+		    </div>
+        </div>
+
+        <div id="qlv_profileTopRight" class="summary">
+            <div id="qlv_summaryAwardBkd">
+			<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_recentawards_v2013071600.0.png" alt="Recent Medals" width="147" height="13" class="prf_title" />
+			<br />
+
+			<!--<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_viewmore_v2013071600.0.png" width="80" height="8" class="prf_viewmore" />-->
+
+			<div class="prf_awards">
+				                                        <div title="Stuff some stockings with a grenade or two." class="awd_details prf_row_height interactive prf_row1" onclick="quakelive.Goto('profile/awards/Lol;type=5;award=330'); return false">
+                                                                <img src="http://cdn.quakelive.com/web/2013071600/images/awards/md/winternights2012_v2013071600.0.png" width="61" height="61" class="prf_award" />
+                        <div class="vcenter_outer prf_row_height">
+                            <div class="vcenter_inner">
+                                <div class="vcenter_data">
+                                    <b class="awd_title">Winter Nights 2012</b><br />
+                                    Awarded 8 months ago<br />
+                                    Complete a match on "Silent Night" or "Winter's Edge" during the 2012 holidays.
+                                    <div class="cl"></div>
+                                </div>
+                            </div>
+                        </div>
+										</div>
+				                                        <div title="Bet you didn&#039;t make any friends in this match." class="awd_details prf_row_height interactive prf_row2" onclick="quakelive.Goto('profile/awards/Lol;type=2;award=35'); return false">
+                                                                <img src="http://cdn.quakelive.com/web/2013071600/images/awards/md/quad_god_v2013071600.0.png" width="61" height="61" class="prf_award" />
+                        <div class="vcenter_outer prf_row_height">
+                            <div class="vcenter_inner">
+                                <div class="vcenter_data">
+                                    <b class="awd_title">Quad God</b><br />
+                                    Awarded 26 months ago<br />
+                                    Record 20 Quad Damage kills in 1 game.
+                                    <div class="cl"></div>
+                                </div>
+                            </div>
+                        </div>
+										</div>
+				                                        <div title="LOL! Pwn3d!" class="awd_details prf_row_height interactive prf_row1" onclick="quakelive.Goto('profile/awards/Lol;type=2;award=49'); return false">
+                                                                <img src="http://cdn.quakelive.com/web/2013071600/images/awards/md/sucker_punch_v2013071600.0.png" width="61" height="61" class="prf_award" />
+                        <div class="vcenter_outer prf_row_height">
+                            <div class="vcenter_inner">
+                                <div class="vcenter_data">
+                                    <b class="awd_title">Sucker Punch</b><br />
+                                    Awarded 26 months ago<br />
+                                    Use the Gauntlet to frag an opponent who has Quad Damage.
+                                    <div class="cl"></div>
+                                </div>
+                            </div>
+                        </div>
+										</div>
+				                                        <div title="Step 2: Put a frag in the box." class="awd_details prf_row_height interactive prf_row2" onclick="quakelive.Goto('profile/awards/Lol;type=5;award=256'); return false">
+                                                                <img src="http://cdn.quakelive.com/web/2013071600/images/awards/md/xmas2010_v2013071600.0.png" width="61" height="61" class="prf_award" />
+                        <div class="vcenter_outer prf_row_height">
+                            <div class="vcenter_inner">
+                                <div class="vcenter_data">
+                                    <b class="awd_title">Winter Nights 2010</b><br />
+                                    Awarded 32 months ago<br />
+                                    Complete a match on "Silent Night" or "Winter's Edge" during the holidays.
+                                    <div class="cl"></div>
+                                </div>
+                            </div>
+                        </div>
+										</div>
+				                                        <div title="Haha…" class="awd_details prf_row_height interactive prf_row1" onclick="quakelive.Goto('profile/awards/Lol;type=2;award=219'); return false">
+                                                                <img src="http://cdn.quakelive.com/web/2013071600/images/awards/md/last_laugh_v2013071600.0.png" width="61" height="61" class="prf_award" />
+                        <div class="vcenter_outer prf_row_height">
+                            <div class="vcenter_inner">
+                                <div class="vcenter_data">
+                                    <b class="awd_title">The Last Laugh</b><br />
+                                    Awarded 33 months ago<br />
+                                    Get more frags than deaths in a game.
+                                    <div class="cl"></div>
+                                </div>
+                            </div>
+                        </div>
+										</div>
+							</div>
+</div>
+        </div>
+
+        <div class="cl"></div>
+
+        <div id="qlv_profileMiddle" class="summary">
+            <div id="qlv_profileMiddleContent">
+                <img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_recentmatches_v2013071600.0.png" class="prf_title" style="float: left" />
+<!--<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_viewmore_v2013071600.0.png" alt="Recent Matches" width="80" height="8" style="float: right; margin-top: 4px" />-->
+<br />
+<hr class="cl" style="height: 1px" />
+
+<div style="text-align: center; width: 637px">
+                    <div style="width: 33%; text-align: center; float: left" class="prf_map recent_match interactive" id="ca_af5628b2-7953-11e2-8921-00259031fd90_1">
+            <img src="http://cdn.quakelive.com/web/2013071600/images/levelshots/lg/blackcathedral_v2013071600.0.jpg" width="171" height="124" class="levelshot" />
+            <div class="gameframe">
+                                                                            
+                <img class="gametype" src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/ca_v2013071600.0.png" width="28" height="28" title="Game Type" />
+                <span class="finish">
+                Finish: 
+                                        Quit
+                                </span>
+                <span class="played">Played: 5 months ago</span>
+            </div>
+        </div>
+                            <div style="width: 33%; text-align: center; float: left" class="prf_map recent_match interactive" id="ca_fdb6ec66-72ce-11e2-9f54-00259031fd90_1">
+            <img src="http://cdn.quakelive.com/web/2013071600/images/levelshots/lg/campgrounds_v2013071600.0.jpg" width="171" height="124" class="levelshot" />
+            <div class="gameframe">
+                                                                            
+                <img class="gametype" src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/ca_v2013071600.0.png" width="28" height="28" title="Game Type" />
+                <span class="finish">
+                Finish: 
+                                        Quit
+                                </span>
+                <span class="played">Played: 6 months ago</span>
+            </div>
+        </div>
+                            <div style="width: 33%; text-align: center; float: left" class="prf_map recent_match interactive" id="ca_9f0fc8f2-72cb-11e2-9f54-00259031fd90_1">
+            <img src="http://cdn.quakelive.com/web/2013071600/images/levelshots/lg/blackcathedral_v2013071600.0.jpg" width="171" height="124" class="levelshot" />
+            <div class="gameframe">
+                                                                            
+                <img class="gametype" src="http://cdn.quakelive.com/web/2013071600/images/gametypes/sm/ca_v2013071600.0.png" width="28" height="28" title="Game Type" />
+                <span class="finish">
+                Finish: 
+                                        Quit
+                                </span>
+                <span class="played">Played: 6 months ago</span>
+            </div>
+        </div>
+                <div class="cl"></div>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <img src="http://cdn.quakelive.com/web/2013071600/images/profile/profile_bot_divider_v2013071600.0.gif" width="670" height="17" />
+
+    <div id="qlv_profileBottom" class="qlv_profile_section_summary">
+        <div id="qlv_profileBottomContent">
+            <img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_recentcompetitors_v2013071600.0.png" class="prf_title fl" style="position: relative; left: 2px" />
+<!--<img src="http://cdn.quakelive.com/web/2013071600/images/profile/titles/ttl_viewmore_v2013071600.0.png" alt="Recent Competitors" style="float: right; margin-top: 4px; margin-right: 15px" />-->
+<br />
+
+<div id="qlv_profileBottomInset" style="text-align: center">
+    <div style="margin: 0 auto; width: 640px; padding-top: 10px">
+                            <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/Caddeh'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/bitterman_default_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/Caddeh" class="player_nick_dark">Caddeh</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/Goddric'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/razor_default_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/Goddric" class="player_nick_dark">Goddric</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/puska'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/bones_default_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/puska" class="player_nick_dark">puska</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/SB15'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/santa_sport_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/SB15" class="player_nick_dark"><span class="clan">LT.Fo</span>SB15</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/korp'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/doom_default_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/korp" class="player_nick_dark">korp</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/Ulven'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/ranger_default_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/Ulven" class="player_nick_dark">Ulven</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/tuxo'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/doom_default_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/tuxo" class="player_nick_dark">tuxo</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/searas'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/slash_sport_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/searas" class="player_nick_dark">searas</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/_oddo_'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/ranger_default_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/_oddo_" class="player_nick_dark">_oddo_</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/sp_Lee'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/xaero_blue_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/sp_Lee" class="player_nick_dark">sp_Lee</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/Ejga'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/visor_bright_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/Ejga" class="player_nick_dark">Ejga</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/17/2013 4:45 PM">5 months ago</span>
+            </div>
+        </div>
+                                        <div class="rcmp_block interactive" onclick="quakelive.Goto('profile/summary/youngBlo_Od'); return false">
+            <div class="fl" style="margin-right: 5px">
+                <div class="usericon_standard_lg  " style="background-image: url(http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/xaero_default_v2013071600.0.png)"><div class="frame"></div><label></label></div>
+            </div>
+            <div style="margin-top: 6px">
+            <a href="#!profile/summary/youngBlo_Od" class="player_nick_dark"><span class="clan">YB*</span>youngBlo_Od</a>
+            <br />
+            <b>Last Played:</b> <span class="text_tooltip" title="02/09/2013 9:40 AM">6 months ago</span>
+            </div>
+        </div>
+                            <div class="cl"></div>
+    </div>
+</div>
+        </div>
+    </div>
+
+    </div>
