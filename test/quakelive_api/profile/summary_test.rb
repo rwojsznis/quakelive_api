@@ -1,7 +1,7 @@
 require "test_helper"
 
 describe "QuakeliveApi::Profile::Summary" do
-  make_my_diffs_pretty!()
+  make_my_diffs_pretty!
 
   describe "black box test for" do
     before  { stub_summary_request(profile, fixture_summary(profile)) }
