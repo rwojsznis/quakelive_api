@@ -21,6 +21,10 @@ def fixture_statistics(name)
   File.read "#{fixtures_path}/statistics/#{name}.txt"
 end
 
+def fixture_awards(name)
+  File.read "#{fixtures_path}/awards/#{name}.txt"
+end
+
 def stub_summary_request(profile_name, content)
   stub_request(:get, "#{QuakeliveApi.site}/profile/summary/#{profile_name}").to_return(content)
 end
