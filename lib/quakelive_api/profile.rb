@@ -34,10 +34,9 @@ module QuakeliveApi
       @awards_success ||= Awards::SweetSuccess.new(player_name)
     end
 
-    def each_award
-      [awards_milestones, awards_experience, awards_skillz,
-       awards_social, awards_success].each do |awards|
-        yield awards
+    def each_award(&block)
+      %w(awards_milestones awards_experience awards_skillz awards_social awards_success).each do |awards|
+        block.call(send(awards))
       end
     end
 
