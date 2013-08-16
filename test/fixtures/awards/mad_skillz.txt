@@ -1,0 +1,915 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Fri, 16 Aug 2013 09:18:53 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: close
+X-Powered-By: PHP/5.3.3
+X-QL-IDENT: 0 standard
+
+            <div class="detailArea awardId210">
+            <img alt="" title="Didn&#039;t your parents ever teach you to share?" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/resource_hog_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Resource Hog</span>
+                <br />
+                <span class="blktxt_11">Get Quad and Battle Suit in one match.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 03/04/2013<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        16 friends (47% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        7806 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId206">
+            <img alt="" title="Pow! Right in the kisser!" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/here_goes_nothing_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Here Goes Nothing</span>
+                <br />
+                <span class="blktxt_11">Frag your opponent with Gauntlet in a Duel.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 01/28/2013<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        16 friends (47% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        8633 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId37">
+            <img alt="" title="You&#039;ll be lucky if you don&#039;t end up on someone&#039;s block list." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/brawler_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Brawler</span>
+                <br />
+                <span class="blktxt_11">Record 5 Gauntlet frags of 5 unique opponents in one match.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 01/25/2013<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        19 friends (55% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        75130 players (1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId207">
+            <img alt="" title="They must have had low health already." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/mgftw_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">MG FTW</span>
+                <br />
+                <span class="blktxt_11">Frag someone with Machinegun in FFA.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 12/18/2012<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        14 friends (41% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        17616 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId209">
+            <img alt="" title="Up close and personal." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/close_up_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Close Up</span>
+                <br />
+                <span class="blktxt_11">End a match with at least 25% accuracy for Shotgun.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 02/07/2011<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        19 friends (55% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        20781 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId219">
+            <img alt="" title="Haha…" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/last_laugh_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">The Last Laugh</span>
+                <br />
+                <span class="blktxt_11">Get more frags than deaths in a game.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 02/02/2011<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        19 friends (55% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        24803 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId38">
+            <img alt="" title="Scout, Quad, or the hard way?" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/rocket_man_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Rocket Man</span>
+                <br />
+                <span class="blktxt_11">Record 5 rocket launcher frags in 10 seconds.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 08/09/2010<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        14 friends (41% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        36446 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId40">
+            <img alt="" title="Taking humiliation to new heights." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/air_hammer_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Air Hammer</span>
+                <br />
+                <span class="blktxt_11">Frag an opponent with Gauntlet while both of you are in the air.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 10/11/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        25 friends (73% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        81332 players (2% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId26">
+            <img alt="" title="&quot;You have taken the lead.&quot;" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/first_blood_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">First Blood</span>
+                <br />
+                <span class="blktxt_11">Score the first kill in a Free For All match.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 08/30/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        22 friends (64% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        156241 players (4% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId35">
+            <img alt="" title="Bet you didn&#039;t make any friends in this match." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/quad_god_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Quad God</span>
+                <br />
+                <span class="blktxt_11">Record 20 Quad Damage kills in 1 game.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 08/30/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        16 friends (47% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        15321 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId49">
+            <img alt="" title="LOL! Pwn3d!" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/sucker_punch_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Sucker Punch</span>
+                <br />
+                <span class="blktxt_11">Use the Gauntlet to frag an opponent who has Quad Damage.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 08/30/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        24 friends (70% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        44104 players (1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId29">
+            <img alt="" title="If you didn&#039;t also win this game, seek help." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/smack_down_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Smack Down</span>
+                <br />
+                <span class="blktxt_11">Accumulate 10 or more Quad Damage frags in 1 game.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 08/28/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        27 friends (79% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        59590 players (1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId48">
+            <img alt="" title="Leave no one behind." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/domination_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Domination</span>
+                <br />
+                <span class="blktxt_11">In Clan Arena, win a round without losing a player on your team (4+ per team).</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 08/15/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        22 friends (64% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        91939 players (2% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId41">
+            <img alt="" title="Better than a duck hunt." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/pull_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Pull</span>
+                <br />
+                <span class="blktxt_11">Record 5 Shotgun frags of opponents in the air in one match.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 08/09/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        25 friends (73% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        66255 players (1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId27">
+            <img alt="" title="You also use a chainsaw to cut a steak, don&#039;t you?" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/overkill_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Overkill</span>
+                <br />
+                <span class="blktxt_11">Use the Rail Gun to frag an opponent with only 1 point of health.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 07/24/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        28 friends (82% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        95090 players (2% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId31">
+            <img alt="" title="You definitely know how to spoil the fun." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/killjoy_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Killjoy</span>
+                <br />
+                <span class="blktxt_11">Frag an opponent who has Quad Damage when you have no power-up.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 07/16/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        28 friends (82% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        190225 players (4% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId28">
+            <img alt="" title="Raining death from above with the ultimate air strike." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/raptor_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Raptor</span>
+                <br />
+                <span class="blktxt_11">Frag an opponent while you are in the air.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 07/16/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        29 friends (85% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        319518 players (8% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId30">
+            <img alt="" title="Who knew a near death experience could be so satisfying?" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/plus_one_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Plus One</span>
+                <br />
+                <span class="blktxt_11">Frag an opponent when you have only 1 health.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 07/16/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        29 friends (85% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        145131 players (3% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId24">
+            <img alt="" title="You&#039;re either lucky or good." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/psychic_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Psychic</span>
+                <br />
+                <span class="blktxt_11">Use a rocket to kill an opponent who is in the air.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 07/16/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        29 friends (85% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        268409 players (7% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId33">
+            <img alt="" title="Groovin&#039; it." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/the_zone_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">The Zone</span>
+                <br />
+                <span class="blktxt_11">Frag 5 opponents in a row in Free For All without dying.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 03/12/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        26 friends (76% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        171356 players (4% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId34">
+            <img alt="" title="Domination at its best." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/hat_trick_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Hat Trick</span>
+                <br />
+                <span class="blktxt_11">Record 3 "Excellent" medals in 1 game.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 03/12/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        28 friends (82% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        170777 players (4% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                        <a class="unearnedAwardsLabel" href="javascript:;" onclick="$('.unearnedAwardType2').show();$(this).hide()">Show unearned awards</a>
+        
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/nade_spam_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Nade Spam</span>
+                <br />
+                <span class="blktxt_11">Win a CA round using the Grenade Launcher.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    10 friends (29% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        13019 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/punch_out_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Punch Out</span>
+                <br />
+                <span class="blktxt_11">Get the last frag in a CA round with gauntlet.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    5 friends (14% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        10518 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/mine_share_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Mine Share</span>
+                <br />
+                <span class="blktxt_11">Record 3 Proximity Mine Frags in one game.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    8 friends (23% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        29823 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/miracle_maker_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Miracle Maker</span>
+                <br />
+                <span class="blktxt_11">Kill two enemy flag carriers moments before their cap in 1 game.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    3 friends (8% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        8640 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/wtf_was_that_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">WTF Was That</span>
+                <br />
+                <span class="blktxt_11">Record your first frag with the Kamikaze Item.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    8 friends (23% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        23745 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/aim_bot_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Aim Bot</span>
+                <br />
+                <span class="blktxt_11">Win a Free For All match with 60% or greater accuracy of at least 5 minutes.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    6 friends (17% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        9080 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/underdog_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Underdog</span>
+                <br />
+                <span class="blktxt_11">Use SCOUT and Machinegun to frag an opponent carrying GUARD.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    4 friends (11% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        6139 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/elder_quad_shrine_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Elder Quad Shrine</span>
+                <br />
+                <span class="blktxt_11">Record 50 Quad Damage kills in 1 game.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        59 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/flying_solo_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Flying Solo</span>
+                <br />
+                <span class="blktxt_11">In Clan Arena, you frag everyone on the opposing team (of 3 or more) in a single round.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    20 friends (58% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        80928 players (2% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/last_hope_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Last Hope</span>
+                <br />
+                <span class="blktxt_11">In Clan Arena, frag 3 or more opposing players to win the round, when you're the last alive.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    20 friends (58% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        65197 players (1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/mastermind_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Field Medic</span>
+                <br />
+                <span class="blktxt_11">Frag the Infected Mastermind in a match of "Infected".</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    1 friend (2% of total) has earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        2117 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/mastermind_3_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Hazmatic</span>
+                <br />
+                <span class="blktxt_11">Frag the Infected Mastermind 3 times in a match of "Infected".</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    1 friend (2% of total) has earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        1013 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/mastermind_10_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Inoculated</span>
+                <br />
+                <span class="blktxt_11">Frag the Infected Mastermind 10 times in a match of "Infected".</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        153 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/double_tap_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Double Tap</span>
+                <br />
+                <span class="blktxt_11">"Frag two infected zombies with the machinegun in a match of "Infected".</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        484 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/missed_opportunity_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Missed Opportunity</span>
+                <br />
+                <span class="blktxt_11">Kill the opposing team in Attack & Defend without touching the flag.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    2 friends (5% of total) have earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        3047 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/cant_touch_this_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Can't Touch This</span>
+                <br />
+                <span class="blktxt_11">Prevent the enemy from touching the flag in an Attack & Defend match.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        725 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/team_killer_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Team Killer</span>
+                <br />
+                <span class="blktxt_11">Kill all players on the opposing team in a single round in Attack & Defend, minimum size 3.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    1 friend (2% of total) has earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        1454 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/skull_trumpet_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Skull Trumpet</span>
+                <br />
+                <span class="blktxt_11">Capture at least 3 skulls at once.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        1523 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/never_lose_your_head_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Never Lose Your Head</span>
+                <br />
+                <span class="blktxt_11">Complete a full match of Harvester without dying.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        593 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/forcing_the_city_gates_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Forcing the City Gates</span>
+                <br />
+                <span class="blktxt_11">Score at least 5 frags in a round in Red Rover.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                                                    1 friend (2% of total) has earned this award
+                                                                        </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        3348 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/ironclad_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Ironclad</span>
+                <br />
+                <span class="blktxt_11">Complete a match of CTF without dying, and earning at least 8 defends.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        348 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType2">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/ninja_cap_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Ninja Cap</span>
+                <br />
+                <span class="blktxt_11">Capture the flag in Attack & Defend without killing anyone on the team, minimum size 3.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        395 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+    
