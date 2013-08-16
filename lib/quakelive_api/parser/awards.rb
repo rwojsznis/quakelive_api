@@ -35,8 +35,9 @@ module QuakeliveApi
 
       def awarded_at(node)
         return unless node.css('ul.fl li').count >= 3
+
         matches = node.at('ul.fl li:first-child').content.match(/(\d{2})\/(\d{2})\/(\d{4})/)
-        Date.new(matches[3].to_i, matches[1].to_i, matches[2].to_i)
+        Date.new(matches[3].to_i, matches[1].to_i, matches[2].to_i) unless matches.nil?
       end
     end
 
@@ -44,5 +45,6 @@ module QuakeliveApi
     class Experience < Awards; end
     class MadSkillz < Awards; end
     class SocialLife < Awards; end
+    class SweetSuccess < Awards; end
   end
 end
