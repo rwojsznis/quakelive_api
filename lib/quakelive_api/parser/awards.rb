@@ -15,6 +15,13 @@ module QuakeliveApi
 
       private
 
+      def selectors
+        {
+          :earned   => ".detailArea",
+          :unearned => ".detailArea_off"
+        }
+      end
+
       def parse_node(node)
         attrs = {
           :icon => node.at('img')['src'],
@@ -32,5 +39,8 @@ module QuakeliveApi
         Date.new(matches[3].to_i, matches[1].to_i, matches[2].to_i)
       end
     end
+
+    class CareerMilestones < Awards; end
+    class Experience < Awards; end
   end
 end

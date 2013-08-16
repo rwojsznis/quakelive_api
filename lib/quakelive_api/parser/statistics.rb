@@ -1,13 +1,6 @@
 module QuakeliveApi
   module Parser
     class Statistics < Base
-      @selectors = {
-        :weapon   => ".prf_weapons .col_weapon",
-        :frags    => ".col_frags",
-        :accuracy => ".col_accuracy",
-        :usage    => ".col_usage",
-        :record   => ".qlv_profile_section_statistics .prf_record > div"
-      }
 
       def weapons
         document.css(selector(:weapon)).each_with_index.map do |node, idx|
@@ -46,6 +39,16 @@ module QuakeliveApi
       end
 
       private
+
+      def selectors
+        {
+          :weapon   => ".prf_weapons .col_weapon",
+          :frags    => ".col_frags",
+          :accuracy => ".col_accuracy",
+          :usage    => ".col_usage",
+          :record   => ".qlv_profile_section_statistics .prf_record > div"
+        }
+      end
 
       def no_records?
         document.at(selector(:record)).nil?

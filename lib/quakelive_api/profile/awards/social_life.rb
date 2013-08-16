@@ -5,8 +5,8 @@ module QuakeliveApi
 
       private
 
-      def url
-        "#{common_url}/5"
+      def page
+        5
       end
 
       end

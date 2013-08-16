@@ -1,25 +1,6 @@
 module QuakeliveApi
   module Parser
     class Summary < Base
-      @selectors = {
-        :country     => ".playername img",
-        :nick        => "#prf_player_name",
-        :clan        => ".playername a.clan",
-        :model       => ".prf_imagery div",
-        :vitals      => ".prf_vitals p",
-        :member      => "b:contains('Member Since')",
-        :last        => "b:contains('Last Game') + span",
-        :played      => "b:contains('Time Played') + span",
-        :wins        => "b:contains('Wins')",
-        :losses      => "b:contains('Losses')",
-        :frags       => "b:contains('Frags')",
-        :hits        => "b:contains('Hits')",
-        :accuracy    => "b:contains('Accuracy')",
-        :favs        => ".prf_faves b",
-        :awards      => ".prf_awards .awd_details",
-        :games       => ".recent_match",
-        :competitors => "#qlv_profileBottomInset .rcmp_block"
-      }
 
       def country
         document.at(selector(:country))['title']
@@ -125,6 +106,28 @@ module QuakeliveApi
       end
 
       private
+
+      def selectors
+        {
+          :country     => ".playername img",
+          :nick        => "#prf_player_name",
+          :clan        => ".playername a.clan",
+          :model       => ".prf_imagery div",
+          :vitals      => ".prf_vitals p",
+          :member      => "b:contains('Member Since')",
+          :last        => "b:contains('Last Game') + span",
+          :played      => "b:contains('Time Played') + span",
+          :wins        => "b:contains('Wins')",
+          :losses      => "b:contains('Losses')",
+          :frags       => "b:contains('Frags')",
+          :hits        => "b:contains('Hits')",
+          :accuracy    => "b:contains('Accuracy')",
+          :favs        => ".prf_faves b",
+          :awards      => ".prf_awards .awd_details",
+          :games       => ".recent_match",
+          :competitors => "#qlv_profileBottomInset .rcmp_block"
+        }
+      end
 
       def decode_time(string)
         Time.strptime(string, '%m/%d/%Y %H:%M %p')

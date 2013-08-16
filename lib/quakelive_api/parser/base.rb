@@ -13,16 +13,16 @@ module QuakeliveApi
         document.css('#sorry_content p:first-child').text =~ /An error has occurred while handling your request/
       end
 
-      def self.selectors
-        @selectors
-      end
-
       private
 
       attr_reader :document
 
+      def selectors
+        raise NotImplementedError
+      end
+
       def selector(name)
-        self.class.selectors.fetch(name)
+        selectors.fetch(name)
       end
 
       def to_integer(val)

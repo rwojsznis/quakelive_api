@@ -6,8 +6,12 @@ module QuakeliveApi
 
         private
 
-        def common_url
-          "/profile/awards/#{player_name}"
+        def page
+          raise NotImplementedError
+        end
+
+        def url
+          "/profile/awards/#{player_name}/#{page}"
         end
 
         def setup_variables
