@@ -43,5 +43,6 @@ module QuakeliveApi
     class CareerMilestones < Awards; end
     class Experience < Awards; end
     class MadSkillz < Awards; end
+    class SocialLife < Awards; end
   end
 end

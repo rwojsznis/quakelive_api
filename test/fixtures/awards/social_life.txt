@@ -1,0 +1,155 @@
+HTTP/1.1 200 OK
+Server: nginx/0.7.67
+Date: Fri, 16 Aug 2013 09:32:31 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: close
+X-Powered-By: PHP/5.3.3
+X-QL-IDENT: 0 standard
+
+            <div class="detailArea awardId330">
+            <img alt="" title="Stuff some stockings with a grenade or two." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/winternights2012_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Winter Nights 2012</span>
+                <br />
+                <span class="blktxt_11">Complete a match on "Silent Night" or "Winter's Edge" during the 2012 holidays.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 12/12/2012<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        15 friends (44% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        34853 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId113">
+            <img alt="" title="Nice - but which one of you got the Friend Fragger." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/friend_fighter_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Friend Fighter</span>
+                <br />
+                <span class="blktxt_11">Complete a match that at least 5 friends compete in too.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 08/24/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        22 friends (64% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        15238 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId112">
+            <img alt="" title="We have an opening in marketing for someone like you." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/myquakebook_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">MyQuakeBook</span>
+                <br />
+                <span class="blktxt_11">Invite 25 people who join QUAKE LIVE.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 07/09/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        16 friends (47% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        7867 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId123">
+            <img alt="" title="Position in Queue: 501337" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/queue_live_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Queue LIVE</span>
+                <br />
+                <span class="blktxt_11">First to the fight!  Joined when your position in queue gave you serious bragging rights.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 03/11/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        15 friends (44% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        15193 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                <div class="detailArea awardId107">
+            <img alt="" title="We couldn&#039;t have done it without you." src="http://cdn.quakelive.com/web/2013071600/images/awards/md/crash_dummy_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">Crash Dummy</span>
+                <br />
+                <span class="blktxt_11">Awarded to some portion of our beta testers.</span>
+            </p>
+            
+            <ul class="fl">
+                <li class="blkbullets blktxt_11">Date awarded: 02/23/2009<!-- (999 days after joining) --></li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        12 friends (35% of total) have earned this award
+                                                                                       </li>
+                <li class="blkbullets blktxt_11">
+                                                                                                        7698 players (&lt; 1% of total) have earned this award
+                                                                                        </li>
+            </ul>
+            
+            <div class="cl"></div>
+        </div>
+                        <a class="unearnedAwardsLabel" href="javascript:;" onclick="$('.unearnedAwardType5').show();$(this).hide()">Show unearned awards</a>
+        
+        <div class="detailArea_off unearnedAwardType5">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/qc2009_qc_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">QuakeCon 2009</span>
+                <br />
+                <span class="blktxt_11">Presented to any player who completes a game of QUAKE LIVE at QuakeCon.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        323 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+                
+        <div class="detailArea_off unearnedAwardType5">
+            <img alt="" src="http://cdn.quakelive.com/web/2013071600/images/awards/md/qc2009_vip_v2013071600.0.png" width="61" height="61" class="fl" />
+            <p class="fl ml15 w247">
+                <span class="bigRedTxt">QuakeCon 2009 VIP</span>
+                <br />
+                <span class="blktxt_11">Presented to the QuakeCon 2009 senior staff.  Thank you.</span>
+            </p>
+            
+            <ul class="fl">
+                                                        <li class="blkbullets blktxt_11">
+                                                    No friends have earned this award
+                                            </li>
+                                                    
+                <li class="blkbullets blktxt_11">
+                                                                                        17 players (&lt; 1% of total) have earned this award
+                                                                            </li>
+                            </ul>
+            
+            <div class="cl"></div>
+            
+        </div>
+    
