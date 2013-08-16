@@ -14,5 +14,24 @@ module QuakeliveApi
       @statistics ||= Statistics.new(player_name)
     end
 
+    def awards_milestones
+      @awards_milestones ||= Awards::CareerMilestones.new(player_name)
+    end
+
+    def awards_experience
+      @awards_experience ||= Awards::Experience.new(player_name)
+    end
+
+    def awards_skillz
+      @awards_skillz ||= Awards::MadSkillz.new(player_name)
+    end
+
+    def awards_social
+      @awards_social ||= Awards::SocialLife.new(player_name)
+    end
+
+    def awards_success
+      @awards_success ||= Awards::SweetSuccess.new(player_name)
+    end
   end
 end
