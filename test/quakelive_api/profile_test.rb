@@ -58,5 +58,10 @@ describe "QuakeliveApi::Profile" do
       stub_request(:get, "http://www.quakelive.com/profile/awards/awards-test/4")
       assert_instance_of QuakeliveApi::Profile::Awards::SweetSuccess, profile.awards_success
     end
+
+    it "responds to each_award" do
+      profile = QuakeliveApi::Profile.new('awards-test')
+      assert_respond_to(profile, :each_award)
+    end
   end
 end
