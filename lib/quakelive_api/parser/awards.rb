@@ -31,6 +31,8 @@ module QuakeliveApi
           :awarded => awarded_at(node)
         }
         Items::Award.new(attrs)
+        rescue NoMethodError => e
+          raise "#{e.inspect} | DOCUMENT: #{@document.to_s}"
       end
 
       def awarded_at(node)
