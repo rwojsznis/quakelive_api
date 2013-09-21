@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/emq/quakelive_api.png?branch=master)](https://travis-ci.org/emq/quakelive_api)
+[![Code Climate](https://codeclimate.com/github/emq/quakelive_api.png)](https://codeclimate.com/github/emq/quakelive_api) [![Build Status](https://travis-ci.org/emq/quakelive_api.png?branch=master)](https://travis-ci.org/emq/quakelive_api)
 
 # QuakeliveApi
 
