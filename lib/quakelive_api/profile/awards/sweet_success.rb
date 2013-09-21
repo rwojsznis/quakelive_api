@@ -5,10 +5,9 @@ module QuakeliveApi
 
       private
 
-      def page
-        4
-      end
-
+        def page
+          4
+        end
       end
     end
   end

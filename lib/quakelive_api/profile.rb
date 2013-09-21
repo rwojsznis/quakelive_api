@@ -39,6 +39,5 @@ module QuakeliveApi
         block.call(send(awards))
       end
     end
-
   end
 end

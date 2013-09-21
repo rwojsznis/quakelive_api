@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["rafal.wojsznis@gmail.com"]
   spec.description   = %q{Pseudo API for QuakeLive}
   spec.summary       = %q{Fetch some basic information from QuakeLive site}
-  spec.homepage      = "http://awesomeprogrammer.com"
+  spec.homepage      = "https://github.com/emq/quakelive_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

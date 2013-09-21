@@ -12,7 +12,7 @@ module QuakeliveApi
     # * Ranked Time: 21:50 Unranked Time: 04:54
     # * Ranked Time: 50.06:18:30 Unranked Time: 02:31:02
     def initialize(unparsed_string)
-      matches = unparsed_string.match /Ranked Time: ([\d:.]+) Unranked Time: ([\d:.]+)/
+      matches = unparsed_string.match(/Ranked Time: ([\d:.]+) Unranked Time: ([\d:.]+)/)
       return unless matches
 
       @ranked   = reverse_match(matches[1])
@@ -25,10 +25,10 @@ module QuakeliveApi
 
     private
 
-    def reverse_match(string)
-      attrs = string.split(/\.|:/).reverse.map { |a| a.to_i }
-      (4 - attrs.size).times { attrs << 0 }
-      Interval.new *attrs
-    end
+      def reverse_match(string)
+        attrs = string.split(/\.|:/).reverse.map { |a| a.to_i }
+        (4 - attrs.size).times { attrs << 0 }
+        Interval.new(*attrs)
+      end
   end
 end

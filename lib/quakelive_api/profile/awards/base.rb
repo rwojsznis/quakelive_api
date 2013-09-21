@@ -6,18 +6,18 @@ module QuakeliveApi
 
         private
 
-        def page
-          raise NotImplementedError
-        end
+          def page
+            raise NotImplementedError
+          end
 
-        def url
-          "/profile/awards/#{player_name}/#{page}"
-        end
+          def url
+            "/profile/awards/#{player_name}/#{page}"
+          end
 
-        def setup_variables
-          @earned   = parser.earned
-          @unearned = parser.unearned
-        end
+          def setup_variables
+            @earned   = parser.earned
+            @unearned = parser.unearned
+          end
       end
     end
   end

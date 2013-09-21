@@ -133,11 +133,26 @@ module QuakeliveApi
         Time.strptime(string, '%m/%d/%Y %H:%M %p')
       end
 
+      # FIXME: not really fully implemented
       def decode_gametype(string)
         if string =~ /ca_/
           'CA'
         elsif string =~ /tdm_/
           'TDM'
+        elsif string =~ /ctf_/
+          'CTF'
+        elsif string =~ /duel_/
+          'Duel'
+        elsif string =~ /ad_/
+          'Attack&Defend'
+        elsif string =~ /ffa_/
+          'FFA'
+        elsif string =~ /ft_/
+          'FreezeTag'
+        elsif string =~ /race_/
+          'Race'
+        elsif string =~ /rr_/
+          'Red Rover'
         end
       end
 
