@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/emq/quakelive_api.png?branch=master)](https://travis-ci.org/emq/quakelive_api)
+
 # QuakeliveApi
 
 This gem fetches (basic) publicly available data from [QuakeLive site][1]. Unfortunately currently there is no real API provided by ID so we're forced to parse html to get what we can. It will go down in flames if QL changes its internal html structure, so be prepared for that too.
