@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/emq/quakelive_api.png?branch=master)](https://travis-ci.org/emq/quakelive_api)
 [![Coverage Status](https://coveralls.io/repos/emq/quakelive_api/badge.png)](https://coveralls.io/r/emq/quakelive_api)
 [![Dependency Status](https://gemnasium.com/emq/quakelive_api.png)](https://gemnasium.com/emq/quakelive_api)
+[![Gem Version](https://badge.fury.io/rb/quakelive_api.png)](http://badge.fury.io/rb/quakelive_api)
 
 This gem fetches (basic) publicly available data from [QuakeLive site][1]. Unfortunately currently there is no real API provided by ID so we're forced to parse html to get what we can. It will go down in flames if QL changes its internal html structure, so be prepared for that too.
 
