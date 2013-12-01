@@ -1,4 +1,6 @@
-[![Code Climate](https://codeclimate.com/github/emq/quakelive_api.png)](https://codeclimate.com/github/emq/quakelive_api) [![Build Status](https://travis-ci.org/emq/quakelive_api.png?branch=master)](https://travis-ci.org/emq/quakelive_api)
+[![Code Climate](https://codeclimate.com/github/emq/quakelive_api.png)](https://codeclimate.com/github/emq/quakelive_api)
+[![Build Status](https://travis-ci.org/emq/quakelive_api.png?branch=master)](https://travis-ci.org/emq/quakelive_api)
+[![Coverage Status](https://coveralls.io/repos/emq/quakelive_api/badge.png)](https://coveralls.io/r/emq/quakelive_api)
 
 # QuakeliveApi
 
@@ -7,6 +9,8 @@ This gem fetches (basic) publicly available data from [QuakeLive site][1]. Unfor
 The dirty job is made under `Parser` module (nothing pretty there, but response from QL is not pretty as well).
 
 It is currently used in production environment, but consider it as work in progress for you own safety.
+
+**NOTE:** QuakeLive is going standalone (Windows only), this will probably break this gem in near future (end of '13).
 
 ## Installation
 

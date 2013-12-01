@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "minitest", "~> 5.0.0"
   spec.add_development_dependency "webmock", "~> 1.12.0"
-  spec.add_development_dependency "simplecov", "~> 0.8.0.pre"
+  spec.add_development_dependency "coveralls", "~> 0.7.0"
 end

@@ -1,7 +1,9 @@
-require 'simplecov'
-SimpleCov.start
+require 'coveralls'
+Coveralls.wear!
+
 require "minitest/autorun"
 require "webmock/minitest"
+WebMock.disable_net_connect! allow: %w{coveralls.io}
 
 require "#{File.dirname(__FILE__)}/../lib/quakelive_api"
 
