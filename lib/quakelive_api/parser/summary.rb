@@ -127,7 +127,7 @@ module QuakeliveApi
           awards:      ".prf_awards .awd_details",
           games:       ".recent_match",
           competitors: "#qlv_profileBottomInset .rcmp_block"
-        }.freeze
+        }
       end
 
       def decode_time(string)
