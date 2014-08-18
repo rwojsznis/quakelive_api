@@ -12,8 +12,6 @@ The dirty job is made under `Parser` module (nothing pretty there, but response 
 
 It is currently used in production environment, but consider it as work in progress for you own safety.
 
-**NOTE:** QuakeLive is going standalone (Windows only), this will probably break this gem in near future (end of '13).
-
 ## Installation
 
 Add this line to your application's Gemfile:
