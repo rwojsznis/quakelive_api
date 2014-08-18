@@ -5,14 +5,14 @@ module QuakeliveApi
       def weapons
         document.css(selector(:weapon)).each_with_index.map do |node, idx|
           attrs = {
-            :name     => node.text,
-            :frags    => frags(weapon_next(:frags, idx)),
-            :accuracy => accuracy(weapon_next(:accuracy, idx)),
-            :usage    => usage(weapon_next(:usage, idx))
+            name:     node.text,
+            frags:    frags(weapon_next(:frags, idx)),
+            accuracy: accuracy(weapon_next(:accuracy, idx)),
+            usage:    usage(weapon_next(:usage, idx))
           }
 
           hits, shots = hits_shots(weapon_next(:accuracy, idx))
-          attrs.merge!(:hits => hits, :shots => shots)
+          attrs.merge!(hits: hits, shots: shots)
 
           Items::Weapon.new(attrs)
         end
@@ -26,13 +26,13 @@ module QuakeliveApi
           next if no_records?
 
           attrs = {
-            :title           => node.at('.col_st_gametype').text.strip,
-            :played          => to_integer(node.at('.col_st_played').text),
-            :finished        => to_integer(node.at('.col_st_finished').text),
-            :wins            => to_integer(node.at('.col_st_wins').text),
-            :quits           => to_integer(node.at('.col_st_withdraws').text),
-            :completed       => to_integer(node.at('.col_st_completeperc').text.gsub('%','')),
-            :wins_percentage => to_integer(node.at('.col_st_winperc').text.gsub('%',''))
+            title:           node.at('.col_st_gametype').text.strip,
+            played:          to_integer(node.at('.col_st_played').text),
+            finished:        to_integer(node.at('.col_st_finished').text),
+            wins:            to_integer(node.at('.col_st_wins').text),
+            quits:           to_integer(node.at('.col_st_withdraws').text),
+            completed:       to_integer(node.at('.col_st_completeperc').text.gsub('%','')),
+            wins_percentage: to_integer(node.at('.col_st_winperc').text.gsub('%',''))
           }
           Items::Record.new(attrs)
         end
@@ -42,11 +42,11 @@ module QuakeliveApi
 
       def selectors
         {
-          :weapon   => ".prf_weapons .col_weapon",
-          :frags    => ".col_frags",
-          :accuracy => ".col_accuracy",
-          :usage    => ".col_usage",
-          :record   => ".qlv_profile_section_statistics .prf_record > div"
+          weapon:   ".prf_weapons .col_weapon",
+          frags:    ".col_frags",
+          accuracy: ".col_accuracy",
+          usage:    ".col_usage",
+          record:   ".qlv_profile_section_statistics .prf_record > div"
         }
       end
 

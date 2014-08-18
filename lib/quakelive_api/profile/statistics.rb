@@ -5,14 +5,14 @@ module QuakeliveApi
 
       private
 
-        def url
-          "/profile/statistics/#{player_name}"
-        end
+      def url
+        "/profile/statistics/#{player_name}"
+      end
 
-        def setup_variables
-          @weapons = parser.weapons
-          @records = parser.records
-        end
+      def setup_variables
+        @weapons = parser.weapons
+        @records = parser.records
+      end
     end
   end
 end

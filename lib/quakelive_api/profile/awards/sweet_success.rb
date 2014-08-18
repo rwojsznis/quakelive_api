@@ -3,7 +3,7 @@ module QuakeliveApi
     module Awards
       class SweetSuccess < Base # 32 awards
 
-      private
+        private
 
         def page
           4

@@ -25,10 +25,10 @@ module QuakeliveApi
 
     private
 
-      def reverse_match(string)
-        attrs = string.split(/\.|:/).reverse.map { |a| a.to_i }
-        (4 - attrs.size).times { attrs << 0 }
-        Interval.new(*attrs)
-      end
+    def reverse_match(string)
+      attrs = string.split(/\.|:/).reverse.map { |a| a.to_i }
+      (4 - attrs.size).times { attrs << 0 }
+      Interval.new(*attrs)
+    end
   end
 end

@@ -3,7 +3,7 @@ module QuakeliveApi
     module Awards
       class MadSkillz < Base # 43 awards
 
-      private
+        private
 
         def page
           2

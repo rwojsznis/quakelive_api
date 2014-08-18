@@ -11,7 +11,8 @@ module QuakeliveApi
       end
 
       def clan
-        (c = document.at(selector(:clan))) ? c.text : nil
+        clan_tag = document.at(selector(:clan))
+        clan_tag.text if clan_tag
       end
 
       def model
@@ -27,12 +28,12 @@ module QuakeliveApi
 
       def last_game
         node = vitals.at selector(:last)
-        node ? decode_time(node['title']) : nil
+        decode_time(node['title']) if node
       end
 
       def time_played
         node = vitals.at selector(:played)
-        node ? GameTime.new(node['title']) : nil
+        GameTime.new(node['title']) if node
       end
 
       def wins
@@ -88,7 +89,7 @@ module QuakeliveApi
           Items::RecentGame.new(gametype, finish, played, image)
         end.compact
 
-        games.any? ? games : nil
+        games if games.any?
       end
 
       def recent_competitors
@@ -102,31 +103,31 @@ module QuakeliveApi
           Items::Competitor.new(icon, nick, played )
         end.compact
 
-        competitors.any? ? competitors : nil
+        competitors if competitors.any?
       end
 
       private
 
       def selectors
         {
-          :country     => "img.playerflag",
-          :nick        => ".profile_title",
-          :clan        => ".profile_title a.clan",
-          :model       => ".prf_imagery div",
-          :vitals      => ".prf_vitals p",
-          :member      => "b:contains('Member Since')",
-          :last        => "b:contains('Last Game') + span",
-          :played      => "b:contains('Time Played') + span",
-          :wins        => "b:contains('Wins')",
-          :losses      => "b:contains('Losses')",
-          :frags       => "b:contains('Frags')",
-          :hits        => "b:contains('Hits')",
-          :accuracy    => "b:contains('Accuracy')",
-          :favs        => ".prf_faves b",
-          :awards      => ".prf_awards .awd_details",
-          :games       => ".recent_match",
-          :competitors => "#qlv_profileBottomInset .rcmp_block"
-        }
+          country:     "img.playerflag",
+          nick:        ".profile_title",
+          clan:        ".profile_title a.clan",
+          model:       ".prf_imagery div",
+          vitals:      ".prf_vitals p",
+          member:      "b:contains('Member Since')",
+          last:        "b:contains('Last Game') + span",
+          played:      "b:contains('Time Played') + span",
+          wins:        "b:contains('Wins')",
+          losses:      "b:contains('Losses')",
+          frags:       "b:contains('Frags')",
+          hits:        "b:contains('Hits')",
+          accuracy:    "b:contains('Accuracy')",
+          favs:        ".prf_faves b",
+          awards:      ".prf_awards .awd_details",
+          games:       ".recent_match",
+          competitors: "#qlv_profileBottomInset .rcmp_block"
+        }.freeze
       end
 
       def decode_time(string)

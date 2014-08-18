@@ -3,7 +3,7 @@ module QuakeliveApi
     module Awards
       class Experience < Base # 36 awards
 
-      private
+        private
 
         def page
           1

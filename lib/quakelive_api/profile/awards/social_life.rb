@@ -3,12 +3,11 @@ module QuakeliveApi
     module Awards
       class SocialLife < Base # 6 awards
 
-      private
+        private
 
-      def page
-        5
-      end
-
+        def page
+          5
+        end
       end
     end
   end

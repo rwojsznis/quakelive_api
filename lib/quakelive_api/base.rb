@@ -18,35 +18,35 @@ module QuakeliveApi
 
     private
 
-      def get
-        Net::HTTP.get(URI.parse(URI::encode("#{QuakeliveApi.site}#{url}")))
-      end
+    def get
+      Net::HTTP.get(URI.parse(URI::encode("#{QuakeliveApi.site}#{url}")))
+    end
 
-      def url
-        raise NotImplementedError
-      end
+    def url
+      raise NotImplementedError
+    end
 
-      def parser
-        @parser
-      end
+    def parser
+      @parser
+    end
 
-      def set_parser(document)
-        @parser ||= ::QuakeliveApi::Parser.const_get(self.class.class_name).new(document)
-      end
+    def set_parser(document)
+      @parser ||= ::QuakeliveApi::Parser.const_get(self.class.class_name).new(document)
+    end
 
-      def self.class_name
-        name.split('::').last
-      end
+    def self.class_name
+      name.split('::').last
+    end
 
-      def setup_variables!
-        raise Error::PlayerNotFound if parser.invalid_player?
-        raise Error::RequestError   if parser.request_error?
+    def setup_variables!
+      raise Error::PlayerNotFound if parser.invalid_player?
+      raise Error::RequestError   if parser.request_error?
 
-        setup_variables
-      end
+      setup_variables
+    end
 
-      def setup_variables
-        raise NotImplementedError
-      end
+    def setup_variables
+      raise NotImplementedError
+    end
   end
 end

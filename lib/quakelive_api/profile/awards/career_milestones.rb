@@ -3,7 +3,7 @@ module QuakeliveApi
     module Awards
       class CareerMilestones < Base # 18 awards
 
-      private
+        private
 
         def page
           3
