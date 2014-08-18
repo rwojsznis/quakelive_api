@@ -1,4 +1,4 @@
-## 0.1.0 (unreleased)
+## 0.1.0
 _no breaking changes_
 
 - removed duplicated tests, utilized to VCR
