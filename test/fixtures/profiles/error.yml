@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.quakelive.com/profile/summary/%C3%B3%C4%85%C5%9B%C3%B0%C5%82
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.quakelive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/0.7.67
+      Date:
+      - Mon, 18 Aug 2014 10:27:08 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Ql-Ident:
+      - 0 standard
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "<div id=\"sorry_container\">\n    <div style='font-size: 30px; font-weight:
+        bold; color; #000'>An Error Has Occurred</div>\n\n    <div id=\"sorry_content\">\n
+        \       <p>An error has occurred while handling your request. Please try again
+        in a few moments, or if you continue to have this problem <a href='/forum/'
+        target='qlforum'>let us know on the forums</a> or <a href='mailto:support@quakelive.com'>contact
+        us</a> over email.</p>\n        \n        <p style=\"padding: 10px\">\n            -
+        <a href='#!home'>Return home</a>\n            <br />\n            - <a href='javascript:;'
+        onclick='history.back(); return false'>Go back to the previous page</a>\n
+        \       </p>\n        \n        <center><img src=\"http://cdn.quakelive.com/web/2014080602/images/orbberror_v2014080602.0.jpg\"
+        width=\"512\" height=\"457\" /></center>\n    </div>\n</div>"
+    http_version: 
+  recorded_at: Mon, 18 Aug 2014 10:27:08 GMT
+recorded_with: VCR 2.8.0

@@ -1,0 +1,331 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.quakelive.com/profile/summary/emqz
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.quakelive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/0.7.67
+      Date:
+      - Mon, 18 Aug 2014 10:06:04 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Ql-Ident:
+      - 0 standard
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "<div id='qlv_profile_shared_container' style=\"text-align: left\">\n
+        \   \t<div style=\"display: none\" id=\"prf_player_name\">emqz</div>\n    <h1
+        class=\"profile_title\">\n                        <img src=\"http://cdn.quakelive.com/web/2014080602/images/flags/pl_v2014080602.0.gif\"
+        class=\"playerflag\" title=\"Poland\" />\n                                    <a
+        class=\"clan\" href=\"#!clans/summary/229588\">ORG</a>\n                        emqz\n
+        \   </h1>\n\t<div class=\"prf_header\">\n        \t\t<div class=\"nav\">\n\t\t\t<a
+        href=\"#!profile/summary/emqz\" class=\"selected\">Summary</a>\n\t\t\t<span>|</span>\n\t\t\t<a
+        href=\"#!profile/statistics/emqz\" >Statistics</a>\n\t\t\t<span>|</span>\n
+        \           <a href=\"#!profile/arenas/emqz\" >Arenas</a>\n            <span>|</span>\n
+        \           \t\t\t<a href=\"#!profile/awards/emqz\" >Awards</a>\n\t\t\t<span>|</span>\n
+        \           \t\t\t<a href=\"#!profile/friends/emqz\" >Friends</a>\n\t\t\t<span>|</span>\n\t\t\t<a
+        href=\"#!profile/competitors/emqz\" >Competitors</a>\n            \t\t\t<span>|</span>\n\t\t\t<a
+        href=\"#!profile/matches/emqz\" >Matches</a>\n            \t\t\t<div class=\"cl\"></div>\n\t\t</div>\n
+        \       \t\t\n\t\t<form onsubmit=\"quakelive.mod_profile.ProfileJumpClick();
+        return false\" style=\"margin: 0; padding: 0\">\n\t\t\t<div id=\"jump_player_msg\"></div>\n\t\t\t<div
+        class=\"prf_section_searchbar\">\n\t\t\t\t<input type=\"text\" placeholder=\"Jump
+        to profile&hellip;\" class=\"input_default\" id=\"profile_jump_input\" />\n\t\t\t\t<a
+        href=\"javascript:;\" onclick=\"quakelive.mod_profile.ProfileJumpClick();
+        return false\"><img src=\"http://cdn.quakelive.com/web/2014080602/images/sf/leaderboard/search_v2014080602.0.png\"
+        width=\"23\" height=\"23\" /></a>\n\t\t\t</div>\n\t\t</form>\n\t\t\n\t\t<div
+        class=\"cl\"></div>\n\t</div>\n    \n    <div id=\"qlv_profileContainer\">\n
+        \       <div id=\"qlv_profileTopLeft\" class=\"summary premium_status_1\">\n
+        \           \t\t\t<div class=\"prf_imagery\">\n\t\t\t\t<div style=\"width:
+        145px; height: 275px; margin-top: 5px; margin-left: 13px; background: url(http://cdn.quakelive.com/web/2014080602/images/players/body_md/anarki_default_v2014080602.0.png)
+        no-repeat center top\" title=\"Anarki / Default\">\n        \n                    <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/p_badge_v2014080602.0.png\"
+        width=\"18\" title=\"Premium Player\"/>                </div>\n\t\t\t\t<br
+        />\n                <!--\n\t\t\t\t<div style=\"margin-left: 15px; width: 140px;
+        text-align: center; color: #cc3300; font-size: 17px; font-weight: bold; font-family:
+        Arial\">\n\t\t\t\t\tAnarki\n\t\t\t\t</div>\n                -->\n\t\t\t</div>\n\n\t\t\t<div
+        class=\"prf_vitals\">\n\t\t\t\t<img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_vitalstats_v2014080602.0.png\"
+        alt=\"Vital Stats\" width=\"108\" height=\"13\" class=\"prf_title\" />\n\t\t\t\t<br
+        />\n\t\t\t\t\n\t\t\t\t<p>\n                    <b>Member Since:</b> Jun. 23,
+        2013<br />\n                                        <b>Time Played:</b> <span
+        class=\"text_tooltip\" title=\"Ranked Time: 1.11:25:38 Unranked Time: 5.01:12:06\">7
+        days</span><br />\n                                        \n                    <b>Last
+        Game:</b>\n                                                    <span class=\"text_tooltip\"
+        title=\"08/13/2014 2:31 PM\">5 days ago</span>\n                                            <br
+        />\n                    <b>Wins:</b> 86<br />\n                    <b>Losses
+        / Quits:</b> 139 / 29<br />\n\t\t            <b>Frags / Deaths:</b> 3,026
+        / 3,703<br />\n\t\t            <b>Hits / Shots:</b> 36,731 / 189,509<br />\n\t\t
+        \           <b>Accuracy:</b> 19.38%<br />\n                                        <b>Clan:</b>
+        <a href=\"#!clans/summary/229588\">ORG</a><br />\n                                        \n
+        \                   \t\t\t\t</p>\n                \n\t            <img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_favorites_v2014080602.0.png\"
+        width=\"93\" height=\"13\" alt=\"Favorites\" class=\"prf_title\" />\n\t            <br
+        />\n\t            \n\t            <p class=\"prf_faves\">\n                    <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/profile/none_v2014080602.0.gif\"
+        width=\"17\" height=\"17\" alt=\"\" class=\"fl fivepxhr\" />\n                                            <b>Arena:</b>
+        Chemical Reaction\n                    \t\t            <div class=\"cl\"></div>\n\t\t
+        \       </p>\n\t\t        \n\t\t        <p class=\"fivepxv prf_faves\">\n
+        \                                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/ctf_v2014080602.0.png\"
+        width=\"16\" height=\"16\" alt=\"\" class=\"fl fivepxhr\" />\n                        <b>Game
+        Type:</b> Capture The Flag\n                    \t            \t\n\t\t            <div
+        class=\"cl\"></div>\n\t\t        </p>\n\t\t        \n\t\t        <p class=\"fivepxv
+        prf_faves\">\n                    \t\t\t            <img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/sm/ROCKET_v2014080602.0.gif\"
+        width=\"17\" height=\"17\" alt=\"\" class=\"fl fivepxhr\" />\n                        <b>Weapon:</b>
+        Rocket Launcher\n                    \t\t            <div class=\"cl\"></div>\n\t\t
+        \       </p>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"cl\"></div>\n            \n
+        \                                           <div class=\"prf_bio\">\n                    <span
+        class=\"prf_quote_left\">&#147;</span>\n                    <p>quake.net.pl</p>\n
+        \                   <span class=\"prf_quote_right\">&#148;</span>\n                </div>\n
+        \                                       <div id=\"prf_friend_like\">\n                <a
+        href=\"http://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://www.quakelive.com/r/profile/summary/emqz\"
+        data-text=\"Check out emqz's QUAKE LIVE Profile!\" data-count=\"none\" data-via=\"quakelive\">Tweet</a><script
+        type=\"text/javascript\" src=\"http://platform.twitter.com/widgets.js\"></script>\n
+        \           </div>\n\t        <div id=\"prf_friend_controls\">\n\t\t    </div>\n
+        \       </div>\n\n        <div id=\"qlv_profileTopRight\" class=\"summary\">\n
+        \           <div id=\"qlv_summaryAwardBkd\">\n\t\t\t<img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_recentawards_v2014080602.0.png\"
+        alt=\"Recent Medals\" width=\"147\" height=\"13\" class=\"prf_title\" />\n\t\t\t<br
+        />\n\n\t\t\t<!--<img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_viewmore_v2014080602.0.png\"
+        width=\"80\" height=\"8\" class=\"prf_viewmore\" />-->\n\n\t\t\t<div class=\"prf_awards\">\n\t\t\t\t
+        \                                       <div title=\"LOL! Pwn3d!\" class=\"awd_details
+        prf_row_height interactive prf_row1\" onclick=\"quakelive.Goto('profile/awards/emqz;type=2;award=49');
+        return false\">\n                                                                <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/sucker_punch_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"prf_award\" />\n                        <div
+        class=\"vcenter_outer prf_row_height\">\n                            <div
+        class=\"vcenter_inner\">\n                                <div class=\"vcenter_data\">\n
+        \                                   <b class=\"awd_title\">Sucker Punch</b><br
+        />\n                                    Awarded 9 days ago<br />\n                                    Use
+        the Gauntlet to frag an opponent who has Quad Damage.\n                                    <div
+        class=\"cl\"></div>\n                                </div>\n                            </div>\n
+        \                       </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t                                        <div
+        title=\"Your team thanks you.\" class=\"awd_details prf_row_height interactive
+        prf_row2\" onclick=\"quakelive.Goto('profile/awards/emqz;type=2;award=36');
+        return false\">\n                                                                <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/miracle_maker_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"prf_award\" />\n                        <div
+        class=\"vcenter_outer prf_row_height\">\n                            <div
+        class=\"vcenter_inner\">\n                                <div class=\"vcenter_data\">\n
+        \                                   <b class=\"awd_title\">Miracle Maker</b><br
+        />\n                                    Awarded 8 months ago<br />\n                                    Kill
+        two enemy flag carriers moments before their cap in 1 game.\n                                    <div
+        class=\"cl\"></div>\n                                </div>\n                            </div>\n
+        \                       </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t                                        <div
+        title=\"Bet you didn&#039;t make any friends in this match.\" class=\"awd_details
+        prf_row_height interactive prf_row1\" onclick=\"quakelive.Goto('profile/awards/emqz;type=2;award=35');
+        return false\">\n                                                                <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/quad_god_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"prf_award\" />\n                        <div
+        class=\"vcenter_outer prf_row_height\">\n                            <div
+        class=\"vcenter_inner\">\n                                <div class=\"vcenter_data\">\n
+        \                                   <b class=\"awd_title\">Quad God</b><br
+        />\n                                    Awarded 10 months ago<br />\n                                    Record
+        20 Quad Damage kills in 1 game.\n                                    <div
+        class=\"cl\"></div>\n                                </div>\n                            </div>\n
+        \                       </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t                                        <div
+        title=\"They couldn&#039;t have won without you.\" class=\"awd_details prf_row_height
+        interactive prf_row2\" onclick=\"quakelive.Goto('profile/awards/emqz;type=4;award=105');
+        return false\">\n                                                                <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/trifecta_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"prf_award\" />\n                        <div
+        class=\"vcenter_outer prf_row_height\">\n                            <div
+        class=\"vcenter_inner\">\n                                <div class=\"vcenter_data\">\n
+        \                                   <b class=\"awd_title\">Trifecta</b><br
+        />\n                                    Awarded 10 months ago<br />\n                                    Win
+        a CTF match while personally scoring 3 or more Capture, Defend, and Assist
+        medals.\n                                    <div class=\"cl\"></div>\n                                </div>\n
+        \                           </div>\n                        </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t
+        \                                       <div title=\"If you didn&#039;t also
+        win this game, seek help.\" class=\"awd_details prf_row_height interactive
+        prf_row1\" onclick=\"quakelive.Goto('profile/awards/emqz;type=2;award=29');
+        return false\">\n                                                                <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/smack_down_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"prf_award\" />\n                        <div
+        class=\"vcenter_outer prf_row_height\">\n                            <div
+        class=\"vcenter_inner\">\n                                <div class=\"vcenter_data\">\n
+        \                                   <b class=\"awd_title\">Smack Down</b><br
+        />\n                                    Awarded 10 months ago<br />\n                                    Accumulate
+        10 or more Quad Damage frags in 1 game.\n                                    <div
+        class=\"cl\"></div>\n                                </div>\n                            </div>\n
+        \                       </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n</div>\n
+        \       </div>\n\n        <div class=\"cl\"></div>\n\n        <div id=\"qlv_profileMiddle\"
+        class=\"summary\">\n            <div id=\"qlv_profileMiddleContent\">\n                <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_recentmatches_v2014080602.0.png\"
+        class=\"prf_title\" style=\"float: left\" />\r\n<!--<img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_viewmore_v2014080602.0.png\"
+        alt=\"Recent Matches\" width=\"80\" height=\"8\" style=\"float: right; margin-top:
+        4px\" />-->\r\n<br />\r\n<hr class=\"cl\" style=\"height: 1px\" />\r\n\r\n<div
+        style=\"text-align: center; width: 637px\">\r\n                    <div style=\"width:
+        33%; text-align: center; float: left\" class=\"prf_map recent_match interactive\"
+        id=\"ctf_735a8790-2320-11e4-b78c-00259031fd90_1\">\r\n            <img src=\"http://cdn.quakelive.com/web/2014080602/images/levelshots/lg/japanesecastles_v2014080602.0.jpg\"
+        width=\"171\" height=\"124\" class=\"levelshot\" />\r\n            <div class=\"gameframe\">\r\n
+        \                                   <div class=\"profile_won_icon\"></div>\r\n
+        \                                                                           \r\n
+        \               <img class=\"gametype\" src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/ctf_v2014080602.0.png\"
+        width=\"28\" height=\"28\" title=\"Game Type\" />\r\n                <span
+        class=\"finish\">\r\n                Finish: \r\n                                                                                                        Win\r\n
+        \                                                                                       </span>\r\n
+        \               <span class=\"played\">Played: 5 days ago</span>\r\n            </div>\r\n
+        \       </div>\r\n                            <div style=\"width: 33%; text-align:
+        center; float: left\" class=\"prf_map recent_match interactive\" id=\"ctf_fde6b3f0-231d-11e4-b78c-00259031fd90_1\">\r\n
+        \           <img src=\"http://cdn.quakelive.com/web/2014080602/images/levelshots/lg/rebound_v2014080602.0.jpg\"
+        width=\"171\" height=\"124\" class=\"levelshot\" />\r\n            <div class=\"gameframe\">\r\n
+        \                                                                           \r\n
+        \               <img class=\"gametype\" src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/ctf_v2014080602.0.png\"
+        width=\"28\" height=\"28\" title=\"Game Type\" />\r\n                <span
+        class=\"finish\">\r\n                Finish: \r\n                                                                                                        Loss\r\n
+        \                                                                                       </span>\r\n
+        \               <span class=\"played\">Played: 5 days ago</span>\r\n            </div>\r\n
+        \       </div>\r\n                            <div style=\"width: 33%; text-align:
+        center; float: left\" class=\"prf_map recent_match interactive\" id=\"ctf_3e89a9ba-231b-11e4-b78c-00259031fd90_1\">\r\n
+        \           <img src=\"http://cdn.quakelive.com/web/2014080602/images/levelshots/lg/skyward_v2014080602.0.jpg\"
+        width=\"171\" height=\"124\" class=\"levelshot\" />\r\n            <div class=\"gameframe\">\r\n
+        \                                                                           \r\n
+        \               <img class=\"gametype\" src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/ctf_v2014080602.0.png\"
+        width=\"28\" height=\"28\" title=\"Game Type\" />\r\n                <span
+        class=\"finish\">\r\n                Finish: \r\n                                        Quit\r\n
+        \                               </span>\r\n                <span class=\"played\">Played:
+        5 days ago</span>\r\n            </div>\r\n        </div>\r\n                <div
+        class=\"cl\"></div>\r\n</div>\n            </div>\n        </div>\n    </div>\n\n
+        \   <img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/profile_bot_divider_v2014080602.0.gif\"
+        width=\"670\" height=\"17\" />\n\n    <div id=\"qlv_profileBottom\" class=\"qlv_profile_section_summary\">\n
+        \       <div id=\"qlv_profileBottomContent\">\n            <img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_recentcompetitors_v2014080602.0.png\"
+        class=\"prf_title fl\" style=\"position: relative; left: 2px\" />\r\n<!--<img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_viewmore_v2014080602.0.png\"
+        alt=\"Recent Competitors\" style=\"float: right; margin-top: 4px; margin-right:
+        15px\" />-->\r\n<br />\r\n\r\n<div id=\"qlv_profileBottomInset\" style=\"text-align:
+        center\">\r\n    <div style=\"margin: 0 auto; width: 640px; padding-top: 10px\">\r\n
+        \                           <div class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/cyberdemon74');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/razor_id_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/cyberdemon74\"
+        class=\"player_nick_dark\">cyberdemon74</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/Good_trade');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/janet_default_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/Good_trade\"
+        class=\"player_nick_dark\"><span class=\"clan\">DMK</span>Good_trade</a>\r\n
+        \           <br />\r\n            <b>Last Played:</b> <span class=\"text_tooltip\"
+        title=\"08/13/2014 2:31 PM\">5 days ago</span>\r\n            </div>\r\n        </div>\r\n
+        \                                       <div class=\"rcmp_block interactive\"
+        onclick=\"quakelive.Goto('profile/summary/badlycan666'); return false\">\r\n
+        \           <div class=\"fl\" style=\"margin-right: 5px\">\r\n                <div
+        class=\"usericon_standard_lg  \" style=\"background-image: url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/uriel_default_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/badlycan666\"
+        class=\"player_nick_dark\">badlycan666</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/adnan');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/xaero_default_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/adnan\"
+        class=\"player_nick_dark\">adnan</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/MrJee');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/sarge_krusade_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/MrJee\"
+        class=\"player_nick_dark\">MrJee</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/Vladisus');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/slash_sport_blue_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/Vladisus\"
+        class=\"player_nick_dark\">Vladisus</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/basti_sc');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/biker_hossman_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/basti_sc\"
+        class=\"player_nick_dark\">basti_sc</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/wwwLollo2com');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/anarki_default_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/wwwLollo2com\"
+        class=\"player_nick_dark\">wwwLollo2com</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/Fourcade');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/uriel_sport_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/Fourcade\"
+        class=\"player_nick_dark\"><span class=\"clan\">PLNs</span>Fourcade</a>\r\n
+        \           <br />\r\n            <b>Last Played:</b> <span class=\"text_tooltip\"
+        title=\"08/13/2014 2:31 PM\">5 days ago</span>\r\n            </div>\r\n        </div>\r\n
+        \                                       <div class=\"rcmp_block interactive\"
+        onclick=\"quakelive.Goto('profile/summary/BrickTop85'); return false\">\r\n
+        \           <div class=\"fl\" style=\"margin-right: 5px\">\r\n                <div
+        class=\"usericon_standard_lg  \" style=\"background-image: url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/bones_sport_red_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/BrickTop85\"
+        class=\"player_nick_dark\">BrickTop85</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/mr_tica');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/sarge_default_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/mr_tica\"
+        class=\"player_nick_dark\">mr_tica</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                                        <div
+        class=\"rcmp_block interactive\" onclick=\"quakelive.Goto('profile/summary/scoobyman9786');
+        return false\">\r\n            <div class=\"fl\" style=\"margin-right: 5px\">\r\n
+        \               <div class=\"usericon_standard_lg  \" style=\"background-image:
+        url(http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/bones_sport_blue_v2014080602.0.png)\"><div
+        class=\"frame\"></div><label></label></div>\r\n            </div>\r\n            <div
+        style=\"margin-top: 6px\">\r\n            <a href=\"#!profile/summary/scoobyman9786\"
+        class=\"player_nick_dark\">scoobyman9786</a>\r\n            <br />\r\n            <b>Last
+        Played:</b> <span class=\"text_tooltip\" title=\"08/13/2014 2:31 PM\">5 days
+        ago</span>\r\n            </div>\r\n        </div>\r\n                            <div
+        class=\"cl\"></div>\r\n    </div>\r\n</div>\r\n        </div>\n    </div>\n\n
+        \   </div>"
+    http_version: 
+  recorded_at: Mon, 18 Aug 2014 10:06:04 GMT
+recorded_with: VCR 2.8.0

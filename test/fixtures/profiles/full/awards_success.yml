@@ -1,0 +1,449 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.quakelive.com/profile/awards/emqz/4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.quakelive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/0.7.67
+      Date:
+      - Mon, 18 Aug 2014 10:33:47 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Ql-Ident:
+      - 0 standard
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "            <div class=\"detailArea awardId105\">\n            <img
+        alt=\"\" title=\"They couldn&#039;t have won without you.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/trifecta_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Trifecta</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a CTF match while personally
+        scoring 3 or more Capture, Defend, and Assist medals.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                <li class=\"blkbullets
+        blktxt_11\">Date awarded: 10/27/2013<!-- (999 days after joining) --></li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        3
+        friends (42% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        16761
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId90\">\n            <img alt=\"\"
+        title=\"The stuff of legends.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/dynasty_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Dynasty</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 50 matches with 5 or less
+        DNFs in 28 days.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \               <li class=\"blkbullets blktxt_11\">Date awarded: 10/09/2013<!--
+        (999 days after joining) --></li>\n                <li class=\"blkbullets
+        blktxt_11\">\n                                                                                                        4
+        friends (57% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        15968
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId95\">\n            <img alt=\"\"
+        title=\"Like Jordan from the arc at the buzzer? (but with a flag).\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/clutch_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Clutch</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a Capture the Flag match
+        by 1 capture, ending the match with your winning flag run.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                <li class=\"blkbullets
+        blktxt_11\">Date awarded: 09/08/2013<!-- (999 days after joining) --></li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        5
+        friends (71% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        21325
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId94\">\n            <img alt=\"\"
+        title=\"Now, go mercilessly taunt that team that couldn&#039;t get a single
+        cap.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/lock_down_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Lock Down</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a Capture the Flag match
+        denying any cap.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \               <li class=\"blkbullets blktxt_11\">Date awarded: 09/01/2013<!--
+        (999 days after joining) --></li>\n                <li class=\"blkbullets
+        blktxt_11\">\n                                                                                                        6
+        friends (85% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        50226
+        players (1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId284\">\n            <img alt=\"\"
+        title=\"But were you able to defend them afterward?\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/field_general_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Field General</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Capture
+        at least 8 Domination control points in one match.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                <li class=\"blkbullets
+        blktxt_11\">Date awarded: 08/28/2013<!-- (999 days after joining) --></li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        4
+        friends (57% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        4216
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId285\">\n            <img alt=\"\"
+        title=\"Denial: Not just a river in Egypt.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/territory_defender_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Territory Defender</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Score at
+        least 10 defends in one Domination match.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                <li class=\"blkbullets blktxt_11\">Date
+        awarded: 08/25/2013<!-- (999 days after joining) --></li>\n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                                        2
+        friends (28% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        3481
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId201\">\n            <img alt=\"\"
+        title=\"Put down the railgun and step away.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/railbot_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Railbot</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Obtain 10 'Impressive' awards
+        in a match.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \               <li class=\"blkbullets blktxt_11\">Date awarded: 08/25/2013<!--
+        (999 days after joining) --></li>\n                <li class=\"blkbullets
+        blktxt_11\">\n                                                                                                        4
+        friends (57% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        17866
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId287\">\n            <img alt=\"\"
+        title=\"Never even give them a chance.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/point_denied_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Point Denied</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Hold all Domination control
+        points in the arena for at least 30 seconds.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                <li class=\"blkbullets blktxt_11\">Date
+        awarded: 08/25/2013<!-- (999 days after joining) --></li>\n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                                        4
+        friends (57% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        4914
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId283\">\n            <img alt=\"\"
+        title=\"Double your fun.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/dominant_victory_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Dominant Victory</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Win a Domination
+        match with at least twice the other team's score.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                <li class=\"blkbullets
+        blktxt_11\">Date awarded: 08/25/2013<!-- (999 days after joining) --></li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        4
+        friends (57% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        2280
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId216\">\n            <img alt=\"\"
+        title=\"Now go drink some hot cocoa.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/frozen_hero_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Frozen Hero</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a game of Freeze Tag.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                <li
+        class=\"blkbullets blktxt_11\">Date awarded: 08/24/2013<!-- (999 days after
+        joining) --></li>\n                <li class=\"blkbullets blktxt_11\">\n                                                                                                        4
+        friends (57% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        9341
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId104\">\n            <img alt=\"\"
+        title=\"Now that&#039;s a contribution\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/full_house_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Full House</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a CTF match while personally
+        scoring at least 1 Capture, Defend, and Assist medals.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                <li class=\"blkbullets
+        blktxt_11\">Date awarded: 08/23/2013<!-- (999 days after joining) --></li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        7
+        friends (100% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        50405
+        players (1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId87\">\n            <img alt=\"\"
+        title=\"The sweet taste of victory.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/rising_star_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Rising Star</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 10 total matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                <li
+        class=\"blkbullets blktxt_11\">Date awarded: 08/22/2013<!-- (999 days after
+        joining) --></li>\n                <li class=\"blkbullets blktxt_11\">\n                                                                                                        7
+        friends (100% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        78553
+        players (1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId83\">\n            <img alt=\"\"
+        title=\"A QUAKE LIVE virgin no more.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/victory_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Victory</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win an online match for the
+        first time.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \               <li class=\"blkbullets blktxt_11\">Date awarded: 08/18/2013<!--
+        (999 days after joining) --></li>\n                <li class=\"blkbullets
+        blktxt_11\">\n                                                                                                        7
+        friends (100% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        170027
+        players (3% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \                       <a class=\"unearnedAwardsLabel\" href=\"javascript:;\"
+        onclick=\"$('.unearnedAwardType4').show();$(this).hide()\">Show unearned awards</a>\n
+        \       \n        <div class=\"detailArea_off unearnedAwardType4\">\n            <img
+        alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/flag_master_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Flag Master</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Capture the flag every time
+        in a CTF match.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                                                    1
+        friend (14% of total) has earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        2646
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/dont_cross_the_streams_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Don't cross the streams!</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Frag 3 or
+        more opponents in a CA round with Lightninggun.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    4
+        friends (57% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        14524
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/prime_time_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Prime Time</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 100 total matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    7
+        friends (100% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        38931
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/benchmark_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Benchmark</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 500 total matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    5
+        friends (71% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        18752
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/gifted_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Gifted</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 1000 total matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    3
+        friends (42% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        10977
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/go_pro_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Go Pro</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 2500 total matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    1
+        friend (14% of total) has earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        3429
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/well_rounded_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Well Rounded</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 5 matches in each gametype.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    4
+        friends (57% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        8749
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/veteran_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Veteran</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 1 match in every arena.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        1218
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/world_tour_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">World Tour</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 10 matches in every arena.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        112
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/scrapper_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Scrapper</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 25 Free For All matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    3
+        friends (42% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        15602
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/hot_streak_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Hot Streak</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 5 Free For All matches in
+        a row within 7 days.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    3
+        friends (42% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        20069
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/last_man_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Last Man</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 75 Clan Arena matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    2
+        friends (28% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        30346
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/shut_out_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Shut Out</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a Clan Arena match (of at
+        least 5 rounds) without losing a round.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    4
+        friends (57% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        52781
+        players (1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/pack_hunter_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Pack Hunter</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 75 Team Deathmatch matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    3
+        friends (42% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        2929
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/purist_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Purist</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win 75 Duel matches.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    3
+        friends (42% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        9596
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/back_to_back_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Back to Back</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win back to back Duel matches
+        in a single day.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                                                    4
+        friends (57% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        35590
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/jesse_james_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Jesse James</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a Duel without dying.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    4
+        friends (57% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        32614
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/generals_assistant_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">General's Assistant</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Assist in
+        the capture of at least 8 Domination control points in one match.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    2
+        friends (28% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        968
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType4\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/hoarder_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Hoarder</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win the match, capturing all
+        the skulls for your team.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    2
+        friends (28% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        793
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n    "
+    http_version: 
+  recorded_at: Mon, 18 Aug 2014 10:33:47 GMT
+recorded_with: VCR 2.8.0

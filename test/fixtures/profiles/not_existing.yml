@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.quakelive.com/profile/summary/not_existing_profile123
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.quakelive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/0.7.67
+      Date:
+      - Mon, 18 Aug 2014 10:27:47 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Ql-Ident:
+      - 0 standard
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "<div style=\"text-align: left\">\n\t\t<div style=\"display: none\"
+        id=\"prf_player_name\">Unknown Player</div>\n    <h1 class=\"profile_title\">\n
+        \                                   Unknown Player\n    </h1>\n\t<div class=\"prf_header\">\n
+        \       \t\t\n\t\t<form onsubmit=\"quakelive.mod_profile.ProfileJumpClick();
+        return false\" style=\"margin: 0; padding: 0\">\n\t\t\t<div id=\"jump_player_msg\"></div>\n\t\t\t<div
+        class=\"prf_section_searchbar\">\n\t\t\t\t<input type=\"text\" placeholder=\"Jump
+        to profile&hellip;\" class=\"input_default\" id=\"profile_jump_input\" />\n\t\t\t\t<a
+        href=\"javascript:;\" onclick=\"quakelive.mod_profile.ProfileJumpClick();
+        return false\"><img src=\"http://cdn.quakelive.com/web/2014080602/images/sf/leaderboard/search_v2014080602.0.png\"
+        width=\"23\" height=\"23\" /></a>\n\t\t\t</div>\n\t\t</form>\n\t\t\n\t\t<div
+        class=\"cl\"></div>\n\t</div>\n\t\n\t<div id=\"qlv_profileListContainer\">\n\t\t<p
+        class=\"tc TwentyPxTxt sixtypad midGrayTxt\">\n The requested player could
+        not be found or is not yet active. Please check your spelling and try again.
+        \ \n</p>\n\t</div>\n</div>"
+    http_version: 
+  recorded_at: Mon, 18 Aug 2014 10:27:47 GMT
+recorded_with: VCR 2.8.0

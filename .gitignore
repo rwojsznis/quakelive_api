@@ -19,3 +19,4 @@ tmp
 .rvmrc
 .ruby-gemset
 coverage/
+vendor/

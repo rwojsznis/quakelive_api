@@ -4,35 +4,55 @@ describe "QuakeliveApi::Profile::Summary" do
   make_my_diffs_pretty!
 
   describe "black box test for" do
-    before  { stub_summary_request(profile, fixture_summary(profile)) }
-    subject { QuakeliveApi::Profile::Summary.new(profile) }
+    before do
+      VCR.use_cassette("profiles/#{profile}") do
+        @summary = QuakeliveApi::Profile::Summary.new(profile)
+      end
+    end
+
+    subject { @summary }
 
     describe "emqz" do
       let(:profile) { "emqz" }
 
       its(:country) { must_equal "Poland" }
       its(:nick)    { must_equal "emqz"}
-      its(:clan)    { must_equal nil }
+      its(:clan)    { must_equal "ORG" }
 
       its(:model)   { must_equal QuakeliveApi::Items::Model.new(
-        "Major / Default",
-        "http://cdn.quakelive.com/web/2013071600/images/players/body_md/major_default_v2013071600.0.png") }
+        "Anarki / Default",
+        "http://cdn.quakelive.com/web/2014080602/images/players/body_md/anarki_default_v2014080602.0.png") }
 
       its(:member_since)       { must_equal Date.parse('23.06.2013') }
-      its(:last_game)          { must_equal nil }
-      its(:time_played)        { must_equal nil }
-      its(:wins)               { must_equal 0 }
-      its(:losses)             { must_equal 0 }
-      its(:quits)              { must_equal 0 }
-      its(:frags)              { must_equal 0 }
-      its(:deaths)             { must_equal 0 }
-      its(:hits)               { must_equal 0 }
-      its(:shots)              { must_equal 0 }
-      its(:accuracy)           { must_equal 0.0 }
-      its(:favourite)          { must_equal QuakeliveApi::Items::Favourite.new(nil, nil, nil) }
-      its(:recent_awards)      { must_equal nil }
-      its(:recent_games)       { must_equal nil }
-      its(:recent_competitors) { must_equal nil }
+      its(:last_game)          { must_be :>, Time.parse('16.12.2013 2:40 PM') }
+      its(:time_played)        { must_equal QuakeliveApi::GameTime.new("Ranked Time: 1.11:25:38 Unranked Time: 5.01:12:06") }
+      its(:wins)               { must_be :>, 85 }
+      its(:losses)             { must_be :>, 135 }
+      its(:quits)              { must_be :>, 27 }
+      its(:frags)              { must_be :>, 2987 }
+      its(:deaths)             { must_be :>, 3660 }
+      its(:hits)               { must_be :>, 36_076 }
+      its(:shots)              { must_be :>, 185_443 }
+      its(:accuracy)           { must_be_within_delta 19, 2 }
+      its(:favourite)          { must_equal QuakeliveApi::Items::Favourite.new("Chemical Reaction","Capture The Flag","Rocket Launcher") }
+      its(:recent_awards)      { must_include QuakeliveApi::Items::Award.new(
+        'http://cdn.quakelive.com/web/2014080602/images/awards/md/sucker_punch_v2014080602.0.png',
+        'LOL! Pwn3d!',
+        'Sucker Punch',
+        'Awarded 9 days ago',
+        'Use the Gauntlet to frag an opponent who has Quad Damage.') }
+
+      its(:recent_games) { must_include QuakeliveApi::Items::RecentGame.new(
+        'CTF',
+        'Win',
+        '5 days ago',
+        'http://cdn.quakelive.com/web/2014080602/images/levelshots/lg/japanesecastles_v2014080602.0.jpg')
+      }
+
+      its(:recent_competitors) { must_include QuakeliveApi::Items::Competitor.new(
+        'http://cdn.quakelive.com/web/2014080602/images/players/icon_lg/janet_default_v2014080602.0.png',
+        'Good_trade',
+        Time.parse('13.08.2014 2:31 PM'))}
     end
 
     describe "mariano" do
@@ -43,50 +63,39 @@ describe "QuakeliveApi::Profile::Summary" do
       its(:clan)    { must_equal nil }
 
       its(:model)   { must_equal QuakeliveApi::Items::Model.new(
-        "Bitterman / Default",
-        "http://cdn.quakelive.com/web/2013071600/images/players/body_md/bitterman_default_v2013071600.0.png") }
+        "Sarge / Default",
+        "http://cdn.quakelive.com/web/2014080602/images/players/body_md/sarge_default_v2014080602.0.png") }
 
       its(:member_since)  { must_equal Date.parse('7.02.2009') }
-      its(:last_game)     { must_equal Time.parse('11-07-2013 2:59 PM') }
-      its(:time_played)   { must_equal QuakeliveApi::GameTime.new("Ranked Time: 52.19:25:52 Unranked Time: 02:31:02") }
-      its(:wins)          { must_equal 4278 }
-      its(:losses)        { must_equal 3015 }
-      its(:quits)         { must_equal 518 }
-      its(:frags)         { must_equal 97_102 }
-      its(:deaths)        { must_equal 88_381 }
-      its(:hits)          { must_equal 1_960_767 }
-      its(:shots)         { must_equal 6_085_608 }
-      its(:accuracy)      { must_equal 32.22 }
-      its(:favourite)     { must_equal QuakeliveApi::Items::Favourite.new("Furious Heights","Duel","Lightning Gun") }
+      its(:last_game)     { must_be :>, Time.parse('19.12.2013 7:08 PM') }
+      its(:time_played)   { must_equal QuakeliveApi::GameTime.new("Ranked Time: 78.13:26:07 Unranked Time: 14:45:28") }
+      its(:wins)          { must_be :>, 5_123 }
+      its(:losses)        { must_be :>, 3_709 }
+      its(:quits)         { must_be :>, 601 }
+      its(:frags)         { must_be :>, 131_866 }
+      its(:deaths)        { must_be :>, 121_013 }
+      its(:hits)          { must_be :>, 2_671_126 }
+      its(:shots)         { must_be :>, 8_355_653 }
+      its(:accuracy)      { must_be_within_delta 31, 2 }
+      its(:favourite)     { must_equal QuakeliveApi::Items::Favourite.new("Toxicity","Duel","Lightning Gun") }
       its(:recent_awards) { must_include QuakeliveApi::Items::Award.new(
-        'http://cdn.quakelive.com/web/2013071600/images/awards/md/team_killer_v2013071600.0.png',
-        'Hope you touched the flag first!',
-        'Team Killer',
-        'Awarded 2 months ago',
-        'Kill all players on the opposing team in a single round in Attack & Defend, minimum size 3.') }
-
-      its(:recent_awards)      { must_include QuakeliveApi::Items::Award.new(
-        'http://cdn.quakelive.com/web/2013071600/images/awards/md/pql_1_v2013071600.0.png',
-        'Do you think thats air youre breathing now?',
-        'Too Fast',
-        'Awarded 2 months ago',
-        'Complete 1 online PQL match.') }
+        'http://cdn.quakelive.com/web/2014080602/images/awards/md/winternights2013_v2014080602.0.png',
+        '',
+        'Winter Nights 2013',
+        'Awarded 8 months ago',
+        'Complete a match on "Silent Night" or "Winter\'s Edge" during the 2013 holidays.') }
 
       its(:recent_games) { must_be_instance_of Array }
       its(:recent_games) { wont_include nil }
       its(:recent_games) { must_include QuakeliveApi::Items::RecentGame.new(
-        'TDM',
+        'Duel',
         'Loss',
-        '20 days ago',
-        'http://cdn.quakelive.com/web/2013071600/images/levelshots/lg/hiddenfortress_v2013071600.0.jpg')
+        '3 days ago',
+        'http://cdn.quakelive.com/web/2014080602/images/levelshots/lg/toxicity_v2014080602.0.jpg')
       }
 
       its(:recent_competitors) { wont_include nil }
       its(:recent_competitors) { must_be_instance_of Array }
-      its(:recent_competitors) { must_include QuakeliveApi::Items::Competitor.new(
-        'http://cdn.quakelive.com/web/2013071600/images/players/icon_lg/bitterman_red_v2013071600.0.png',
-        'Jeezy',
-        Time.parse('2013-07-11 14:59:00'))}
     end
   end
 end

@@ -1,0 +1,592 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.quakelive.com/profile/awards/awards-test/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.quakelive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/0.7.67
+      Date:
+      - Mon, 18 Aug 2014 10:33:14 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Ql-Ident:
+      - 0 standard
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "                    <a class=\"unearnedAwardsLabel\" href=\"javascript:;\"
+        onclick=\"$('.unearnedAwardType2').show();$(this).hide()\">Show unearned awards</a>\n
+        \       \n        <div class=\"detailArea_off unearnedAwardType2\">\n            <img
+        alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/close_up_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Close Up</span>\n                <br
+        />\n                <span class=\"blktxt_11\">End a match with at least 25%
+        accuracy for Shotgun.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        21751
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/mgftw_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">MG FTW</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag someone with Machinegun
+        in FFA.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        18366
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/last_laugh_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">The Last Laugh</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Get more
+        frags than deaths in a game.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        24570
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/punch_out_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Punch Out</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Get the last frag in a CA round
+        with gauntlet.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        11594
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/nade_spam_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Nade Spam</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a CA round using the Grenade
+        Launcher.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        14010
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/resource_hog_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Resource Hog</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Get Quad and Battle Suit in
+        one match.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        8676
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/here_goes_nothing_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Here Goes Nothing</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Frag your
+        opponent with Gauntlet in a Duel.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        9509
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/raptor_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Raptor</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag an opponent while you are
+        in the air.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        268493
+        players (5% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/psychic_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Psychic</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Use a rocket to kill an opponent
+        who is in the air.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        228911
+        players (5% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/air_hammer_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Air Hammer</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag an opponent with Gauntlet
+        while both of you are in the air.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        67894
+        players (1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/pull_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Pull</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Record 5 Shotgun frags of opponents
+        in the air in one match.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        59574
+        players (1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/first_blood_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">First Blood</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Score the first kill in a Free
+        For All match.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        131799
+        players (2% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/the_zone_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">The Zone</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag 5 opponents in a row in
+        Free For All without dying.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        146406
+        players (3% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/rocket_man_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Rocket Man</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Record 5 rocket launcher frags
+        in 10 seconds.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        30769
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/brawler_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Brawler</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Record 5 Gauntlet frags of 5
+        unique opponents in one match.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        61540
+        players (1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/mine_share_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Mine Share</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Record 3 Proximity Mine Frags
+        in one game.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        24272
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/miracle_maker_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Miracle Maker</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Kill two
+        enemy flag carriers moments before their cap in 1 game.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        7742
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/hat_trick_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Hat Trick</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Record 3 \"Excellent\" medals
+        in 1 game.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        149084
+        players (3% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/plus_one_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Plus One</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag an opponent when you have
+        only 1 health.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        124057
+        players (2% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/wtf_was_that_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">WTF Was That</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Record your first frag with
+        the Kamikaze Item.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        18560
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/aim_bot_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Aim Bot</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Win a Free For All match of
+        at least 5 minutes with 60% or greater accuracy.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        9795
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/underdog_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Underdog</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Use SCOUT and Machinegun to
+        frag an opponent carrying GUARD.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        5161
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/smack_down_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Smack Down</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Accumulate 10 or more Quad Damage
+        frags in 1 game.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        52100
+        players (1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/killjoy_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Killjoy</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag an opponent who has Quad
+        Damage when you have no power-up.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        161341
+        players (3% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/sucker_punch_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Sucker Punch</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Use the Gauntlet to frag an
+        opponent who has Quad Damage.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        36298
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/quad_god_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Quad God</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Record 20 Quad Damage kills
+        in 1 game.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \                                                       <li class=\"blkbullets
+        blktxt_11\">\n                                                    No friends
+        have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        14267
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/elder_quad_shrine_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Elder Quad Shrine</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Record 50
+        Quad Damage kills in 1 game.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        80
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/flying_solo_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Flying Solo</span>\n                <br
+        />\n                <span class=\"blktxt_11\">In Clan Arena, you frag everyone
+        on the opposing team (of 3 or more) in a single round.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        71938
+        players (1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/domination_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Domination</span>\n                <br
+        />\n                <span class=\"blktxt_11\">In Clan Arena, win a round without
+        losing a player on your team (4+ per team).</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        81133
+        players (1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/last_hope_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Last Hope</span>\n                <br
+        />\n                <span class=\"blktxt_11\">In Clan Arena, frag 3 or more
+        opposing players to win the round, when you're the last alive.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        58518
+        players (1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/mastermind_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Field Medic</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag the Infected Mastermind
+        in a match of \"Infected\".</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        2776
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/mastermind_3_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Hazmatic</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag the Infected Mastermind
+        3 times in a match of \"Infected\".</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        1363
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/mastermind_10_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Inoculated</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Frag the Infected Mastermind
+        10 times in a match of \"Infected\".</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        233
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/double_tap_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Double Tap</span>\n                <br
+        />\n                <span class=\"blktxt_11\">\"Frag two infected zombies
+        with the machinegun in a match of \"Infected\".</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        641
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/forcing_the_city_gates_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Forcing the City Gates</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Score at
+        least 5 frags in a round in Red Rover.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        3673
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/ninja_cap_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Ninja Cap</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Capture the flag in Attack &
+        Defend without killing anyone on the team, minimum size 3.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        472
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/never_lose_your_head_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Never Lose Your Head</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Complete
+        a full match of Harvester without dying.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        641
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/team_killer_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Team Killer</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Kill all players on the opposing
+        team in a single round in Attack & Defend, minimum size 3.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        1603
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/missed_opportunity_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Missed Opportunity</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Kill the
+        opposing team in Attack & Defend without touching the flag.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        3313
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/skull_trumpet_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Skull Trumpet</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Capture
+        at least 3 skulls at once.</span>\n            </p>\n            \n            <ul
+        class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        1604
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/cant_touch_this_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Can't Touch This</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Prevent
+        the enemy from touching the flag in an Attack & Defend match.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        813
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType2\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/ironclad_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Ironclad</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Complete a match of CTF without
+        dying, and earning at least 8 defends.</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        458
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n    "
+    http_version: 
+  recorded_at: Mon, 18 Aug 2014 10:33:14 GMT
+recorded_with: VCR 2.8.0

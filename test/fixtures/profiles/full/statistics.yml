@@ -1,0 +1,438 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.quakelive.com/profile/statistics/xsi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.quakelive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/0.7.67
+      Date:
+      - Mon, 18 Aug 2014 10:31:16 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Ql-Ident:
+      - 0 standard
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "<div id='qlv_profile_shared_container' style=\"text-align: left\">\n
+        \   \t<div style=\"display: none\" id=\"prf_player_name\">Xsi</div>\n    <h1
+        class=\"profile_title\">\n                        <img src=\"http://cdn.quakelive.com/web/2014080602/images/flags/pl_v2014080602.0.gif\"
+        class=\"playerflag\" title=\"Poland\" />\n                                    <a
+        class=\"clan\" href=\"#!clans/summary/4272\">t13</a>\n                        Xsi\n
+        \   </h1>\n\t<div class=\"prf_header\">\n        \t\t<div class=\"nav\">\n\t\t\t<a
+        href=\"#!profile/summary/Xsi\" >Summary</a>\n\t\t\t<span>|</span>\n\t\t\t<a
+        href=\"#!profile/statistics/Xsi\" class=\"selected\">Statistics</a>\n\t\t\t<span>|</span>\n
+        \           <a href=\"#!profile/arenas/Xsi\" >Arenas</a>\n            <span>|</span>\n
+        \           \t\t\t<a href=\"#!profile/awards/Xsi\" >Awards</a>\n\t\t\t<span>|</span>\n
+        \           \t\t\t<a href=\"#!profile/friends/Xsi\" >Friends</a>\n\t\t\t<span>|</span>\n\t\t\t<a
+        href=\"#!profile/competitors/Xsi\" >Competitors</a>\n            \t\t\t<span>|</span>\n\t\t\t<a
+        href=\"#!profile/matches/Xsi\" >Matches</a>\n            \t\t\t<div class=\"cl\"></div>\n\t\t</div>\n
+        \       \t\t\n\t\t<form onsubmit=\"quakelive.mod_profile.ProfileJumpClick();
+        return false\" style=\"margin: 0; padding: 0\">\n\t\t\t<div id=\"jump_player_msg\"></div>\n\t\t\t<div
+        class=\"prf_section_searchbar\">\n\t\t\t\t<input type=\"text\" placeholder=\"Jump
+        to profile&hellip;\" class=\"input_default\" id=\"profile_jump_input\" />\n\t\t\t\t<a
+        href=\"javascript:;\" onclick=\"quakelive.mod_profile.ProfileJumpClick();
+        return false\"><img src=\"http://cdn.quakelive.com/web/2014080602/images/sf/leaderboard/search_v2014080602.0.png\"
+        width=\"23\" height=\"23\" /></a>\n\t\t\t</div>\n\t\t</form>\n\t\t\n\t\t<div
+        class=\"cl\"></div>\n\t</div>\n    \n    <div id=\"qlv_profileContainer\">\n
+        \       <div id=\"qlv_profileTopLeft\" class=\"statistics premium_status_2\">\n
+        \           \t\t\t<div class=\"prf_imagery\">\n\t\t\t\t<div style=\"width:
+        145px; height: 275px; margin-top: 5px; margin-left: 13px; background: url(http://cdn.quakelive.com/web/2014080602/images/players/body_md/keel_sport_blue_v2014080602.0.png)
+        no-repeat center top\" title=\"Keel / Sport_blue\">\n        \n                    <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/p_badge_v2014080602.0.png\"
+        width=\"18\" title=\"Pro Player\"/>                </div>\n\t\t\t\t<br />\n
+        \               <!--\n\t\t\t\t<div style=\"margin-left: 15px; width: 140px;
+        text-align: center; color: #cc3300; font-size: 17px; font-weight: bold; font-family:
+        Arial\">\n\t\t\t\t\tKeel\n\t\t\t\t</div>\n                -->\n\t\t\t</div>\n\n\t\t\t<div
+        class=\"prf_vitals\">\n\t\t\t\t<img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_vitalstats_v2014080602.0.png\"
+        alt=\"Vital Stats\" width=\"108\" height=\"13\" class=\"prf_title\" />\n\t\t\t\t<br
+        />\n\t\t\t\t\n\t\t\t\t<p>\n                    <b>Member Since:</b> Jul. 09,
+        2008<br />\n                                        <b>Time Played:</b> <span
+        class=\"text_tooltip\" title=\"Ranked Time: 8.07:01:37 Unranked Time: 03:26:48\">9
+        days</span><br />\n                                        \n                    <b>Last
+        Game:</b>\n                                                    <span class=\"text_tooltip\"
+        title=\"03/24/2014 2:56 PM\">5 months ago</span>\n                                            <br
+        />\n                    <b>Wins:</b> 507<br />\n                    <b>Losses
+        / Quits:</b> 552 / 64<br />\n\t\t            <b>Frags / Deaths:</b> 18,918
+        / 19,503<br />\n\t\t            <b>Hits / Shots:</b> 313,698 / 1,139,185<br
+        />\n\t\t            <b>Accuracy:</b> 27.54%<br />\n                                        <b>Clan:</b>
+        <a href=\"#!clans/summary/4272\">t13</a><br />\n                                        \n
+        \                   \t\t\t\t</p>\n                \n\t            <img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_favorites_v2014080602.0.png\"
+        width=\"93\" height=\"13\" alt=\"Favorites\" class=\"prf_title\" />\n\t            <br
+        />\n\t            \n\t            <p class=\"prf_faves\">\n                    <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/profile/none_v2014080602.0.gif\"
+        width=\"17\" height=\"17\" alt=\"\" class=\"fl fivepxhr\" />\n                                            <b>Arena:</b>
+        Blood Run\n                    \t\t            <div class=\"cl\"></div>\n\t\t
+        \       </p>\n\t\t        \n\t\t        <p class=\"fivepxv prf_faves\">\n
+        \                                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/duel_v2014080602.0.png\"
+        width=\"16\" height=\"16\" alt=\"\" class=\"fl fivepxhr\" />\n                        <b>Game
+        Type:</b> Duel\n                    \t            \t\n\t\t            <div
+        class=\"cl\"></div>\n\t\t        </p>\n\t\t        \n\t\t        <p class=\"fivepxv
+        prf_faves\">\n                    \t\t\t            <img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/sm/ROCKET_v2014080602.0.gif\"
+        width=\"17\" height=\"17\" alt=\"\" class=\"fl fivepxhr\" />\n                        <b>Weapon:</b>
+        Rocket Launcher\n                    \t\t            <div class=\"cl\"></div>\n\t\t
+        \       </p>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"cl\"></div>\n            \n
+        \                                           <div class=\"prf_bio\">\n                    <span
+        class=\"prf_quote_left\">&#147;</span>\n                    <p>Life is short,
+        respawn often.\n\nhttp://www.t13.pl</p>\n                    <span class=\"prf_quote_right\">&#148;</span>\n
+        \               </div>\n                                        <div id=\"prf_friend_like\">\n
+        \               <a href=\"http://twitter.com/share\" class=\"twitter-share-button\"
+        data-url=\"http://www.quakelive.com/r/profile/summary/xsi\" data-text=\"Check
+        out Xsi's QUAKE LIVE Profile!\" data-count=\"none\" data-via=\"quakelive\">Tweet</a><script
+        type=\"text/javascript\" src=\"http://platform.twitter.com/widgets.js\"></script>\n
+        \           </div>\n\t        <div id=\"prf_friend_controls\">\n\t\t    </div>\n
+        \       </div>\n\n        <div id=\"qlv_profileTopRight\" class=\"statistics\">\n
+        \                       <div class=\"prf_weapons_header\">\r\n                <div
+        class=\"col_weapon\"><img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_weapons_v2014080602.0.png\"
+        alt=\"Weapons\" width=\"91\" height=\"17\" class=\"prf_title\" /></div>\r\n
+        \               <div class=\"col_frags\">Frags</div>\r\n                <div
+        class=\"col_accuracy\">Accuracy</div>\r\n                <div class=\"col_usage\">Use</div>\r\n
+        \               <div class=\"cl\"></div>\r\n            </div>\r\n\r\n            <div
+        class=\"prf_weapons cl\">\r\n                            <p class=\"prf_row1\">\r\n
+        \                   <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/GAUNTLET_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Gauntlet</div>\r\n
+        \                   <div class=\"col_frags\">216</div>\r\n                                            <div
+        class=\"col_accuracy\">N/A</div>\r\n                                        <div
+        class=\"col_usage\">1%</div>\r\n                    <div class=\"cl\"></div>\r\n
+        \               </p>\r\n                            <p class=\"prf_row2\">\r\n
+        \                   <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/MACHINEGUN_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Machinegun</div>\r\n
+        \                   <div class=\"col_frags\">1,399</div>\r\n                                            <div
+        class=\"col_accuracy\" title=\"Hits: 71,259 Shots: 247,016\"><span class=\"text_tooltip\">29%</span></div>\r\n
+        \                                       <div class=\"col_usage\">7%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row1\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/SHOTGUN_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Shotgun</div>\r\n
+        \                   <div class=\"col_frags\">2,809</div>\r\n                                            <div
+        class=\"col_accuracy\" title=\"Hits: 39,168 Shots: 152,613\"><span class=\"text_tooltip\">26%</span></div>\r\n
+        \                                       <div class=\"col_usage\">8%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row2\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/GRENADE_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Grenade
+        Launcher</div>\r\n                    <div class=\"col_frags\">318</div>\r\n
+        \                                           <div class=\"col_accuracy\" title=\"Hits:
+        1,812 Shots: 18,071\"><span class=\"text_tooltip\">10%</span></div>\r\n                                        <div
+        class=\"col_usage\">3%</div>\r\n                    <div class=\"cl\"></div>\r\n
+        \               </p>\r\n                            <p class=\"prf_row1\">\r\n
+        \                   <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/ROCKET_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Rocket
+        Launcher</div>\r\n                    <div class=\"col_frags\">6,015</div>\r\n
+        \                                           <div class=\"col_accuracy\" title=\"Hits:
+        38,629 Shots: 108,733\"><span class=\"text_tooltip\">36%</span></div>\r\n
+        \                                       <div class=\"col_usage\">39%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row2\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/LIGHTNING_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Lightning
+        Gun</div>\r\n                    <div class=\"col_frags\">3,623</div>\r\n
+        \                                           <div class=\"col_accuracy\" title=\"Hits:
+        132,932 Shots: 463,562\"><span class=\"text_tooltip\">29%</span></div>\r\n
+        \                                       <div class=\"col_usage\">19%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row1\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/RAILGUN_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Railgun</div>\r\n
+        \                   <div class=\"col_frags\">3,155</div>\r\n                                            <div
+        class=\"col_accuracy\" title=\"Hits: 11,023 Shots: 28,279\"><span class=\"text_tooltip\">39%</span></div>\r\n
+        \                                       <div class=\"col_usage\">18%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row2\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/PLASMA_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Plasma
+        Gun</div>\r\n                    <div class=\"col_frags\">1,117</div>\r\n
+        \                                           <div class=\"col_accuracy\" title=\"Hits:
+        15,220 Shots: 110,780\"><span class=\"text_tooltip\">14%</span></div>\r\n
+        \                                       <div class=\"col_usage\">6%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row1\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/BFG_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">BFG</div>\r\n
+        \                   <div class=\"col_frags\">7</div>\r\n                                            <div
+        class=\"col_accuracy\" title=\"Hits: 40 Shots: 77\"><span class=\"text_tooltip\">52%</span></div>\r\n
+        \                                       <div class=\"col_usage\">0%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row2\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/CHAINGUN_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Chaingun</div>\r\n
+        \                   <div class=\"col_frags\">55</div>\r\n                                            <div
+        class=\"col_accuracy\" title=\"Hits: 1,398 Shots: 6,275\"><span class=\"text_tooltip\">22%</span></div>\r\n
+        \                                       <div class=\"col_usage\">0%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row1\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/NAILGUN_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Nailgun</div>\r\n
+        \                   <div class=\"col_frags\">22</div>\r\n                                            <div
+        class=\"col_accuracy\" title=\"Hits: 499 Shots: 3,615\"><span class=\"text_tooltip\">14%</span></div>\r\n
+        \                                       <div class=\"col_usage\">0%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row2\">\r\n                    <img class=\"fl\" src=\"http://cdn.quakelive.com/web/2014080602/images/profile/weapons/md/PROXMINE_v2014080602.0.png\"
+        width=\"27\" height=\"27\" alt=\"\" />\r\n                    <div class=\"col_weapon\">Proximity
+        Mine</div>\r\n                    <div class=\"col_frags\">7</div>\r\n                                            <div
+        class=\"col_accuracy\" title=\"Hits: 40 Shots: 164\"><span class=\"text_tooltip\">24%</span></div>\r\n
+        \                                       <div class=\"col_usage\">0%</div>\r\n
+        \                   <div class=\"cl\"></div>\r\n                </p>\r\n                            <p
+        class=\"prf_row2\"></p>\r\n            </div>\r\n        </div>\n\n        <div
+        class=\"cl\"></div>\n\n        <div id=\"qlv_profileMiddle\" class=\"statistics\">\n
+        \           <div id=\"qlv_profileMiddleContent\">\n                                <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_last10matches_v2014080602.0.png\"
+        class=\"prf_title fl\" />\r\n                <!--<img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_viewmore_v2014080602.0.png\"
+        alt=\"Recent Matches\" width=\"80\" height=\"8\" style=\"float: right; margin-top:
+        4px\" />-->\r\n                <br />\r\n\r\n                <div class=\"prf_last10matches\">\r\n
+        \                                           <div style=\"margin: 12px; text-align:
+        center;\">\r\n                            <a href=\"#!premium\"><img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/premium_graphs_v2014080602.0.jpg\"
+        class=\"\" /></a>\r\n                        </div>\r\n                                        <div
+        class=\"cl\"></div>\r\n                    <div class=\"block_left\">\r\n
+        \                       <div class=\"header\">\r\n                            <div
+        class=\"col_lm_gametype\">Game Type / Arena</div>\r\n                            <div
+        class=\"col_lm_placed\">Finish</div>\r\n                            <div class=\"col_lm_date\">Played</div>\r\n
+        \                           <div class=\"cl\"></div>\r\n                        </div>\r\n\r\n
+        \                                                   <div class=\"recent_match
+        interactive firstrow\" id=\"duel_6e2a070c-b38e-11e3-858f-00259031fd90_1\">\r\n
+        \   <div class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/duel_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Blood Run\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Loss\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/24/2014 2:56 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                                   <div class=\"recent_match
+        interactive \" id=\"ca_13cee78a-b381-11e3-858f-00259031fd90_1\">\r\n    <div
+        class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/ca_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Realm of Steel Rats\r\n
+        \   </div>\r\n    <div class=\"col_lm_placed\">\r\n                                                    Win\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/24/2014 1:21 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                                   <div class=\"recent_match
+        interactive \" id=\"duel_58588696-b06a-11e3-a6b2-00259031fd90_1\">\r\n    <div
+        class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/duel_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Toxicity\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Loss\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/20/2014 3:00 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                                   <div class=\"recent_match
+        interactive \" id=\"duel_cc2eb5ba-b068-11e3-a6b2-00259031fd90_1\">\r\n    <div
+        class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/duel_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Campgrounds\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Loss\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/20/2014 2:49 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                                   <div class=\"recent_match
+        interactive \" id=\"duel_1a41cc80-b067-11e3-a6b2-00259031fd90_1\">\r\n    <div
+        class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/duel_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Cure\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Loss\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/20/2014 2:37 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                           </div>\r\n\r\n                    <div
+        class=\"block_right\">\r\n                        <div class=\"header\">\r\n
+        \                           <div class=\"col_lm_gametype\">Game Type / Arena</div>\r\n
+        \                           <div class=\"col_lm_placed\">Finish</div>\r\n
+        \                           <div class=\"col_lm_date\">Played</div>\r\n                            <div
+        class=\"cl\"></div>\r\n                        </div>\r\n\r\n                                                    <div
+        class=\"recent_match interactive firstrow\" id=\"duel_524a64ca-b062-11e3-a6b2-00259031fd90_1\">\r\n
+        \   <div class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/duel_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Blood Run\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Loss\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/20/2014 2:03 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                                   <div class=\"recent_match
+        interactive \" id=\"duel_c4893388-b060-11e3-a6b2-00259031fd90_1\">\r\n    <div
+        class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/duel_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Aerowalk\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Loss\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/20/2014 1:52 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                                   <div class=\"recent_match
+        interactive \" id=\"tdm_6b913c42-b05d-11e3-a6b2-00259031fd90_1\">\r\n    <div
+        class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/tdm_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Campgrounds\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Win\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/20/2014 1:28 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                                   <div class=\"recent_match
+        interactive \" id=\"tdm_e829106e-afa8-11e3-94a3-00259031fd90_1\">\r\n    <div
+        class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/tdm_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Grim Dungeons\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Loss\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/19/2014 3:56 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                                   <div class=\"recent_match
+        interactive \" id=\"ft_8fa50e02-afa3-11e3-94a3-00259031fd90_1\">\r\n    <div
+        class=\"col_lm_gametype\">\r\n        <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/ft_v2014080602.0.png\"
+        class=\"fl\" width=\"16\" height=\"16\" />\r\n        Almost Lost\r\n    </div>\r\n
+        \   <div class=\"col_lm_placed\">\r\n                                                    Win\r\n
+        \                                       </div>\r\n    <div class=\"col_lm_date\"
+        title=\"03/19/2014 3:17 PM\">5 months ago</div>\r\n    <div class=\"cl\"></div>\r\n</div>\r\n
+        \                                           </div>\r\n\r\n                    <div
+        class=\"cl\"></div>\r\n                </div>\r\n                \n            </div>\n
+        \       </div>\n    </div>\n\n    <img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/profile_bot_divider_v2014080602.0.gif\"
+        width=\"670\" height=\"17\" />\n\n    <div id=\"qlv_profileBottom\" class=\"qlv_profile_section_statistics\">\n
+        \       <div id=\"qlv_profileBottomContent\">\n                        <div
+        class=\"prf_record_header\">\n                <div class=\"col_st_gametype\"><img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_record_v2014080602.0.png\"
+        alt=\"Record\" width=\"66\" height=\"13\" class=\"prf_title\" /></div>\n                <div
+        class=\"col_st_played\">Played</div>\n                <div class=\"col_st_finished\">Finished</div>\n
+        \               <div class=\"col_st_wins\">Wins</div>\n                <div
+        class=\"col_st_withdraws\">Quits</div>\n                <div class=\"col_st_completeperc\">Completed</div>\n
+        \               <div class=\"col_st_winperc\">Wins</div>\n                <div
+        class=\"col_st_view\">View Arena</div>\n                <div class=\"cl\"></div>\n
+        \           </div>\n            \n            <div class=\"prf_record\">\n
+        \                                               <div >\n                        <div
+        class=\"col_st_gametype\">\n                                                            <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/ca_v2014080602.0.png\"
+        width=\"16\" height=\"16\" />\n                                Clan Arena\n
+        \                                                       <div class=\"cl\"></div>\n
+        \                       </div>\n                        <div class=\"col_st_played\">47</div>\n
+        \                       <div class=\"col_st_finished\">46</div>\n                        <div
+        class=\"col_st_wins\">25</div>\n                        <div class=\"col_st_withdraws\">1</div>\n
+        \                       <div class=\"col_st_completeperc\">98%</div>\n                        <div
+        class=\"col_st_winperc\">53%</div>\n                        <div class=\"col_st_view\"><a
+        href=\"javascript:;\">View</a></div>\n                        <div class=\"cl\"></div>\n
+        \                   </div>\n                                    <div >\n                        <div
+        class=\"col_st_gametype\">\n                                                            <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/ctf_v2014080602.0.png\"
+        width=\"16\" height=\"16\" />\n                                Capture The
+        Flag\n                                                        <div class=\"cl\"></div>\n
+        \                       </div>\n                        <div class=\"col_st_played\">79</div>\n
+        \                       <div class=\"col_st_finished\">71</div>\n                        <div
+        class=\"col_st_wins\">42</div>\n                        <div class=\"col_st_withdraws\">8</div>\n
+        \                       <div class=\"col_st_completeperc\">90%</div>\n                        <div
+        class=\"col_st_winperc\">53%</div>\n                        <div class=\"col_st_view\"><a
+        href=\"javascript:;\">View</a></div>\n                        <div class=\"cl\"></div>\n
+        \                   </div>\n                                    <div >\n                        <div
+        class=\"col_st_gametype\">\n                                                            <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/ffa_v2014080602.0.png\"
+        width=\"16\" height=\"16\" />\n                                Free For All\n
+        \                                                       <div class=\"cl\"></div>\n
+        \                       </div>\n                        <div class=\"col_st_played\">53</div>\n
+        \                       <div class=\"col_st_finished\">49</div>\n                        <div
+        class=\"col_st_wins\">13</div>\n                        <div class=\"col_st_withdraws\">4</div>\n
+        \                       <div class=\"col_st_completeperc\">92%</div>\n                        <div
+        class=\"col_st_winperc\">25%</div>\n                        <div class=\"col_st_view\"><a
+        href=\"javascript:;\">View</a></div>\n                        <div class=\"cl\"></div>\n
+        \                   </div>\n                                    <div >\n                        <div
+        class=\"col_st_gametype\">\n                                                            <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/dom_v2014080602.0.png\"
+        width=\"16\" height=\"16\" />\n                                Domination\n
+        \                                                       <div class=\"cl\"></div>\n
+        \                       </div>\n                        <div class=\"col_st_played\">92</div>\n
+        \                       <div class=\"col_st_finished\">91</div>\n                        <div
+        class=\"col_st_wins\">54</div>\n                        <div class=\"col_st_withdraws\">1</div>\n
+        \                       <div class=\"col_st_completeperc\">99%</div>\n                        <div
+        class=\"col_st_winperc\">59%</div>\n                        <div class=\"col_st_view\"><a
+        href=\"javascript:;\">View</a></div>\n                        <div class=\"cl\"></div>\n
+        \                   </div>\n                                    <div >\n                        <div
+        class=\"col_st_gametype\">\n                                                            <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/ft_v2014080602.0.png\"
+        width=\"16\" height=\"16\" />\n                                Freeze Tag\n
+        \                                                       <div class=\"cl\"></div>\n
+        \                       </div>\n                        <div class=\"col_st_played\">77</div>\n
+        \                       <div class=\"col_st_finished\">73</div>\n                        <div
+        class=\"col_st_wins\">55</div>\n                        <div class=\"col_st_withdraws\">4</div>\n
+        \                       <div class=\"col_st_completeperc\">95%</div>\n                        <div
+        class=\"col_st_winperc\">71%</div>\n                        <div class=\"col_st_view\"><a
+        href=\"javascript:;\">View</a></div>\n                        <div class=\"cl\"></div>\n
+        \                   </div>\n                                    <div >\n                        <div
+        class=\"col_st_gametype\">\n                                                            <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/harvester_v2014080602.0.png\"
+        width=\"16\" height=\"16\" />\n                                Harvester\n
+        \                                                       <div class=\"cl\"></div>\n
+        \                       </div>\n                        <div class=\"col_st_played\">3</div>\n
+        \                       <div class=\"col_st_finished\">3</div>\n                        <div
+        class=\"col_st_wins\">2</div>\n                        <div class=\"col_st_withdraws\">0</div>\n
+        \                       <div class=\"col_st_completeperc\">100%</div>\n                        <div
+        class=\"col_st_winperc\">67%</div>\n                        <div class=\"col_st_view\"><a
+        href=\"javascript:;\">View</a></div>\n                        <div class=\"cl\"></div>\n
+        \                   </div>\n                                    <div >\n                        <div
+        class=\"col_st_gametype\">\n                                                            <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/tdm_v2014080602.0.png\"
+        width=\"16\" height=\"16\" />\n                                Team Deathmatch\n
+        \                                                       <div class=\"cl\"></div>\n
+        \                       </div>\n                        <div class=\"col_st_played\">162</div>\n
+        \                       <div class=\"col_st_finished\">149</div>\n                        <div
+        class=\"col_st_wins\">83</div>\n                        <div class=\"col_st_withdraws\">13</div>\n
+        \                       <div class=\"col_st_completeperc\">92%</div>\n                        <div
+        class=\"col_st_winperc\">51%</div>\n                        <div class=\"col_st_view\"><a
+        href=\"javascript:;\">View</a></div>\n                        <div class=\"cl\"></div>\n
+        \                   </div>\n                                    <div >\n                        <div
+        class=\"col_st_gametype\">\n                                                            <img
+        src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/xsm/duel_v2014080602.0.png\"
+        width=\"16\" height=\"16\" />\n                                Duel\n                                                        <div
+        class=\"cl\"></div>\n                        </div>\n                        <div
+        class=\"col_st_played\">593</div>\n                        <div class=\"col_st_finished\">560</div>\n
+        \                       <div class=\"col_st_wins\">233</div>\n                        <div
+        class=\"col_st_withdraws\">33</div>\n                        <div class=\"col_st_completeperc\">94%</div>\n
+        \                       <div class=\"col_st_winperc\">39%</div>\n                        <div
+        class=\"col_st_view\"><a href=\"javascript:;\">View</a></div>\n                        <div
+        class=\"cl\"></div>\n                    </div>\n                                    <div
+        class=\"total\">\n                        <div class=\"col_st_gametype\">\n
+        \                                                           <div style=\"width:
+        25px; float: left\"></div>\n                                Total\n                                                        <div
+        class=\"cl\"></div>\n                        </div>\n                        <div
+        class=\"col_st_played\">1,106</div>\n                        <div class=\"col_st_finished\">1,042</div>\n
+        \                       <div class=\"col_st_wins\">507</div>\n                        <div
+        class=\"col_st_withdraws\">64</div>\n                        <div class=\"col_st_completeperc\">94%</div>\n
+        \                       <div class=\"col_st_winperc\">46%</div>\n                        <div
+        class=\"col_st_view\"><a href=\"javascript:;\">View</a></div>\n                        <div
+        class=\"cl\"></div>\n                    </div>\n                                        </div>\n
+        \       </div>\n    </div>\n\n            <div id=\"qlv_profileTiers\" class=\"qlv_profile_section_tiers\">\n
+        \           <div id=\"qlv_profileBottomContent\">\n                <img src=\"http://cdn.quakelive.com/web/2014080602/images/profile/titles/ttl_skill_v2014080602.0.png\"
+        alt=\"Skill Level\" class=\"prf_title\" />\r\n<div class=\"tier_container\">\r\n
+        \   <div class=\"tier_graph\">\r\n        <div class=\"bars\">\r\n                            <div
+        class=\"bar  gray\" style=\"height: 100%; left:0px;\"></div>\r\n                            <div
+        class=\"bar gold \" style=\"height: 100%; left:37px;\"></div>\r\n                            <div
+        class=\"bar gold \" style=\"height: 100%; left:74px;\"></div>\r\n                            <div
+        class=\"bar gold \" style=\"height: 100%; left:111px;\"></div>\r\n                            <div
+        class=\"bar  \" style=\"height: 100%; left:148px;\"></div>\r\n                            <div
+        class=\"bar gold \" style=\"height: 100%; left:185px;\"></div>\r\n                            <div
+        class=\"bar gold \" style=\"height: 100%; left:222px;\"></div>\r\n                            <div
+        class=\"bar  gray\" style=\"height: 100%; left:259px;\"></div>\r\n                            <div
+        class=\"bar  gray\" style=\"height: 100%; left:296px;\"></div>\r\n                            <div
+        class=\"bar  \" style=\"height: 100%; left:333px;\"></div>\r\n                    </div>\r\n
+        \       <div class=\"keys\">\r\n                            <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/fctf_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:0px;\" title=\"1 Flag CTF\" class=\"tier_gt_fctf\"/>\r\n
+        \                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/ctf_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:37px;\" title=\"Capture The Flag\"
+        class=\"tier_gt_ctf\"/>\r\n                            <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/ca_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:74px;\" title=\"Clan Arena\" class=\"tier_gt_ca\"/>\r\n
+        \                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/dom_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:111px;\" title=\"Domination\" class=\"tier_gt_dom\"/>\r\n
+        \                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/duel_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:148px;\" title=\"Duel\" class=\"tier_gt_duel\"/>\r\n
+        \                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/ffa_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:185px;\" title=\"Free For All\" class=\"tier_gt_ffa\"/>\r\n
+        \                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/ft_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:222px;\" title=\"Freeze Tag\" class=\"tier_gt_ft\"/>\r\n
+        \                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/harvester_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:259px;\" title=\"Harvester\" class=\"tier_gt_harvester\"/>\r\n
+        \                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/race_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:296px;\" title=\"Race\" class=\"tier_gt_race\"/>\r\n
+        \                           <img src=\"http://cdn.quakelive.com/web/2014080602/images/gametypes/sm/tdm_v2014080602.0.png\"
+        width=\"28\" height=\"28\" style=\"left:333px;\" title=\"Team Death Match\"
+        class=\"tier_gt_tdm\"/>\r\n                    </div>\r\n    </div>\r\n    <div
+        class=\"tier_desc\">\r\n        <p><b>Tier 4: Veteran</b></p>\r\n        <p><b>Tier
+        3: Warrior</b></p>\r\n        <p><b>Tier 2: Skilled</b></p>\r\n        <p><b>Tier
+        1: Trainee</b></p>\r\n        <p class=\"hidden_desc\"><b>Tier Z: Elite:</b>
+        Reserved for Xaero, Master of the Arena Eternal.</p>\r\n        <br/>\r\n
+        \   </div>\r\n    <p class=\"aside\">Grayed out game types indicate too few
+        games played for skill matching.</p></div>\n            </div>\n        </div>\n
+        \   </div>"
+    http_version: 
+  recorded_at: Mon, 18 Aug 2014 10:31:16 GMT
+recorded_with: VCR 2.8.0

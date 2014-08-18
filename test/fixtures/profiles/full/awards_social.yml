@@ -1,0 +1,163 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.quakelive.com/profile/awards/xsi/5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.quakelive.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/0.7.67
+      Date:
+      - Mon, 18 Aug 2014 10:33:13 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      X-Powered-By:
+      - PHP/5.3.3
+      X-Ql-Ident:
+      - 0 standard
+      Vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: "            <div class=\"detailArea awardId330\">\n            <img
+        alt=\"\" title=\"Stuff some stockings with a grenade or two.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/winternights2012_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Winter Nights 2012</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Complete
+        a match on \"Silent Night\" or \"Winter's Edge\" during the 2012 holidays.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                <li
+        class=\"blkbullets blktxt_11\">Date awarded: 12/12/2012<!-- (999 days after
+        joining) --></li>\n                <li class=\"blkbullets blktxt_11\">\n                                                                                                        19
+        friends (47% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        20873
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId113\">\n            <img alt=\"\"
+        title=\"Nice - but which one of you got the Friend Fragger.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/friend_fighter_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Friend Fighter</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Complete
+        a match that at least 5 friends compete in too.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                <li class=\"blkbullets
+        blktxt_11\">Date awarded: 08/24/2009<!-- (999 days after joining) --></li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        28
+        friends (70% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        14623
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId123\">\n            <img alt=\"\"
+        title=\"Position in Queue: 501337\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/queue_live_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Queue LIVE</span>\n                <br
+        />\n                <span class=\"blktxt_11\">First to the fight!  Joined
+        when your position in queue gave you serious bragging rights.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                <li class=\"blkbullets
+        blktxt_11\">Date awarded: 03/11/2009<!-- (999 days after joining) --></li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        16
+        friends (40% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        10881
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \               <div class=\"detailArea awardId107\">\n            <img alt=\"\"
+        title=\"We couldn&#039;t have done it without you.\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/crash_dummy_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Crash Dummy</span>\n                <br
+        />\n                <span class=\"blktxt_11\">Awarded to some portion of our
+        beta testers.</span>\n            </p>\n            \n            <ul class=\"fl\">\n
+        \               <li class=\"blkbullets blktxt_11\">Date awarded: 02/23/2009<!--
+        (999 days after joining) --></li>\n                <li class=\"blkbullets
+        blktxt_11\">\n                                                                                                        13
+        friends (32% of total) have earned this award\n                                                                                       </li>\n
+        \               <li class=\"blkbullets blktxt_11\">\n                                                                                                        5809
+        players (&lt; 1% of total) have earned this award\n                                                                                        </li>\n
+        \           </ul>\n            \n            <div class=\"cl\"></div>\n        </div>\n
+        \                       <a class=\"unearnedAwardsLabel\" href=\"javascript:;\"
+        onclick=\"$('.unearnedAwardType5').show();$(this).hide()\">Show unearned awards</a>\n
+        \       \n        <div class=\"detailArea_off unearnedAwardType5\">\n            <img
+        alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/qc2009_qc_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">QuakeCon 2009</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Presented
+        to any player who completes a game of QUAKE LIVE at QuakeCon.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        276
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType5\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/qc2009_vip_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">QuakeCon 2009 VIP</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Presented
+        to the QuakeCon 2009 senior staff.  Thank you.</span>\n            </p>\n
+        \           \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        14
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType5\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/winternights2013_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Winter Nights 2013</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Complete
+        a match on \"Silent Night\" or \"Winter's Edge\" during the 2013 holidays.</span>\n
+        \           </p>\n            \n            <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    13
+        friends (32% of total) have earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        18104
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType5\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/theparty12_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">The Party 12 CTF LAN Participant</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Presented
+        to participants of the Party 12 CTF LAN</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                                                    1
+        friend (2% of total) has earned this award\n                                                                        </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        32
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n                \n        <div class=\"detailArea_off
+        unearnedAwardType5\">\n            <img alt=\"\" src=\"http://cdn.quakelive.com/web/2014080602/images/awards/md/prague_v2014080602.0.png\"
+        width=\"61\" height=\"61\" class=\"fl\" />\n            <p class=\"fl ml15
+        w247\">\n                <span class=\"bigRedTxt\">Prague TDM LAN Participant</span>\n
+        \               <br />\n                <span class=\"blktxt_11\">Presented
+        to participants of the Prague TDM LAN</span>\n            </p>\n            \n
+        \           <ul class=\"fl\">\n                                                        <li
+        class=\"blkbullets blktxt_11\">\n                                                    No
+        friends have earned this award\n                                            </li>\n
+        \                                                   \n                <li
+        class=\"blkbullets blktxt_11\">\n                                                                                        56
+        players (&lt; 1% of total) have earned this award\n                                                                            </li>\n
+        \                           </ul>\n            \n            <div class=\"cl\"></div>\n
+        \           \n        </div>\n    "
+    http_version: 
+  recorded_at: Mon, 18 Aug 2014 10:33:13 GMT
+recorded_with: VCR 2.8.0

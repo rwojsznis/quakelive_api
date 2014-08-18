@@ -7,7 +7,7 @@ module QuakeliveApi
       end
 
       def nick
-        document.at(selector(:nick)).text
+        document.at(selector(:nick)).xpath('text()').text.strip
       end
 
       def clan
@@ -96,7 +96,7 @@ module QuakeliveApi
           next if node.at('.rcmp_none')
 
           icon   = decode_background node.at('.usericon_standard_lg')['style']
-          nick   = node.at('a.player_nick_dark').text
+          nick   = node.at('a.player_nick_dark').xpath('child::text()').to_s
           played = decode_time(node.at('span.text_tooltip')['title'])
 
           Items::Competitor.new(icon, nick, played )
@@ -109,9 +109,9 @@ module QuakeliveApi
 
       def selectors
         {
-          :country     => ".playername img",
-          :nick        => "#prf_player_name",
-          :clan        => ".playername a.clan",
+          :country     => "img.playerflag",
+          :nick        => ".profile_title",
+          :clan        => ".profile_title a.clan",
           :model       => ".prf_imagery div",
           :vitals      => ".prf_vitals p",
           :member      => "b:contains('Member Since')",
