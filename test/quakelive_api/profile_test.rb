@@ -4,9 +4,16 @@ require "test_helper"
 describe "QuakeliveApi::Profile" do
 
   describe "on error" do
-    it "raises an exception on non existing profiles" do
+    it "raises an exception on non existing profile" do
       VCR.use_cassette("profiles/not_existing") do
         profile = QuakeliveApi::Profile.new('not_existing_profile123')
+        assert_raises(QuakeliveApi::Error::PlayerNotFound) { profile.summary }
+      end
+    end
+
+    it "raises an exception on not active profile" do
+      VCR.use_cassette("profiles/not_active") do
+        profile = QuakeliveApi::Profile.new('vfj_cosiek')
         assert_raises(QuakeliveApi::Error::PlayerNotFound) { profile.summary }
       end
     end

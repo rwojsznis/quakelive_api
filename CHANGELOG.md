@@ -1,3 +1,7 @@
+## 0.1.1
+
+- proper inactive accounts detection
+
 ## 0.1.0
 _no breaking changes_
 

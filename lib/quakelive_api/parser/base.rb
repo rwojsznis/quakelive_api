@@ -6,7 +6,7 @@ module QuakeliveApi
       end
 
       def invalid_player?
-        document.css('.profile_title').text =~ /Unknown Player/
+        document.css('p.tc').text =~ /The requested player could not be found or is not yet active/i
       end
 
       def request_error?
