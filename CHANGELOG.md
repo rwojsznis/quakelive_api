@@ -1,3 +1,7 @@
+## 0.1.2
+
+- QL side updated again, fixed weapons stats
+
 ## 0.1.1
 
 - proper inactive accounts detection
