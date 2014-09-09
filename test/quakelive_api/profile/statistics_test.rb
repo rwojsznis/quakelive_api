@@ -23,10 +23,8 @@ describe "QuakeliveApi::Profile::Statistics" do
           ['Lightning Gun', 2048, 28, 84326, 304674, 15],
           ['Railgun', 2368, 38, 8339, 21946, 19],
           ['Plasma Gun', 708, 13, 10253, 77655, 5],
-          ['BFG', 4, 49, 26, 53, 0],
-          ['Chaingun', 37, 21, 1111, 5358, 0],
-          ['Nailgun', 18, 13, 466, 3495, 0],
-          ['Proximity Mine', 7, 24, 40, 164, 0]
+          ['Heavy Machinegun', 0, 0, 0, 0, 0],
+          ['BFG', 4, 49, 26, 53, 0]
         ].each_with_index do |weapon, index|
           expected_weapon = QuakeliveApi::Items::Weapon.new(*weapon)
           current_weapon = subject.weapons[index]

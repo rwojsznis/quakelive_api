@@ -4,14 +4,16 @@ module QuakeliveApi
 
       def weapons
         document.css(selector(:weapon)).each_with_index.map do |node, idx|
+          next if node.children.empty? # messed-up html by id, thanks
+
           attrs = {
-            name:     node.text,
-            frags:    frags(weapon_next(:frags, idx)),
-            accuracy: accuracy(weapon_next(:accuracy, idx)),
-            usage:    usage(weapon_next(:usage, idx))
+            name:     next_element(:name, idx).content,
+            frags:    frags(next_element(:frags, idx)),
+            accuracy: accuracy(next_element(:accuracy, idx)),
+            usage:    usage(next_element(:usage, idx))
           }
 
-          hits, shots = hits_shots(weapon_next(:accuracy, idx))
+          hits, shots = hits_shots(next_element(:accuracy, idx))
           attrs.merge!(hits: hits, shots: shots)
 
           Items::Weapon.new(attrs)
@@ -42,7 +44,8 @@ module QuakeliveApi
 
       def selectors
         {
-          weapon:   ".prf_weapons .col_weapon",
+          weapon:   ".prf_weapons p",
+          name:     ".col_weapon",
           frags:    ".col_frags",
           accuracy: ".col_accuracy",
           usage:    ".col_usage",
@@ -54,17 +57,26 @@ module QuakeliveApi
         document.at(selector(:record)).nil?
       end
 
+      # 71,259 / 247,016 (28.85%)
       def hits_shots(node)
         return [nil, nil] unless node['title']
-        res = node['title'].match(/Hits: ([\d,]+) Shots: ([\d,]+)/)
+
+        selector = if node['title'] =~ /hits/i
+          /Hits: ([\d,]+) Shots: ([\d,]+)/i
+        else
+          /([\d,]+)\s+\/\s+([\d,]+)/i
+        end
+
+        res = node['title'].match(selector)
+
         [res[1], res[2]].map { |r| to_integer r }
       end
 
       def usage(node)
-        to_integer node.text.gsub("%", '')
+        to_integer node.text.gsub(/%|,/, '')
       end
 
-      def weapon_next(css, index)
+      def next_element(css, index)
         document.css(".prf_weapons #{selector(css)}")[index]
       end
 
@@ -73,7 +85,7 @@ module QuakeliveApi
       end
 
       def accuracy(node)
-        return if node.text == 'N/A'
+        return if node.text =~ /^n\/a$/i
         to_integer node.at('span').text.gsub("%","")
       end
     end
