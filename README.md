@@ -6,6 +6,9 @@
 [![Dependency Status](https://gemnasium.com/emq/quakelive_api.png)](https://gemnasium.com/emq/quakelive_api)
 [![Gem Version](https://badge.fury.io/rb/quakelive_api.png)](http://badge.fury.io/rb/quakelive_api)
 
+## :warning: Obsolete :warning:
+### QuakeLive now runs fully on Steam platform, this gem is now useless (until updated)
+
 This gem fetches (basic) publicly available data from [QuakeLive site][1]. Unfortunately currently there is no real API provided by ID so we're forced to parse html to get what we can. It will go down in flames if QL changes its internal html structure, so be prepared for that too.
 
 The dirty job is made under `Parser` module (nothing pretty there, but response from QL is not pretty as well).
